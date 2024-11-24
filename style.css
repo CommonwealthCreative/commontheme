@@ -1,5 +1,5 @@
 /*!
-Theme Name: The Commonwealth Theme 2.1
+Theme Name: The Commonwealth Theme 2.2
 Theme URI: https://thecommonwealthcreative.com
 Author: Matthew T. Small
 Author URI: https://mattsmall.thecommonwealthcreative.com
@@ -1022,6 +1022,114 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 		box-shadow: 8px 7px #4ecda1;
 		color: #5bdeb8!important;
 	  }
+
+/* 2.2 General Styles */
+.error404 > #page {
+	padding-top: 100px;
+}
+
+/* Portfolio Posts */
+.post-template-single-portfolio-template .singlehero {
+    height: 100vh; /* Full viewport height */
+    background-attachment: fixed; /* Fixed background creates the parallax effect */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the background covers the div */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+	color: #fff;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.post-template-single-portfolio-template .singlehero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), /* Darker at the top */
+        rgba(0, 0, 0, 0.2)  /* Lighter at the bottom */
+    );
+    z-index: 1;
+}
+
+.post-template-single-portfolio-template .singlehero > * {
+    position: relative;
+    z-index: 2; /* Ensure content appears above the overlay */
+}
+
+
+.prevbutton {
+	display: none;
+}
+
+.post-template-single-portfolio-template ._1300pagehero {
+	height: 100%;
+}
+
+._1300pagehero .allwork {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    z-index: 10;
+	border: none;
+}
+
+._1300pagehero .nextbutton {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    z-index: 10;
+	border: none;
+}
+
+._1300pagehero .nextbutton:hover, ._1300pagehero .allwork:hover {
+	font-size: 20px;
+}
+
+._1300pagehero {
+    position: relative;
+}
+
+.scrolldown {
+    position: absolute;
+    bottom: 60px; 
+    left: 50%!important;
+    transform: translate(-50%, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.scrolldown div {
+    width: 100%;
+    height: 100%;
+    filter: invert(1); /* Makes content white */
+}
+
+
+@media (min-width: 980px) {
+.portfolio-extra-content {
+	width: 66%;
+}
+}
+
+@media (max-width: 979px) {
+#w-node-_571ee082-0319-241c-c5e1-b3e0e87660dd-0e04d8e2 {
+	display: none;
+}
+}
 
 /* Webflow + WordPress Combined Styles */
 

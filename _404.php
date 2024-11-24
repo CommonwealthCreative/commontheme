@@ -9,27 +9,22 @@
 
 get_header();
 ?>
-
 <section class="content-area">
-	
 <div data-w-id="da3268dc-f442-5ce5-b480-41f7ef1e44ed" style="" class="paragraph _1300">
 	<main id="primary" class="site-main">
 
 		<section class="error-404 not-found">
 			<header class="page-header">
-			<h1 class="page-title">
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Go to the homepage.</a>
-</h1>
-<h2 class="page-subtitle">
-    <?php esc_html_e( 'Well, this is awkward. Looks like we lost that page! Let\'s get you back on track— head to the homepage before anyone notices.', '_s'); ?>
-</h2>
+				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', '_s' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
+				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', '_s' ); ?></p>
+
 					<?php
 					get_search_form();
 
-					/*the_widget( 'WP_Widget_Recent_Posts' );
+					/*the_widget( 'WP_Widget_Recent_Posts' );*/
 					?>
 
 					<div class="widget widget_categories">
@@ -49,19 +44,19 @@ get_header();
 						</ul>
 					</div><!-- .widget -->
 
-					<?php*/
-					/* translators: %1$s: smiley 
+					<?php
+					/* translators: %1$s: smiley */
 					$_s_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', '_s' ), convert_smilies( ':)' ) ) . '</p>';
 					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$_s_archive_content" );
 
-					the_widget( 'WP_Widget_Tag_Cloud' );*/
+					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
-</div>
-</section>
+						</div>
+						</section>
 <?php
 get_footer();

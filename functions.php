@@ -198,3 +198,146 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+function add_portfolio_template_meta_box() {
+    // Only add the meta box for posts using the "Portfolio Posts" template
+    add_meta_box(
+        'portfolio_template_meta_box',       // Unique ID
+        'Additional Portfolio Information',  // Title of the meta box
+        'portfolio_template_meta_box_callback', // Callback function
+        'post',                              // Post type
+        'normal',                            // Context
+        'high'                               // Priority
+    );
+}
+add_action( 'add_meta_boxes', 'add_portfolio_template_meta_box' );
+
+// Render the meta box
+function portfolio_template_meta_box_callback( $post ) {
+    // Check if the post uses the "Portfolio Posts" template
+    $template = get_page_template_slug( $post->ID );
+    if ( $template !== 'single-portfolio-template.php' ) {
+        echo '<p>This metabox is only available for posts using the "Portfolio Posts" template.</p>';
+        return;
+    }
+
+    // Retrieve the saved meta value
+    $portfolio_extra_content = get_post_meta( $post->ID, '_portfolio_extra_content', true );
+
+    // Display the input field
+    ?>
+    <p>
+        <label for="portfolio_extra_content"><strong>Hero Content:</strong></label>
+        <textarea id="portfolio_extra_content" name="portfolio_extra_content" rows="5" style="width: 100%;"><?php echo esc_textarea( $portfolio_extra_content ); ?></textarea>
+    </p>
+    <?php
+}
+
+function save_portfolio_template_meta_box( $post_id ) {
+    // Check if the save is valid
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return;
+    }
+
+    if ( ! current_user_can( 'edit_post', $post_id ) ) {
+        return;
+    }
+
+    if ( isset( $_POST['portfolio_extra_content'] ) ) {
+        update_post_meta( $post_id, '_portfolio_extra_content', sanitize_textarea_field( $_POST['portfolio_extra_content'] ) );
+    }
+}
+add_action( 'save_post', 'save_portfolio_template_meta_box' );
+
+/* Second Meta Box */
+
+// Register the Secondary Content WYSIWYG Metabox
+function add_secondary_content_meta_box() {
+    add_meta_box(
+        'secondary_content_meta_box',       // Unique ID
+        'Secondary Content',                // Title of the meta box
+        'secondary_content_meta_box_callback', // Callback function
+        'post',                             // Post type
+        'normal',                           // Context
+        'high'                              // Priority
+    );
+}
+add_action( 'add_meta_boxes', 'add_secondary_content_meta_box' );
+
+// Render the WYSIWYG editor in the metabox
+function secondary_content_meta_box_callback( $post ) {
+    $secondary_content = get_post_meta( $post->ID, '_secondary_content', true );
+
+    // Render the WYSIWYG editor
+    wp_editor(
+        $secondary_content,
+        'secondary_content', // Editor ID
+        array(
+            'textarea_name' => 'secondary_content',
+            'media_buttons' => true,
+            'textarea_rows' => 10,
+            'teeny'         => false,
+            'quicktags'     => true,
+        )
+    );
+}
+
+// Save the Secondary Content
+function save_secondary_content_meta_box( $post_id ) {
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return;
+    }
+
+    if ( ! current_user_can( 'edit_post', $post_id ) ) {
+        return;
+    }
+
+    if ( isset( $_POST['secondary_content'] ) ) {
+        // Save the content with safe HTML tags
+        update_post_meta( $post_id, '_secondary_content', wp_kses_post( $_POST['secondary_content'] ) );
+    }
+}
+add_action( 'save_post', 'save_secondary_content_meta_box' );
+
+
+
+/* Custom Portfolio Post Navigation (looped) */
+
+function get_portfolio_navigation() {
+    // Get all posts in the "portfolio" category
+    $all_posts = get_posts(array(
+        'posts_per_page' => -1, // Get all posts in the category
+        'category_name' => 'portfolio', // Slug of the "portfolio" category
+        'orderby' => 'date',    // Order by date
+        'order' => 'ASC',       // Oldest to newest
+    ));
+
+    // If there are no posts, return early
+    if ( empty( $all_posts ) ) {
+        return;
+    }
+
+    // Find the current post index
+    $current_post_id = get_the_ID();
+    $current_index = array_search($current_post_id, wp_list_pluck($all_posts, 'ID'));
+
+    // Get the next and previous posts
+    $next_index = ($current_index + 1) % count($all_posts); // Circular increment
+    $prev_index = ($current_index - 1 + count($all_posts)) % count($all_posts); // Circular decrement
+
+    $next_post = $all_posts[$next_index];
+    $prev_post = $all_posts[$prev_index];
+
+    // Output navigation HTML
+    ob_start();
+    ?>
+    <nav class="post-navigation">
+        <div class="nav-links">
+            <a href="<?php echo get_permalink($prev_post->ID); ?>" class="prev-post prevbutton">Previous: <?php echo get_the_title($prev_post->ID); ?></a>
+            <a href="<?php echo get_permalink($next_post->ID); ?>" class="next-post nextbutton">Next Project</a>
+        </div>
+    </nav>
+    <?php
+    return ob_get_clean();
+}
+
