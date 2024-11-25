@@ -1080,6 +1080,16 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	border: none;
 }
 
+.allwork .iconrotate {
+	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(-90deg);
+	transition: transform 0.3s ease-in-out;
+	transform-style: preserve-3d;
+  }
+  
+  .allwork:hover .iconrotate {
+	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(0deg);
+  }
+
 ._1300pagehero .nextbutton {
     position: absolute;
     bottom: 40px;
