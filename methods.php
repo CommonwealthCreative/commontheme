@@ -34,7 +34,7 @@ get_header();
   <section>
     <div class="_1300">
       <div class="w-layout-hflex flexmiddle">
-        <div class="heavy">Let&#x27;s Talk About You</div>
+        <div class="heavy">Get Started.</div>
         <div data-w-id="e0822cf9-c4a3-7807-85f6-f13d463fc60b" class="indicator">
           <div class="fontawesolid indicatoricon"></div>
           <div>

@@ -35,85 +35,52 @@ get_header();
   <section class="bump backgroundwhite">
     <div class="_1300">
       <div class="w-layout-hflex flexmiddle">
-        <div class="heavy">Featured Work</div>
+        <div class="heavy">Current Portfolio</div>
         <div data-w-id="b1c79106-59e7-ff3b-565a-7746d72753d1" class="indicator">
           <div class="fontawesolid indicatoricon"></div>
-          <div><span class="landscapehide">Selected campaigns from our portfolio.</span></div>
+          <div><span class="landscapehide">Highlighting our work and creative projects.</span></div>
         </div>
       </div>
     </div>
   </section>
-  <div id="featured" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c5" class="horizontal-scroll-section">
-    <div class="horizontal-scroll-wrapper">
-      <div class="horizontal-scroll-content">
-        <a href="https://thecommonwealthcreative.com/work/george-wythe-edition" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c8" class="section _5 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">The George Wythe Edition</h2>
-              <p>USWDS WordPress Theme Development</p>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealh-creative-coming-soon.svg" alt="Commonwealth Creative Coming Soon Icon" class="logoimg">
-          </div>
-        </a>
-        <a href="https://thecommonwealthcreative.com/work/mary-baldwin" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0d0" class="section _1 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">Mary Baldwin University MBA Program</h2>
-              <p>Strategy • Design • Web Development</p>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealth-creative-mary-baldwin-mba-logo.png" alt="Mary Baldwin University Seal" class="logoimg">
-          </div>
-        </a>
-        <a href="https://thecommonwealthcreative.com/work/therapyland" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0d8" class="section _4 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">TherapyLand</h2>
-              <p>Branding • Illustration • Web Development</p>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealth-creative-therapyland-logo.svg" alt="" class="logoimg">
-          </div>
-        </a>
-        <a href="https://thecommonwealthcreative.com/work/virginia-dbhds" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0e0" class="section _3 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">Virginia DBHDS</h2>
-              <p>Strategy • Design • Full Stack Development • Server Administration</p>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealth-creative-dbhds-logo-white.svg" alt="" class="logoimg">
-          </div>
-        </a>
-        <a href="https://thecommonwealthcreative.com/work/northern-virginia-food-rescue/" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0e8" class="section _2 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">Northern Virginia Food Rescue</h2>
-              <p>Strategy • Branding • Design • Web Development</p>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealth-creative-northern-virginia-food-rescue.svg" alt="" class="logoimg">
-          </div>
-        </a>
-        <a data-w-id="413d6afc-598a-a12e-a769-193f32dc28b4" href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="section _6 w-inline-block">
-          <div class="container">
-            <div class="heading-wrapper">
-              <h2 class="heading">Book An Intro.</h2>
-              <div data-w-id="413d6afc-598a-a12e-a769-193f32dc28b9" class="actionlink textwhite">
-                <div class="actionpulse backgroundgreen"></div>
-                <div class="fontawesolid textwhite"></div>
-                <p>Schedule Today <span class="landscapehide">@ Commonwealth Creative</span></p>
-              </div>
-            </div><img loading="lazy" src="/wp-content/themes/thecommontheme/images/commonwealth-creative-color-logo-darkblue-dropout.png" alt="Commonwealth Creative Logo Circle Dropout" class="logoimg">
-          </div>
-        </a>
+  <div id="featured" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c5" class="portfolio-section">
+    <div class="portfolio-wrapper">
+      <div class="portfolio-content">
+      <?php
+// Custom Query for Portfolio Category
+$portfolio_query = new WP_Query( array(
+    'category_name' => 'portfolio', // Slug of the category to include
+    'posts_per_page' => -1, // Number of posts to show (-1 for all posts in the category)
+) );
+
+if ( $portfolio_query->have_posts() ) : 
+    while ( $portfolio_query->have_posts() ) : 
+        $portfolio_query->the_post(); 
+?>
+        <?php get_template_part( 'template-parts/content', 'portfolio' ); ?>
+<?php 
+    endwhile; 
+    wp_reset_postdata(); // Reset the query
+else : 
+?>
+    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
       </div>
       <div id="work" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0f8" class="w-layout-hflex carouselcontainerfeatured">
         <div class="featuredtextcarousel">
           <div class="becauseiconfeatured">
-            <div>Featured</div>
+            <div>Current </div>
           </div>
           <div class="becauseiconfeatured">
-            <div>Work</div>
+            <div>Portfolio </div>
           </div>
         </div>
         <div class="featuredtextcarousel">
           <div class="becauseiconfeatured">
-            <div>Featured</div>
+            <div>And All </div>
           </div>
           <div class="becauseiconfeatured">
-            <div>Work</div>
+            <div>Projects</div>
           </div>
         </div>
       </div>

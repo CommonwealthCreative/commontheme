@@ -19,16 +19,16 @@
           <div data-w-id="d7a95ab3-27c4-33b9-6364-0b87ed4619e7" class="common-card backgrounddark ctafooter">
             <div id="w-node-d7a95ab3-27c4-33b9-6364-0b87ed4619e8-ed4619e3" class="w-layout-layout fortystack wf-layout-layout">
               <div id="w-node-d7a95ab3-27c4-33b9-6364-0b87ed4619e9-ed4619e3" class="w-layout-cell">
-                <p class="mid"><span class="lite">We create solutions for sustained growth.</span> Strategically. Efficiently.</p>
+                <p class="mid">The catalyst for your marketing or engineering team. <span class="lite">Start Today.</span></p>
               </div>
               <div id="w-node-d7a95ab3-27c4-33b9-6364-0b87ed4619ee-ed4619e3" class="w-layout-cell landscapehide"></div>
             </div>
             <a href="/#pricing" target="_blank" class="button backgroundwhite w-button">Plans &amp; Pricing</a>
             <div class="ctabottom">
-              <a data-w-id="d7a95ab3-27c4-33b9-6364-0b87ed4619f2" href="https://thecommonwealthcreative.com/#process" class="actionlink textwhite w-inline-block">
-                <div class="actionpulse"></div>
-                <div class="fontawesolid textwhite"></div>
-                <p>Limited Availability</p>
+              <a data-w-id="d7a95ab3-27c4-33b9-6364-0b87ed4619f2" href="/#process" class="actionlink textwhite w-inline-block">
+                <div class="actionpulse backgroundgreen"></div>
+                <div class="fontawesolid textwhite"></div>
+                <p>Our Process &amp; Capabilities</p>
               </a>
             </div>
           </div>

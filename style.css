@@ -1030,19 +1030,64 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Portfolio Posts */
 
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+	padding: 20px 40px 0;
+}
+
+@media (max-width: 980px) {
+    .portfolio-content {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+.portfolio.container {
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	opacity: 0.8; 
+	transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+	transform-style: preserve-3d;
+    transition: transform 700ms ease-in-out, opacity 700ms ease-in-out;
+	height: 66vh;
+}
+
+.portfolio.container:hover {
+	opacity: 1;
+	filter: brightness(1.1);
+    transform: scale(1); 
+}
+
+.portfolio-wrapper {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+	background: #fff;
+	min-height: 100vh;
+}
+
+
+
 .post-template-single-portfolio-template #page {
 	background-image: linear-gradient(#fff 30%, #ebebeb 90%);
 }
 
 .post-template-single-portfolio-template .singlehero {
-    height: 100vh; /* Full viewport height */
-    background-attachment: fixed; /* Fixed background creates the parallax effect */
-    background-position: center; /* Center the background image */
-    background-size: cover; /* Ensure the background covers the div */
-    background-repeat: no-repeat; /* Prevent repeating the image */
-	color: #fff;
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-size: cover; /
+    background-repeat: no-repeat; 
 	border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+	color: #fff
 }
 
 .post-template-single-portfolio-template .singlehero::before {
@@ -1063,7 +1108,6 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
     position: relative;
     z-index: 2; /* Ensure content appears above the overlay */
 }
-
 
 .prevbutton {
 	display: none;
@@ -2475,10 +2519,10 @@ ul, ol {
   }
   
   .method1 {
-	background-image: url('../commontheme/images/commonwealth-creative-strategy.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-strategic-foundation.jpg');
 	background-position: 0 0;
 	background-size: cover;
-	border-radius: 20px;
+	border-radius: 20px 0 0 20px;
   }
   
   .methodstack {
@@ -2496,17 +2540,17 @@ ul, ol {
   }
   
   .method2 {
-	background-image: url('../commontheme/images/commonwealth-creative-design.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-visual-branding-design.jpg');
 	background-position: 100% 0;
 	background-size: cover;
-	border-radius: 20px;
+	border-radius: 0 20px 20px 0;
   }
   
   .method3 {
-	background-image: url('../commontheme/images/commonwealth-creative-development.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-web-digital-development.jpg');
 	background-position: 0 0;
 	background-size: cover;
-	border-radius: 20px;
+	border-radius: 20px 0 0 20px;
   }
   
   ._1300pagehero {

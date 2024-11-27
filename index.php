@@ -363,7 +363,7 @@ get_header();
       </div>
       <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cc-f4ae160d" class="w-layout-layout process-stack wf-layout-layout">
         <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cd-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2cd" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/logo.svg" alt="" class="processimg">
-          <h4 class="tinytext">Logos and Branding</h4>
+          <h4 class="tinytext">Logos &amp; Branding</h4>
           <p>Branding that boosts sales and fosters lasting connections.</p>
         </div></a>
         <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d3-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d3" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/design.svg" alt="" class="processimg">
@@ -371,11 +371,11 @@ get_header();
           <p>Inspiring artistry and design to transform your brand image.</p>
         </div></a>
         <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d9-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d9" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/seo.svg" alt="" class="processimg">
-          <h4 class="tinytext">SEO/SEM</h4>
+          <h4 class="tinytext">SEO &amp; SEM</h4>
           <p>Data-driven optimization and marketing to grow online.</p>
         </div></a>
         <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2df-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2df" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/css.svg" alt="" class="processimg">
-          <h4 class="tinytext">Website and App Design</h4>
+          <h4 class="tinytext">Website &amp; App Design</h4>
           <p>UX/UI design for impactful, high-performing websites and mobile applications.</p>
         </div></a>
         <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2e5-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2e5" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/fullstack.svg" alt="" class="processimg">
@@ -431,7 +431,7 @@ get_header();
               <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731675-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731676-f4ae160d" class="w-layout-cell">
                   <p class="mid">Perfect for organizations with an established brand who need consistent design and content updates.</p>
-                  <p class="includedetails">*Pause or cancel anytime. Military and non-profit discounts.</p>
+                  <p class="includedetails">*Pause or Cancel Anytime. Military &amp; Non-Profit Discounts.</p>
                 </div>
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd5873167b-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>
@@ -498,7 +498,7 @@ get_header();
               <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb60-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb61-f4ae160d" class="w-layout-cell">
                   <p class="mid">Ideal for those seeking a seamless blend of design and development to build an impactful brand.</p>
-                  <p class="includedetails">*Pause or cancel anytime. Military and non-profit discounts.</p>
+                  <p class="includedetails">*Pause or Cancel Anytime. Military &amp; Non-Profit Discounts.</p>
                 </div>
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb66-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>

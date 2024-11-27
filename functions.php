@@ -342,3 +342,31 @@ function get_portfolio_navigation() {
     <?php
     return ob_get_clean();
 }
+/*  Portfolio Post under /work */
+// Custom permalink for portfolio posts under /work/
+function custom_portfolio_permalink($permalink, $post, $leavename) {
+    if ($post->post_type == 'post') {
+        $categories = get_the_category($post->ID);
+        foreach ($categories as $category) {
+            if ($category->slug === 'portfolio') {
+                return home_url('/work/' . $post->post_name);
+            }
+        }
+    }
+    return $permalink;
+}
+add_filter('post_link', 'custom_portfolio_permalink', 10, 3);
+
+// Register custom rewrite rules for /work/ URLs
+function add_portfolio_rewrite_rules() {
+    add_rewrite_rule('^work/([^/]+)/?$', 'index.php?name=$matches[1]', 'top');
+}
+add_action('init', 'add_portfolio_rewrite_rules');
+
+// Flush rewrite rules on activation
+function flush_rewrite_rules_on_activation() {
+    add_portfolio_rewrite_rules();
+    flush_rewrite_rules();
+}
+register_activation_hook(__FILE__, 'flush_rewrite_rules_on_activation');
+
