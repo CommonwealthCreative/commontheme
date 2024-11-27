@@ -17,7 +17,7 @@ get_header();
 
 		<section class="error-404 not-found">
 			<header class="page-header">
-			<h1 class="page-title">
+			<h1 class="page-title"> 
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Go to the homepage.</a>
 </h1>
 <h2 class="page-subtitle">

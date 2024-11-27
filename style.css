@@ -1166,6 +1166,11 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+.processlink {
+	border-bottom: 0px;
+	font-weight: 400;
+}
+
 .faq-icon {
 	margin-right:75px!important;
 }

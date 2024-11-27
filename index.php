@@ -42,7 +42,7 @@ get_header();
       <div id="w-node-fd906765-f9a3-f9a7-1293-a0488deea034-f4ae160d" class="w-layout-layout overviewstack wf-layout-layout">
         <div id="w-node-fd906765-f9a3-f9a7-1293-a0488deea035-f4ae160d" class="w-layout-cell">
           <div data-w-id="fd906765-f9a3-f9a7-1293-a0488deea036" style="opacity:0" class="itemdetails">
-            <h2>A creative partner for <a href="#services">anything you need.</a></h2>
+            <h2>The creative partner for <a href="#process">anything you need.</a></h2>
             <div class="includedetails">
               <div class="fontawesolid"></div>
               <div class="tinytext">Flat monthly fee, <a href="#faqs">unlimited requests.</a>
@@ -50,11 +50,11 @@ get_header();
             </div>
             <div class="includedetails">
               <div class="fontawesolid"></div>
-              <div class="tinytext">Full service strategy, graphic design &amp; web development.</div>
+              <div class="tinytext"><a href="/strategies-methods/">Full service</a> strategy, graphic design &amp; web development.</div>
             </div>
             <div class="includedetails">
               <div class="fontawesolid"></div>
-              <div class="tinytext">No contracts, pause or cancel whenever.</div>
+              <div class="tinytext">No contracts, pause or cancel <a href="#pricing">whenever.</a></div>
             </div>
           </div>
         </div>
@@ -165,14 +165,14 @@ get_header();
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-northern-virginia-food-rescue.svg" alt="" class="logoimg">
           </div>
         </a>
-        <a data-w-id="413d6afc-598a-a12e-a769-193f32dc28b4" href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="section _6 w-inline-block">
+        <a data-w-id="413d6afc-598a-a12e-a769-193f32dc28b4" href="/work" class="section _6 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
-              <h2 class="heading">Book An Intro.</h2>
+              <h2 class="heading">See All Projects</h2>
               <div data-w-id="413d6afc-598a-a12e-a769-193f32dc28b9" class="actionlink textwhite">
                 <div class="actionpulse backgroundgreen"></div>
                 <div class="fontawesolid textwhite"></div>
-                <p>Schedule Today <span class="landscapehide">@ Commonwealth Creative</span></p>
+                <p>Schedule An Introduction with <span class="landscapehide">The Commonwealth Creative</span></p>
               </div>
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-color-logo-darkblue-dropout.png" alt="Commonwealth Creative Logo Circle Dropout" class="logoimg">
           </div>
@@ -209,7 +209,7 @@ get_header();
           <a href="https://thecommonwealthcreative.com/strategies-methods/" class="button w-button">Strategies &amp; Methods</a>
         </div>
       </div>
-      <p data-w-id="bbac7cae-dae2-ab38-2c81-1033e43041e3" style="opacity:0" class="paragraph">Driven by the principles of design, your process begins with a strategic kick-off meeting; we&#x27;ll identify core objectives, evaluate brand and technology positioning, and outline KPIs. In all of our work, Commonwealth Creative employs a variety of industry standard tools, methodologyies, and technologies. Moreover, we provide proprietary website themes and assets exclusively available to our clients.<br></p>
+      <p data-w-id="bbac7cae-dae2-ab38-2c81-1033e43041e3" style="opacity:0" class="paragraph">Driven by the principles of design, your process begins with a strategic kick-off meeting; we&#x27;ll identify core objectives, evaluate brand and technology positioning, and outline KPIs. In all of our work, Commonwealth Creative employs a variety of industry standard tools, methodologies, and technologies. Moreover, we provide proprietary website themes and assets exclusively available to our clients.<br></p>
       
     </div>
     
@@ -228,7 +228,7 @@ get_header();
           <div>Rest API</div>
         </div>
         <div class="toolsicon"><img loading="lazy" src="../wp-content/themes/commontheme/images/github.png" alt="" class="toolsimg">
-          <div>GItHub</div>
+          <div>GitHub</div>
         </div>
         <div class="toolsicon"><img loading="lazy" src="../wp-content/themes/commontheme/images/visualstudio.png" alt="" class="toolsimg">
           <div>Visual Studio</div>
@@ -296,7 +296,7 @@ get_header();
           <div>Rest API</div>
         </div>
         <div class="toolsicon"><img loading="lazy" src="../wp-content/themes/commontheme/images/github.png" alt="" class="toolsimg">
-          <div>GItHub</div>
+          <div>GitHub</div>
         </div>
         <div class="toolsicon"><img loading="lazy" src="../wp-content/themes/commontheme/images/visualstudio.png" alt="" class="toolsimg">
           <div>Visual Studio</div>
@@ -353,39 +353,39 @@ get_header();
     </div>
     <div class="_1300" id="services">
     <div class="w-layout-hflex flexmiddle">
-        <div class="heavy">Our Services</div>
+        <div class="heavy">Core Services</div>
         <div data-w-id="2193fc3d-7ea1-857d-7aa8-e3de6fe5ff3a" class="indicator">
           <a href="https://www.google.com/search?q=commonwealth+creative+fredericksburg+va" target="_blank" class="noline w-inline-block">
-            <div class="fontawesolid indicatoricon"></div>
+            <div class="fontawesolid indicatoricon"></div>
           </a>
-          <div>Creative solutions tailored to elevate your brand.</div>
+          <div><a href="/strategies-methods/">See all capabilities, strategies and methods.</a></div>
         </div>
       </div>
       <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cc-f4ae160d" class="w-layout-layout process-stack wf-layout-layout">
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cd-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2cd" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/service.svg" alt="" class="processimg">
-          <h4 class="tinytext">Dedicated Experts</h4>
-          <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
-        </div>
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d3-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d3" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/availability.svg" alt="" class="processimg">
-          <h4 class="tinytext">Limited Memberships</h4>
-          <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
-        </div>
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d9-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d9" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/lightning.svg" alt="" class="processimg">
-          <h4 class="tinytext">Quick Completion</h4>
-          <p>Most requests are completed within an average of 2-3 days.</p>
-        </div>
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2df-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2df" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/pricing.svg" alt="" class="processimg">
-          <h4 class="tinytext">No Surprise Costs</h4>
-          <p>No surprises, no contracts—just a simple, fixed monthly membership. Cancel or pause anytime.</p>
-        </div>
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2e5-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2e5" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/graph.svg" alt="" class="processimg">
-          <h4 class="tinytext">Easy Tracking</h4>
-          <p>All requests, projects and communications are readily accessible in your dashboard.</p>
-        </div>
-        <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2eb-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2eb" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/award.svg" alt="" class="processimg">
-          <h4 class="tinytext">Top Performers</h4>
-          <p>We are award-winning designers and enterprise-level IT professionals.</p>
-        </div>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cd-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2cd" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/logo.svg" alt="" class="processimg">
+          <h4 class="tinytext">Logos and Branding</h4>
+          <p>Branding that boosts sales and fosters lasting connections.</p>
+        </div></a>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d3-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d3" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/design.svg" alt="" class="processimg">
+          <h4 class="tinytext">Graphic Design</h4>
+          <p>Inspiring artistry and design to transform your brand image.</p>
+        </div></a>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2d9-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2d9" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/seo.svg" alt="" class="processimg">
+          <h4 class="tinytext">SEO/SEM</h4>
+          <p>Data-driven optimization and marketing to grow online.</p>
+        </div></a>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2df-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2df" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/css.svg" alt="" class="processimg">
+          <h4 class="tinytext">Website and App Design</h4>
+          <p>UX/UI design for impactful, high-performing websites and mobile applications.</p>
+        </div></a>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2e5-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2e5" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/fullstack.svg" alt="" class="processimg">
+          <h4 class="tinytext">Full Stack Development</h4>
+          <p>Agile full-stack development for innovative, high-performance projects.</p>
+        </div></a>
+        <a class="processlink" href="/strategies-methods/"><div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2eb-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2eb" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/ai.svg" alt="" class="processimg">
+          <h4 class="tinytext">Artificial Intelligence (AI)</h4>
+          <p>Innovative AI implementation to enhance performance and productivity.</p>
+        </div></a>
       </div>
     </div>
   </section>
@@ -427,10 +427,11 @@ get_header();
                   </div>
                 </div>
               </div>
-              <div class="tinytext"><span class="mid">$1,395</span> / month</div>
+              <div class="tinytext"><span class="mid">$1,395</span> / month*</div>
               <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731675-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731676-f4ae160d" class="w-layout-cell">
-                  <p class="mid">Perfect for those with an established brand who need consistent design and content updates.</p>
+                  <p class="mid">Perfect for organizations with an established brand who need consistent design and content updates.</p>
+                  <p class="includedetails">*Pause or cancel anytime. Military and non-profit discounts.</p>
                 </div>
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd5873167b-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>
@@ -493,10 +494,11 @@ get_header();
                   </div>
                 </div>
               </div>
-              <div class="tinytext"><span class="mid">$2,195</span> / month</div>
+              <div class="tinytext"><span class="mid">$2,195</span> / month*</div>
               <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb60-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb61-f4ae160d" class="w-layout-cell">
                   <p class="mid">Ideal for those seeking a seamless blend of design and development to build an impactful brand.</p>
+                  <p class="includedetails">*Pause or cancel anytime. Military and non-profit discounts.</p>
                 </div>
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb66-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>
@@ -581,7 +583,7 @@ get_header();
           <div class="heavy">Sprints</div>
           <div data-w-id="eb4bbfbc-fae1-21a2-2833-0b291e689609" class="indicator">
             <div class="fontawesolid indicatoricon"></div>
-            <div><span class="landscapehide">Completed in 10 days.</span> Booking new clients for 2024.</div>
+            <div><span class="landscapehide">Completed in 10 days.</span> Booking new clients for 2025.</div>
             <div class="indicatorpulse backgroundgreen"></div>
           </div>
         </div>
@@ -613,7 +615,7 @@ get_header();
             </div>
           </div>
           <div id="w-node-_9df643b3-caf4-00a0-591a-327f437d40eb-f4ae160d" class="w-layout-cell">
-            <div class="common-card backgrounddark ctalanding wordpress">
+            <div id="wordpress" class="common-card backgrounddark ctalanding wordpress">
               <div id="w-node-b587ee09-02b5-3ced-a5a0-8187765e5151-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-b587ee09-02b5-3ced-a5a0-8187765e5152-f4ae160d" class="w-layout-cell">
                   <p class="mid underline">A streamlined path to bring you online.</p>
@@ -712,7 +714,7 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Sign up and you'll have immediate access to submit requests. We'll schedule a <a href="https://thecommonwealthcreative.com/strategies-methods/">kickoff meeting</a> to understand your goals, vision, and KPI&#x27;s. From there, you'll take the lead by prioritzing our work. We keep you updated every 48-72 hours, whether through request completion, detailed written updates or visual aides. And whenever you need us, we’re always available on Slack.</p>
+                  <p class="faq-answer">Sign up and you'll have immediate access to submit requests. We'll schedule a <a href="https://thecommonwealthcreative.com/strategies-methods/">kickoff meeting</a> to understand your goals, vision, and KPI&#x27;s. From there, you'll take the lead by prioritizing our work. We keep you updated every 48-72 hours, whether through request completion, detailed written updates or visual aides. And whenever you need us, we’re always available on Slack.</p>
                 </div>
               </nav>
             </div>
@@ -758,7 +760,7 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Commonwealth Creative is actually a small agency. For nearly all requests, you&#x27;ll be working directly with <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matt Small, Founder</a>. For power-ups like animated videos, drone photography, or lengthly development requests, we collaborate with partners to bring your vision to life.</p>
+                  <p class="faq-answer">Commonwealth Creative is actually a small agency. For nearly all requests, you&#x27;ll be working directly with <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matt Small, Founder</a>. For power-ups like animated videos, drone photography, or lengthy development requests, we collaborate with partners to bring your vision to life.</p>
                   <div class="contactcard"><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 155.1435546875px, (max-width: 991px) 20vw, 155.1435546875px" srcset="../wp-content/themes/commontheme/images/matthewdesk2024-p-500.jpg 500w, ../wp-content/themes/commontheme/images/matthewdesk2024.jpg 600w" alt="" src="../wp-content/themes/commontheme/images/matthewdesk2024.jpg" loading="lazy" class="matthewimg">
                     <div class="w-layout-vflex">
                       <a data-w-id="589f967a-d483-0199-e184-13ed34427d19" href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="actionlink w-inline-block">
