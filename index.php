@@ -42,7 +42,7 @@ get_header();
       <div id="w-node-fd906765-f9a3-f9a7-1293-a0488deea034-f4ae160d" class="w-layout-layout overviewstack wf-layout-layout">
         <div id="w-node-fd906765-f9a3-f9a7-1293-a0488deea035-f4ae160d" class="w-layout-cell">
           <div data-w-id="fd906765-f9a3-f9a7-1293-a0488deea036" style="opacity:0" class="itemdetails">
-            <h2>Our services, made simple.</h2>
+            <h2>A creative partner for <a href="#services">anything you need.</a></h2>
             <div class="includedetails">
               <div class="fontawesolid"></div>
               <div class="tinytext">Flat monthly fee, <a href="#faqs">unlimited requests.</a>
@@ -88,20 +88,20 @@ get_header();
             <div id="w-node-d08de9ca-9d85-e5fc-176e-3caa5e68cd1c-f4ae160d" data-w-id="d08de9ca-9d85-e5fc-176e-3caa5e68cd1c" style="opacity:0" class="w-layout-cell openingcell">
               <a href="https://thecommonwealthcreative.com/strategies-methods" class="flexblockmiddle w-inline-block">
                 <div class="fontawesolid openingicon"></div>
-                <h4 class="tinytext">Strategic Direction Through Design</h4>
-                <p>Our guidance and creative discovery process is tailored for you.</p>
+                <h4 class="tinytext">Focused Direction By Design</h4>
+                <p>Our established and creative discovery process is tailored for you.</p>
               </a>
             </div>
             <div id="w-node-d08de9ca-9d85-e5fc-176e-3caa5e68cd22-f4ae160d" data-w-id="d08de9ca-9d85-e5fc-176e-3caa5e68cd22" style="opacity:0" class="w-layout-cell openingcell">
               <a href="https://thecommonwealthcreative.com/strategies-methods/#design" class="flexblockmiddle w-inline-block">
                 <div class="fontawesolid openingicon"></div>
-                <h4 class="tinytext">Elite Branding  &amp; Storytelling</h4>
+                <h4 class="tinytext">Signature Marketing  &amp; Branding</h4>
                 <p>We create powerful brands that break through the market clutter.</p>
               </a>
             </div>
             <div id="w-node-d08de9ca-9d85-e5fc-176e-3caa5e68cd28-f4ae160d" data-w-id="d08de9ca-9d85-e5fc-176e-3caa5e68cd28" style="opacity:0" class="w-layout-cell openingcell">
               <a href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="flexblockmiddle w-inline-block">
-                <h4 class="tinytext">User-Focused Development</h4>
+                <h4 class="tinytext">User-Focused Web Development</h4>
                 <div class="fontawesolid openingicon"></div>
                 <p>Our code is always created around users and designed to convert.</p>
               </a>
@@ -203,14 +203,16 @@ get_header();
       <div id="w-node-_7003c6d8-e5d0-ee24-c07a-1a705f88b155-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
         <div id="w-node-_7003c6d8-e5d0-ee24-c07a-1a705f88b156-f4ae160d" class="w-layout-cell">
           <h2 data-w-id="bbac7cae-dae2-ab38-2c81-1033e43041e1" style="opacity:0" class="jumbo">Direction <span class="textlite">By Design</span><br></h2>
-          <h2 data-w-id="0d60fb1a-62b2-9ba7-0388-c9ae18204a45" style="opacity:0" class="heading">Your Discovery Process<br></h2>
+          <h3 data-w-id="0d60fb1a-62b2-9ba7-0388-c9ae18204a45" style="opacity:0" class="heading">Your Discovery Process<br></h3>
         </div>
         <div id="w-node-_7003c6d8-e5d0-ee24-c07a-1a705f88b15c-f4ae160d" class="w-layout-cell flexblockmiddle">
           <a href="https://thecommonwealthcreative.com/strategies-methods/" class="button w-button">Strategies &amp; Methods</a>
         </div>
       </div>
       <p data-w-id="bbac7cae-dae2-ab38-2c81-1033e43041e3" style="opacity:0" class="paragraph">Driven by the principles of design, your process begins with a strategic kick-off meeting; we&#x27;ll identify core objectives, evaluate brand and technology positioning, and outline KPIs. In all of our work, Commonwealth Creative employs a variety of industry standard tools, methodologyies, and technologies. Moreover, we provide proprietary website themes and assets exclusively available to our clients.<br></p>
+      
     </div>
+    
     <div data-w-id="98845ae2-d104-ca40-807f-2b5badfa5507" class="w-layout-hflex carouselcontainer">
       <div class="logocontainer">
         <div class="toolsicon"><img loading="lazy" src="../wp-content/themes/commontheme/images/figma.png" alt="" class="toolsimg">
@@ -349,7 +351,16 @@ get_header();
         </div>
       </div>
     </div>
-    <div class="_1300">
+    <div class="_1300" id="services">
+    <div class="w-layout-hflex flexmiddle">
+        <div class="heavy">Our Services</div>
+        <div data-w-id="2193fc3d-7ea1-857d-7aa8-e3de6fe5ff3a" class="indicator">
+          <a href="https://www.google.com/search?q=commonwealth+creative+fredericksburg+va" target="_blank" class="noline w-inline-block">
+            <div class="fontawesolid indicatoricon"></div>
+          </a>
+          <div>Creative solutions tailored to elevate your brand.</div>
+        </div>
+      </div>
       <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cc-f4ae160d" class="w-layout-layout process-stack wf-layout-layout">
         <div id="w-node-_00e86ff8-78e6-e0c9-4432-578040ded2cd-f4ae160d" data-w-id="00e86ff8-78e6-e0c9-4432-578040ded2cd" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="../wp-content/themes/commontheme/images/service.svg" alt="" class="processimg">
           <h4 class="tinytext">Dedicated Experts</h4>
@@ -419,7 +430,7 @@ get_header();
               <div class="tinytext"><span class="mid">$1,395</span> / month</div>
               <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731675-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd58731676-f4ae160d" class="w-layout-cell">
-                  <p class="mid">Perfect for those with an existing brand presence who need regular updates.</p>
+                  <p class="mid">Perfect for those with an established brand who need consistent design and content updates.</p>
                 </div>
                 <div id="w-node-_4dc597c6-fa27-dd74-a18a-2ffd5873167b-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>
@@ -485,7 +496,7 @@ get_header();
               <div class="tinytext"><span class="mid">$2,195</span> / month</div>
               <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb60-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb61-f4ae160d" class="w-layout-cell">
-                  <p class="mid">Strategic deliverables to accelerate the growth &amp; success of your business.</p>
+                  <p class="mid">Ideal for those seeking a seamless blend of design and development to build an impactful brand.</p>
                 </div>
                 <div id="w-node-b7bf5ebe-14a0-2898-b448-1673d558bb66-f4ae160d" class="w-layout-cell landscapehide"></div>
               </div>

@@ -1029,6 +1029,11 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 }
 
 /* Portfolio Posts */
+
+.post-template-single-portfolio-template #page {
+	background-image: linear-gradient(#fff 30%, #ebebeb 90%);
+}
+
 .post-template-single-portfolio-template .singlehero {
     height: 100vh; /* Full viewport height */
     background-attachment: fixed; /* Fixed background creates the parallax effect */
@@ -1068,6 +1073,11 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	height: 100%;
 }
 
+.post-template-single-portfolio-template #page img {
+	border: 4px solid #fff;
+	border-radius: 20px;
+}
+
 ._1300pagehero .allwork {
     position: absolute;
     bottom: 40px;
@@ -1080,17 +1090,7 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	border: none;
 }
 
-.allwork .iconrotate {
-	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(-90deg);
-	transition: transform 0.3s ease-in-out;
-	transform-style: preserve-3d;
-  }
-  
-  .allwork:hover .iconrotate {
-	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(0deg);
-  }
-
-._1300pagehero .nextbutton {
+._1300pagehero .nextbutton  {
     position: absolute;
     bottom: 40px;
     right: 10px;
@@ -1101,6 +1101,30 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
     z-index: 10;
 	border: none;
 }
+
+.nextpost {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 40px 20px;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+
+.nextpost .allwork {   margin-right: auto;}
+
+.nextpost .nextbutton {margin-left: auto;}
+
+.allwork .iconrotate {
+	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(-90deg);
+	transition: transform 0.3s ease-in-out;
+	transform-style: preserve-3d;
+  }
+  
+  .allwork:hover .iconrotate {
+	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(0deg);
+  }
 
 ._1300pagehero .nextbutton:hover, ._1300pagehero .allwork:hover {
 	font-size: 20px;
@@ -1127,7 +1151,6 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
     height: 100%;
     filter: invert(1); /* Makes content white */
 }
-
 
 @media (min-width: 980px) {
 .portfolio-extra-content {

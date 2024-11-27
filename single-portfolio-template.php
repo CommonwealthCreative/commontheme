@@ -12,7 +12,7 @@
 
 get_header();
 ?>
-<div class="singlehero" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');">
+<div class="singlehero content" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');">
     <section class="_1300pagehero">
     <div id="w-node-_571ee082-0319-241c-c5e1-b3e0e87660d7-0e04d8e2" class="w-layout-layout fortystack wf-layout-layout">
         <div id="w-node-_571ee082-0319-241c-c5e1-b3e0e87660d8-0e04d8e2" class="w-layout-cell">
@@ -32,7 +32,7 @@ get_header();
               <?php 
               
               echo '<a class="allwork actionlink" href="' . esc_url( home_url( '/work' ) ) . '"><div class="fontawesolid iconrotate" style="transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-                <p>See All Work</p>
+                <p>View All Work</p>
               </a>'; 
               
               ?>
@@ -58,7 +58,7 @@ get_header();
 
   </div>
     <div class="_1300">
-        <div data-w-id="140fba4b-4f4d-7bb3-86a7-28fbf5711e2e" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="common-card ctamiddle">
+    <div data-w-id="77db7b46-6289-05de-de9d-25e9cd676eb4" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="common-card ctamiddle">
     <div id="w-node-_0880cb26-8352-ec79-697c-a72d4c213ba9-f4ae160d" class="w-layout-layout fortystack wf-layout-layout">
     <div id="w-node-_0880cb26-8352-ec79-697c-a72d4c213baa-f4ae160d" class="w-layout-cell">
     <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}" class="actionlink w-inline-block">
@@ -84,7 +84,7 @@ get_header();
     </div>
     </div>
     </div>
-        </div>
+      
     <div class="_1300"> <!-- 2ndary Content -->
               <?php
           // Output the Secondary Content
@@ -97,31 +97,42 @@ get_header();
           }
           ?>
     </div>
-    <div class="_1300"> <!-- 3 call out -->
-      <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676eb3-cb7e0df5" class="w-layout-layout process-stack wf-layout-layout">
-        <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676eb4-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676eb4" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Strategic Direction Through Design</h4>
-            <p>Our guidance and creative discovery process is tailored for you.</p>
-          </a>
+    <div class="_1300">
+        <div class="nextpost">
+              <?php 
+              echo '<a class="allwork actionlink" href="' . esc_url( home_url( '/work' ) ) . '"><div class="fontawesolid iconrotate" style="transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                <p>View All Work</p>
+              </a>'; 
+              ?>
+            <?php  echo get_portfolio_navigation(); ?>
         </div>
-        <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676ebc-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676ebc" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods/#design" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Elite Branding  &amp; Storytelling</h4>
-            <p>We create powerful brands that break through the market clutter.</p>
-          </a>
+            <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676eb3-cb7e0df5" class="w-layout-layout process-stack wf-layout-layout">
+            <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676eb4-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676eb4" style="opacity:0" class="w-layout-cell openingcell">
+              <a href="https://thecommonwealthcreative.com/strategies-methods" class="flexblockmiddle w-inline-block">
+                <div class="fontawesolid openingicon"></div>
+                <h4 class="tinytext">Focused Direction By Design</h4>
+                <p>Our guidance and creative discovery process is tailored for you.</p>
+              </a>
+            </div>
+            <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676ebc-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676ebc" style="opacity:0" class="w-layout-cell openingcell">
+              <a href="https://thecommonwealthcreative.com/strategies-methods/#design" class="flexblockmiddle w-inline-block">
+                <div class="fontawesolid openingicon"></div>
+                <h4 class="tinytext">Signature Marketing  &amp; Branding</h4>
+                <p>We create powerful brands that break through the market clutter.</p>
+              </a>
+            </div>
+            <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676ec4-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676ec4" style="opacity:0" class="w-layout-cell openingcell">
+              <a href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="flexblockmiddle w-inline-block">
+                <h4 class="tinytext">User-Focused Web Development</h4>
+                <div class="fontawesolid openingicon"></div>
+                <p>Our code is always created around users and designed to convert.</p>
+              </a>
+            </div>
+          </div>
         </div>
-        <div id="w-node-_77db7b46-6289-05de-de9d-25e9cd676ec4-cb7e0df5" data-w-id="77db7b46-6289-05de-de9d-25e9cd676ec4" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="flexblockmiddle w-inline-block">
-            <h4 class="tinytext">User-Focused Development</h4>
-            <div class="fontawesolid openingicon"></div>
-            <p>Our code is always created around users and designed to convert.</p>
-          </a>
-        </div>
-      </div>
     </div>
+
+
     
 
 

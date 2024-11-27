@@ -125,20 +125,20 @@ get_header();
         <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed98e-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed98e" style="opacity:0" class="w-layout-cell openingcell">
           <a href="https://thecommonwealthcreative.com/strategies-methods" class="flexblockmiddle w-inline-block">
             <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Strategic Direction Through Design</h4>
+            <h4 class="tinytext">Focused Direction By Design</h4>
             <p>Our guidance and creative discovery process is tailored for you.</p>
           </a>
         </div>
         <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed996-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed996" style="opacity:0" class="w-layout-cell openingcell">
           <a href="https://thecommonwealthcreative.com/strategies-methods/#design" class="flexblockmiddle w-inline-block">
             <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Elite Branding  &amp; Storytelling</h4>
+            <h4 class="tinytext">Signature Marketing  &amp; Branding</h4>
             <p>We create powerful brands that break through the market clutter.</p>
           </a>
         </div>
         <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed99e-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed99e" style="opacity:0" class="w-layout-cell openingcell">
           <a href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="flexblockmiddle w-inline-block">
-            <h4 class="tinytext">User-Focused Development</h4>
+            <h4 class="tinytext">User-Focused Web Development</h4>
             <div class="fontawesolid openingicon"></div>
             <p>Our code is always created around users and designed to convert.</p>
           </a>
