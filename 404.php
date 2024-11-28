@@ -21,7 +21,7 @@ get_header();
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Go to the homepage.</a>
 </h1>
 <h2 class="page-subtitle">
-    <?php esc_html_e( 'Well, this is awkward. Looks like we lost that page! Let\'s get you back on track— head to the homepage before anyone notices.', '_s'); ?>
+    <?php esc_html_e( 'This is awkward. Looks like we lost that page! Let\'s get you back on track— head to the homepage before anyone notices.', '_s'); ?>
 </h2>
 			</header><!-- .page-header -->
 

@@ -168,11 +168,11 @@ get_header();
         <a data-w-id="413d6afc-598a-a12e-a769-193f32dc28b4" href="/work" class="section _6 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
-              <h2 class="heading">See All Projects</h2>
+              <h2 class="heading">View All Projects</h2>
               <div data-w-id="413d6afc-598a-a12e-a769-193f32dc28b9" class="actionlink textwhite">
                 <div class="actionpulse backgroundgreen"></div>
                 <div class="fontawesolid textwhite"></div>
-                <p>Schedule An Introduction with <span class="landscapehide">The Commonwealth Creative</span></p>
+                <p>Schedule An Introduction <span class="landscapehide">with The Commonwealth Creative</span></p>
               </div>
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-color-logo-darkblue-dropout.png" alt="Commonwealth Creative Logo Circle Dropout" class="logoimg">
           </div>

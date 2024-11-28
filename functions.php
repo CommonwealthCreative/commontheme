@@ -299,6 +299,135 @@ function save_secondary_content_meta_box( $post_id ) {
 }
 add_action( 'save_post', 'save_secondary_content_meta_box' );
 
+function add_portfolio_category_meta_box() {
+    add_meta_box(
+        'portfolio_category_meta_box', // Unique ID
+        'Portfolio Details', // Title
+        'portfolio_category_meta_box_callback', // Callback function
+        'post', // Post type
+        'normal', // Context
+        'high' // Priority
+    );
+}
+add_action('add_meta_boxes', 'add_portfolio_category_meta_box');
+
+function portfolio_category_meta_box_callback($post) {
+    // Check if the post is in the "portfolio" category
+    $categories = wp_get_post_categories($post->ID, ['fields' => 'slugs']);
+    if (!in_array('portfolio', $categories)) {
+        echo '<p>This meta box is only available for posts in the "portfolio" category.</p>';
+        return;
+    }
+
+    // Retrieve saved meta value
+    $portfolio_meta = get_post_meta($post->ID, '_portfolio_meta', true);
+
+    // Display meta box form
+    ?>
+    <p>
+        <label for="portfolio_meta"><strong>Portfolio Details (Category Overview):</strong></label>
+        <textarea id="portfolio_meta" name="portfolio_meta" rows="5" style="width: 100%;"><?php echo esc_textarea($portfolio_meta); ?></textarea>
+    </p>
+    <?php
+}
+
+function save_portfolio_category_meta_box($post_id) {
+    // Check if the save is valid
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    if (isset($_POST['portfolio_meta'])) {
+        update_post_meta($post_id, '_portfolio_meta', sanitize_textarea_field($_POST['portfolio_meta']));
+    }
+}
+add_action('save_post', 'save_portfolio_category_meta_box');
+
+// Register the Image Meta Box
+// Register the Image Meta Box
+function add_portfolio_image_meta_box() {
+    add_meta_box(
+        'portfolio_image_meta_box', // Unique ID
+        'Portfolio Featured Image', // Title
+        'portfolio_image_meta_box_callback', // Callback function
+        'post', // Post type
+        'normal', // Context
+        'high' // Priority
+    );
+}
+add_action('add_meta_boxes', 'add_portfolio_image_meta_box');
+
+// Render the Image Meta Box with Media Library Picker
+function portfolio_image_meta_box_callback($post) {
+    $categories = wp_get_post_categories($post->ID, ['fields' => 'slugs']);
+    if (!in_array('portfolio', $categories)) {
+        echo '<p>This meta box is only available for posts in the "portfolio" category.</p>';
+        return;
+    }
+
+    // Retrieve the saved image URL
+    $portfolio_image = get_post_meta($post->ID, '_portfolio_image', true);
+
+    // Render the input field and media picker
+    ?>
+    <p>
+        <label for="portfolio_image"><strong>Portfolio Image:</strong></label>
+    </p>
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <input type="text" id="portfolio_image" name="portfolio_image" value="<?php echo esc_url($portfolio_image); ?>" style="width: 80%;" />
+        <button type="button" id="portfolio_image_button" class="button">Select Image</button>
+    </div>
+    <p>
+        <em>Select an image from the media library or paste the image URL here.</em>
+    </p>
+    <script>
+        (function($) {
+            $(document).ready(function() {
+                let mediaUploader;
+                $('#portfolio_image_button').click(function(e) {
+                    e.preventDefault();
+                    if (mediaUploader) {
+                        mediaUploader.open();
+                        return;
+                    }
+                    mediaUploader = wp.media({
+                        title: 'Select Portfolio Image',
+                        button: { text: 'Use this image' },
+                        multiple: false
+                    });
+                    mediaUploader.on('select', function() {
+                        const attachment = mediaUploader.state().get('selection').first().toJSON();
+                        $('#portfolio_image').val(attachment.url);
+                    });
+                    mediaUploader.open();
+                });
+            });
+        })(jQuery);
+    </script>
+    <?php
+}
+
+// Save the Image Meta Box Content
+function save_portfolio_image_meta_box($post_id) {
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    if (isset($_POST['portfolio_image'])) {
+        update_post_meta($post_id, '_portfolio_image', esc_url_raw($_POST['portfolio_image']));
+    }
+}
+add_action('save_post', 'save_portfolio_image_meta_box');
+
+
 
 
 /* Custom Portfolio Post Navigation (looped) */

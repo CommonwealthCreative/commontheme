@@ -22,7 +22,23 @@ get_header();
           <div class="tinytext"><span class="mid">Let&#x27;s Talk.</span></div>
           <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button backgroundwhite w-button">Schedule An Introduction</a>
         </div>
+        
       </div>
+      
+      <?php
+// Check if the current post is in the "portfolio" category
+if (has_category('portfolio')) {
+    // Retrieve the custom meta value
+    $portfolio_meta = get_post_meta(get_the_ID(), '_portfolio_meta', true);
+
+    // Display the content if it exists
+    if (!empty($portfolio_meta)) {
+        echo '<p class="portfolio-meta">';
+        echo wp_kses_post($portfolio_meta); // Safe output of the meta value
+        echo '</p>';
+    }
+}
+?>
         <?php $portfolio_extra_content = get_post_meta( get_the_ID(), '_portfolio_extra_content', true );
           if ( ! empty( $portfolio_extra_content ) ) : ?>
             <div class="portfolio-extra-content">
@@ -131,11 +147,6 @@ get_header();
           </div>
         </div>
     </div>
-
-
-    
-
-
 </div>
 <?php
 /* get_sidebar(); */

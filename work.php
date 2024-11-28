@@ -38,7 +38,7 @@ get_header();
         <div class="heavy">Current Portfolio</div>
         <div data-w-id="b1c79106-59e7-ff3b-565a-7746d72753d1" class="indicator">
           <div class="fontawesolid indicatoricon"></div>
-          <div><span class="landscapehide">Highlighting our work and creative projects.</span></div>
+          <div>Highlights from our work and creative projects.</div>
         </div>
       </div>
     </div>
@@ -63,7 +63,13 @@ if ( $portfolio_query->have_posts() ) :
     wp_reset_postdata(); // Reset the query
 else : 
 ?>
-    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <div class="_1300 flexmiddle">
+    <p>
+    <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+    <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+</p>
+</div>
+
 <?php endif; ?>
       </div>
       <div id="work" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0f8" class="w-layout-hflex carouselcontainerfeatured">

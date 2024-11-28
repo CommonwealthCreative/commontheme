@@ -1030,6 +1030,20 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Portfolio Posts */
 
+.portfolio.container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: transform 700ms ease-in-out, opacity 700ms ease-in-out;
+    height: 66vh;
+    overflow: hidden;
+	border: 4px solid #ccc;
+}
+
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1037,30 +1051,56 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
     position: relative;
     z-index: 1;
 	padding: 20px 40px 0;
+
 }
 
 @media (max-width: 980px) {
     .portfolio-content {
         grid-template-columns: 1fr;
+		padding: 20px 20px 0;
 
     }
+	.portfolio.container {
+	height: 700px;
+	opacity: 1;
+	filter: brightness(1.1);
+}
 }
 
-.portfolio.container {
-	background-size: cover; 
-	background-position: center; 
-	background-repeat: no-repeat; 
-	opacity: 0.8; 
-	transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
-	transform-style: preserve-3d;
-    transition: transform 700ms ease-in-out, opacity 700ms ease-in-out;
-	height: 66vh;
+
+.portfolio.container .heading-wrapper {
+	width:100%;
+}
+
+.portfolio-meta-image-wrapper {
+	width: 100px;
+	text-align: left;
+}
+
+
+
+.portfolio.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 0 100%, #202123b0 40%, #20212321 69%);
+    z-index: 1;
+    pointer-events: none; /* Ensure it doesn't interfere with interaction */
+}
+
+.portfolio.container .heading-wrapper {
+    position: relative;
+    z-index: 2; /* Place text content above the gradient overlay */
+    background: none; /* Ensure no additional background is applied to text */
 }
 
 .portfolio.container:hover {
-	opacity: 1;
-	filter: brightness(1.1);
-    transform: scale(1); 
+    opacity: 1;
+    filter: brightness(1.1);
+    transform: scale(1);
 }
 
 .portfolio-wrapper {
@@ -1073,7 +1113,9 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	min-height: 100vh;
 }
 
-
+.portfolio-meta {
+	font-weight: 700;;
+}
 
 .post-template-single-portfolio-template #page {
 	background-image: linear-gradient(#fff 30%, #ebebeb 90%);
