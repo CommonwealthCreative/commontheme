@@ -79,12 +79,11 @@ Cal("init",  {origin:"https://cal.com"});
     </div>
     <div class="overlay">
       <div id="w-node-_3ca514ae-0c9e-bd3f-9611-c95457eb3c2e-57eb3c22" class="menu-links">
-        <a href="/#featured" data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c39" class="heading navoverlayheading">Featured</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3b" href="https://thecommonwealthcreative.com/strategies-methods" class="heading navoverlayheading">Strategy</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3d" href="https://thecommonwealthcreative.com/strategies-methods/#design" class="heading navoverlayheading">Design</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3f" href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="heading navoverlayheading">Development</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="https://thecommonwealthcreative.com/#pricing" class="heading navoverlayheading">Pricing</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="https://thecommonwealthcreative.com/about" class="heading navoverlayheading">About</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3b" href="/" class="heading navoverlayheading">Home</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3d" href="/strategies-methods/" class="heading navoverlayheading">Services</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3f" href="/work" class="heading navoverlayheading">Our Work</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="/shop" class="heading navoverlayheading">Shop</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="/about" class="heading navoverlayheading">About</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c43" href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="actionlink textwhite w-inline-block" style="margin-top:20px; margin-bottom:20px;">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid rocket"></div>
