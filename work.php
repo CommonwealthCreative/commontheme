@@ -47,46 +47,50 @@ get_header();
     <div class="portfolio-wrapper">
       <div class="portfolio-content">
       <?php
-// Custom Query for Portfolio Category
+// Custom Query for Portfolio Category Ordered by Ranking
 $portfolio_query = new WP_Query( array(
-    'category_name' => 'portfolio', // Slug of the category to include
-    'posts_per_page' => -1, // Number of posts to show (-1 for all posts in the category)
+  'category_name'  => 'portfolio',      // Slug of the category to include
+  'posts_per_page' => -1,               // Number of posts to show (-1 for all posts in the category)
+  'meta_key'       => '_post_ranking',  // Custom field for ranking
+  'orderby'        => 'meta_value_num', // Order by numeric meta value
+  'order'          => 'ASC',            // Lower rankings first
 ) );
 
 if ( $portfolio_query->have_posts() ) : 
-    while ( $portfolio_query->have_posts() ) : 
-        $portfolio_query->the_post(); 
-?>
-        <?php get_template_part( 'template-parts/content', 'portfolio' ); ?>
-<?php 
-    endwhile; 
-    wp_reset_postdata(); // Reset the query
+  while ( $portfolio_query->have_posts() ) : 
+      $portfolio_query->the_post(); 
+      ?>
+      <?php get_template_part( 'template-parts/content', 'portfolio' ); ?>
+      <?php 
+  endwhile; 
+  wp_reset_postdata(); // Reset the query
 else : 
+  ?>
+  <div class="_1300 flexmiddle">
+      <p>
+          <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+          <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+      </p>
+  </div>
+<?php 
+endif; 
 ?>
-    <div class="_1300 flexmiddle">
-    <p>
-    <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
-    <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
-</p>
-</div>
-
-<?php endif; ?>
       </div>
       <div id="work" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0f8" class="w-layout-hflex carouselcontainerfeatured">
         <div class="featuredtextcarousel">
           <div class="becauseiconfeatured">
-            <div>Current </div>
+            <div class="textlite">Current </div>
           </div>
           <div class="becauseiconfeatured">
-            <div>Portfolio </div>
+            <div class="textlite">Portfolio </div>
           </div>
         </div>
         <div class="featuredtextcarousel">
           <div class="becauseiconfeatured">
-            <div>And All </div>
+            <div class="textlite">And All </div>
           </div>
           <div class="becauseiconfeatured">
-            <div>Projects</div>
+            <div class="textlite">Projects</div>
           </div>
         </div>
       </div>

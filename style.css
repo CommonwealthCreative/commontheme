@@ -1030,6 +1030,20 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Portfolio Posts */
 
+.foliodetails {
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foliodetails span {
+    margin-left: auto;
+}
+
+.foliocontent {
+	padding-top: 60px;
+}
+
 .portfolio.container {
     position: relative;
     background-size: cover;
@@ -1064,6 +1078,8 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	height: 700px;
 	opacity: 1;
 	filter: brightness(1.1);
+	height: 50vh;
+	min-height: 500px;
 }
 }
 
@@ -1076,8 +1092,6 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	width: 100px;
 	text-align: left;
 }
-
-
 
 .portfolio.container::before {
     content: '';
@@ -1251,6 +1265,14 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 }
 
 /* Webflow + WordPress Combined Styles */
+
+.wp-block-separator {
+	border: 1px solid #ebebeb;
+}
+
+.nav-previous > a, .nav-next > a{
+	color: #fff;
+}
 
 .processlink {
 	border-bottom: 0px;

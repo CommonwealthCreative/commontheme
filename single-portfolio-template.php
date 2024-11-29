@@ -100,6 +100,7 @@ if (has_category('portfolio')) {
     </div>
     </div>
     </div>
+  </div>
       
     <div class="_1300"> <!-- 2ndary Content -->
               <?php

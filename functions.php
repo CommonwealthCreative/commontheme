@@ -499,3 +499,146 @@ function flush_rewrite_rules_on_activation() {
 }
 register_activation_hook(__FILE__, 'flush_rewrite_rules_on_activation');
 
+/**
+ * Add a Ranking meta box to posts.
+ */
+function add_ranking_meta_box() {
+    add_meta_box(
+        'ranking_meta_box',          // Unique ID
+        'Post Ranking',              // Box title
+        'ranking_meta_box_callback', // Content callback
+        'post',                      // Post type
+        'side',                      // Context
+        'high'                       // Priority
+    );
+}
+add_action( 'add_meta_boxes', 'add_ranking_meta_box' );
+
+/**
+ * Display the meta box content.
+ */
+function ranking_meta_box_callback( $post ) {
+    // Retrieve current ranking value
+    $ranking = get_post_meta( $post->ID, '_post_ranking', true );
+
+    // Fallback to a default value if empty
+    if ( empty( $ranking ) ) {
+        $ranking = 99; // Default ranking
+    }
+
+    // Display the input field
+    ?>
+    <label for="post_ranking">Ranking (1-99):</label>
+    <input type="number" id="post_ranking" name="post_ranking" value="<?php echo esc_attr( $ranking ); ?>" min="1" max="99" style="width: 100%;" />
+    <?php
+}
+
+/**
+ * Save the ranking value.
+ */
+function save_ranking_meta_box( $post_id ) {
+    // Verify the nonce field for security
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return;
+    }
+
+    // Check user permissions
+    if ( ! current_user_can( 'edit_post', $post_id ) ) {
+        return;
+    }
+
+    // Save the ranking if it exists
+    if ( isset( $_POST['post_ranking'] ) ) {
+        $ranking = intval( $_POST['post_ranking'] );
+
+        // Ensure the ranking is between 1 and 99
+        if ( $ranking < 1 || $ranking > 99 ) {
+            $ranking = 99; // Default to 99 if out of range
+        }
+
+        update_post_meta( $post_id, '_post_ranking', $ranking );
+    }
+}
+add_action( 'save_post', 'save_ranking_meta_box' );
+
+
+/**
+ * Add the Ranking field to the Quick Edit section.
+ */
+function add_ranking_to_quick_edit( $column_name, $post_type ) {
+    if ( 'post' === $post_type && 'ranking' === $column_name ) {
+        ?>
+        <fieldset class="inline-edit-col-right">
+            <div class="inline-edit-col">
+                <label>
+                    <span class="title">Ranking</span>
+                    <span class="input-text-wrap">
+                        <input type="number" name="post_ranking" class="post-ranking" value="" min="1" max="99">
+                    </span>
+                </label>
+            </div>
+        </fieldset>
+        <?php
+    }
+}
+add_action( 'quick_edit_custom_box', 'add_ranking_to_quick_edit', 10, 2 );
+
+/**
+ * Add a custom column for the Ranking field in the admin post list.
+ */
+function add_ranking_column( $columns ) {
+    $columns['ranking'] = 'Ranking';
+    return $columns;
+}
+add_filter( 'manage_posts_columns', 'add_ranking_column' );
+
+/**
+ * Populate the Ranking column with data.
+ */
+function populate_ranking_column( $column_name, $post_id ) {
+    if ( 'ranking' === $column_name ) {
+        $ranking = get_post_meta( $post_id, '_post_ranking', true );
+        echo esc_html( $ranking ? $ranking : '99' ); // Default to 99 if no ranking
+    }
+}
+add_action( 'manage_posts_custom_column', 'populate_ranking_column', 10, 2 );
+
+/**
+ * Save the Ranking value from Quick Edit.
+ */
+function save_quick_edit_ranking( $post_id ) {
+    if ( isset( $_POST['post_ranking'] ) ) {
+        $ranking = intval( $_POST['post_ranking'] );
+
+        // Ensure the ranking is within range
+        if ( $ranking < 1 || $ranking > 99 ) {
+            $ranking = 99; // Default to 99
+        }
+
+        update_post_meta( $post_id, '_post_ranking', $ranking );
+    }
+}
+add_action( 'save_post', 'save_quick_edit_ranking' );
+
+/**
+ * Add Ranking to the Quick Edit data attributes.
+ */
+function enqueue_quick_edit_script() {
+    wp_enqueue_script( 'quick-edit-ranking', get_template_directory_uri() . '/js/quick-edit-ranking.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'admin_enqueue_scripts', 'enqueue_quick_edit_script' );
+
+/**
+ * Add Ranking data to the Quick Edit inline data.
+ */
+function add_quick_edit_ranking_inline_data( $column_name, $post_id ) {
+    if ( 'ranking' === $column_name ) {
+        $ranking = get_post_meta( $post_id, '_post_ranking', true );
+        ?>
+        <div class="hidden" id="ranking-data-<?php echo $post_id; ?>">
+            <span class="ranking"><?php echo esc_attr( $ranking ); ?></span>
+        </div>
+        <?php
+    }
+}
+add_action( 'quick_edit_custom_box', 'add_quick_edit_ranking_inline_data', 10, 2 );

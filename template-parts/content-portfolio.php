@@ -27,9 +27,9 @@
 
                 <!-- Post Title -->
                 <?php if ( is_singular() ) : ?>
-                    <h2 class="heading textwhite"><?php the_title(); ?></h3>
+                    <h2 class="mid textwhite"><?php the_title(); ?></h3>
                 <?php else : ?>
-                    <h2 class="heading textwhite"><?php the_title(); ?></h3>
+                    <h2 class="mid textwhite"><?php the_title(); ?></h3>
                 <?php endif; ?>
                 
                 <!-- Portfolio Meta Content -->
