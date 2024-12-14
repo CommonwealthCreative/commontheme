@@ -1266,6 +1266,10 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+hr {
+	margin-top: 1.5em;
+}
+
 .wp-block-separator {
 	border: 1px solid #ebebeb;
 }

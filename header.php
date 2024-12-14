@@ -82,7 +82,7 @@ Cal("init",  {origin:"https://cal.com"});
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3b" href="/" class="heading navoverlayheading">Home</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3d" href="/strategies-methods/" class="heading navoverlayheading">Services</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="/#pricing" class="heading navoverlayheading">Pricing</a>
-        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3f" href="/" class="heading navoverlayheading">Our Work</a>
+        <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c3f" href="/work" class="heading navoverlayheading">Our Work</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="/shop" class="heading navoverlayheading">Shop</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c41" href="https://thecommonwealthcreative.com/about" class="heading navoverlayheading">About</a>
         <a data-w-id="3ca514ae-0c9e-bd3f-9611-c95457eb3c43" href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="actionlink textwhite w-inline-block" style="margin-top:20px; margin-bottom:20px;">
