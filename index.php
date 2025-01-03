@@ -30,8 +30,8 @@ get_header();
         <h1 data-w-id="76351c1e-4da6-3470-0b51-7e078478375f" style="opacity:0" class="jumbo">Technology Moves</h1>
         <h1 data-w-id="76351c1e-4da6-3470-0b51-7e0784783761" style="opacity:0" class="jumbo">Fast - Creative</h1>
         <h1 data-w-id="76351c1e-4da6-3470-0b51-7e0784783763" style="opacity:0" class="jumbo">Thinking Moves Faster.</h1>
-        <p class="mid herotext">Commonwealth Creative delivers enterprise quality solutions at a rapid pace. We harness the power of design and code to shape and enhance brands, curate user experiences, and tackle contemporary challenges.<br></p>
-        <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="button backgroundwhite w-button">Schedule An Introduction</a>
+        <p class="mid herotext">Are outdated systems, ineffective branding, or time-consuming manual tasks holding your business back? Modernizing your technical infrastructure, automating workflows, and building a strong, consistent brand can transform your business.<br></p>
+        <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="button backgroundwhite w-button">See How We Can Help</a>
       </div>
       <div data-w-id="76351c1e-4da6-3470-0b51-7e078478376a" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
     </section>
@@ -107,7 +107,7 @@ get_header();
               </a>
             </div>
           </div>
-          <a href="#pricing" class="button w-button">See Plans &amp; Pricing</a>
+          <a href="#process" class="button w-button">Our Process  &amp; Services</a>
           <div class="imgbackground"><img sizes="(max-width: 767px) 100vw, (max-width: 991px) 83vw, 87vw" srcset="../wp-content/themes/commontheme/images/commonwealth-creative-meeting-p-500.png 500w, ../wp-content/themes/commontheme/images/commonwealth-creative-meeting-p-800.png 800w, ../wp-content/themes/commontheme/images/commonwealth-creative-meeting.png 913w" alt="" src="../wp-content/themes/commontheme/images/commonwealth-creative-meeting.png" loading="lazy"></div>
         </div>
       </div>
@@ -125,7 +125,7 @@ get_header();
   <div id="featured" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c5" class="horizontal-scroll-section">
     <div class="horizontal-scroll-wrapper">
       <div class="horizontal-scroll-content">
-        <a href="https://thecommonwealthcreative.com/work/george-wythe-edition" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c8" class="section _5 w-inline-block">
+        <a href="https://thecommonwealthcreative.com/work/the-george-wythe-edition-wordpress-theme/" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c8" class="section _5 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
               <h2 class="heading">The George Wythe Edition</h2>
@@ -133,7 +133,7 @@ get_header();
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealh-creative-coming-soon.svg" alt="Commonwealth Creative Coming Soon Icon" class="logoimg">
           </div>
         </a>
-        <a href="https://thecommonwealthcreative.com/work/mary-baldwin" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0d0" class="section _1 w-inline-block">
+        <a href="https://thecommonwealthcreative.com/work/mary-baldwin-mba" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0d0" class="section _1 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
               <h2 class="heading">Mary Baldwin University MBA Program</h2>
@@ -144,7 +144,7 @@ get_header();
         <a href="https://thecommonwealthcreative.com/work/therapyland" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0d8" class="section _4 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
-              <h2 class="heading">TherapyLand</h2>
+              <h2 class="heading">TherapyLand: Play Therapy</h2>
               <p>Branding • Illustration • Web Development</p>
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-therapyland-logo.svg" alt="" class="logoimg">
           </div>
@@ -157,10 +157,10 @@ get_header();
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-dbhds-logo-white.svg" alt="" class="logoimg">
           </div>
         </a>
-        <a href="https://thecommonwealthcreative.com/work/northern-virginia-food-rescue/" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0e8" class="section _2 w-inline-block">
+        <a href="https://thecommonwealthcreative.com/work/giving-tuesday" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0e8" class="section _2 w-inline-block">
           <div class="container">
             <div class="heading-wrapper">
-              <h2 class="heading">Northern Virginia Food Rescue</h2>
+              <h2 class="heading">Northern Virginia Food Rescue: Day of Giving</h2>
               <p>Strategy • Branding • Design • Web Development</p>
             </div><img loading="lazy" src="../wp-content/themes/commontheme/images/commonwealth-creative-northern-virginia-food-rescue.svg" alt="" class="logoimg">
           </div>
@@ -206,7 +206,7 @@ get_header();
           <h3 data-w-id="0d60fb1a-62b2-9ba7-0388-c9ae18204a45" style="opacity:0" class="heading">Your Discovery Process<br></h3>
         </div>
         <div id="w-node-_7003c6d8-e5d0-ee24-c07a-1a705f88b15c-f4ae160d" class="w-layout-cell flexblockmiddle">
-          <a href="https://thecommonwealthcreative.com/strategies-methods/" class="button w-button">Strategies &amp; Methods</a>
+          <a href="https://thecommonwealthcreative.com/services/" class="button w-button">Access The Codex</a>
         </div>
       </div>
       <p data-w-id="bbac7cae-dae2-ab38-2c81-1033e43041e3" style="opacity:0" class="paragraph">Driven by the principles of design, your process begins with a strategic kick-off meeting; we&#x27;ll identify core objectives, evaluate brand and technology positioning, and outline KPIs. In all of our work, Commonwealth Creative employs a variety of industry standard tools, methodologies, and technologies. Moreover, we provide proprietary website themes and assets exclusively available to our clients.<br></p>

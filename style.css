@@ -1,5 +1,5 @@
 /*!
-Theme Name: The Commonwealth Theme 3.0
+Theme Name: The Commonwealth Theme 2.2
 Theme URI: https://thecommonwealthcreative.com
 Author: Matthew T. Small
 Author URI: https://mattsmall.thecommonwealthcreative.com
@@ -1212,6 +1212,7 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	border-radius: 20px;
 }
 
+
 .nextpost .allwork {   margin-right: auto;}
 
 .nextpost .nextbutton {margin-left: auto;}
@@ -1335,6 +1336,97 @@ ul, ol {
 }
 .singlehero .entry-content p {
 	margin-bottom: 40px; 
+}
+
+
+/* Forms */
+input.search-input {
+    z-index: 99;
+    color: #202123;
+    background-color: transparent;
+    border: 1px solid #202123;
+    border-radius: 99px;
+    margin: 10px;
+    padding: 13px 40px;
+    font-family: 'Paytone One', sans-serif;
+    transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	flex: 1; 
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-container form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 99px;
+    box-sizing: border-box;
+}
+
+.search-container .button {
+    white-space: nowrap;
+}
+
+
+.codex .processimg {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	border-radius: 50px;
+}
+
+.codex .nextpost {
+	display: flex;
+    justify-content: center;
+}
+
+a.page-numbers, span.page-numbers {
+    font-size: 1.2rem;
+    background: #ebebeb;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%;       
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    text-decoration: none;    
+    color: #333;              /
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+	border: solid 1px #5bdeb8;
+}
+
+span.page-numbers {
+    font-size: 1.2rem;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%;       
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    text-decoration: none;    
+    color: #767676;              /
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+	border: solid 1px #767676;
 }
 
 /* Webflow Styles */
@@ -2237,7 +2329,7 @@ ul, ol {
   }
   
   .section._2 {
-	background-image: url('../commontheme/images/Commonwealth-Creative-Northern-Virginia-Food-Rescue-CoverPhoto.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-novafr-giving-tuesday-heroimage_1.webp');
 	background-position: 0 0;
 	background-size: cover;
   }
@@ -2259,19 +2351,19 @@ ul, ol {
   }
   
   .section._1 {
-	background-image: url('../commontheme/images/Commonwealth-Creative-Mary-Baldwin-MBA-CoverPhoto.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-mbumba-cover_1.webp');
 	background-position: 0 0;
 	background-size: cover;
   }
   
   .section._4 {
-	background-image: url('../commontheme/images/Commonwealth-Creative-therapyland-play-therapyCoverPhoto.jpg');
-	background-position: 0 0;
+	background-image: url('../commontheme/images/commonwealth-creative-therapyland-poster-background_1.webp');
+	background-position: 50%;
 	background-size: auto;
   }
   
   .section._3 {
-	background-image: url('../commontheme/images/Commonwealth-Creative-DBHDSCoverPhoto.jpg');
+	background-image: url('../commontheme/images/commonwealth-creative-virginia-dbhds--1_1.webp');
 	background-position: 0 0;
 	background-size: cover;
   }

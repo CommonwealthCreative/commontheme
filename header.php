@@ -19,6 +19,7 @@
 
 /* Indexes */ if ( is_home() ) { echo 'data-wf-page="66daff0553e4462bf4ae160d"'; } 
             if ( is_page_template( 'work.php') ) { echo 'data-wf-page="66dd4a19079776ced5a5c9d1"'; } 
+            if ( is_page_template( 'thecodex.php') ) { echo 'data-wf-page="66dd4a19079776ced5a5c9d1"'; } 
             if ( is_page_template( 'about.php') ) { echo 'data-wf-page="66dd5a138058bad06fe7abce"'; } 
             if ( is_page_template( 'methods.php') ) { echo 'data-wf-page="66dd5e8f5feb03b8ce8c3585"'; }
 
