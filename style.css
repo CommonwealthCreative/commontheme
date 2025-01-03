@@ -79,28 +79,28 @@ html {
 
 	 @font-face {
 		font-family: 'Fa Solid 900';
-		src: url('../commontheme/fonts/fa-solid-900.woff2') format('woff2');
+		src: url('../commontheme2025/fonts/fa-solid-900.woff2') format('woff2');
 		font-weight: 400;
 		font-style: normal;
 		font-display: swap;
 	  }
 	  @font-face {
 		font-family: 'Fa Brands 400';
-		src: url('../commontheme/fonts/fa-brands-400.woff2') format('woff2');
+		src: url('../commontheme2025/fonts/fa-brands-400.woff2') format('woff2');
 		font-weight: 400;
 		font-style: normal;
 		font-display: swap;
 	  }
 	  @font-face {
 		font-family: 'Gilroy';
-		src: url('../commontheme/fonts/Gilroy-Light.woff') format('woff');
+		src: url('../commontheme2025/fonts/Gilroy-Light.woff') format('woff');
 		font-weight: 300;
 		font-style: normal;
 		font-display: swap;
 	  }
 	  @font-face {
 		font-family: 'Gilroy';
-		src: url('../commontheme/fonts/Gilroy-Extrabold.woff') format('woff');
+		src: url('../commontheme2025/fonts/Gilroy-Extrabold.woff') format('woff');
 		font-weight: 700;
 		font-style: normal;
 		font-display: swap;

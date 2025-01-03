@@ -315,7 +315,7 @@ get_header();
           </a>
         </div>
       </div>
-      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="images/commonwealth-creative-meeting-p-500.png 500w, images/commonwealth-creative-meeting-p-800.png 800w, images/commonwealth-creative-meeting.png 913w" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png" loading="lazy"></div>
+      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="images/commonwealth-creative-meeting-p-500.png 500w, images/commonwealth-creative-meeting-p-800.png 800w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png 913w" alt="" src="wp-content/themes/commontheme2025/wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png" loading="lazy"></div>
       <a href="#cal" class="button w-button">Schedule Your Introduction</a>
     </div>
   </section>
@@ -456,7 +456,7 @@ get_header();
   <section class="reviews backgroundblackdark">
     <div data-w-id="cbaeaa82-2203-0496-950c-50e5ff9b4110" class="w-layout-vflex commonmiddle _1300">
       <blockquote class="mid"><span class="quotes">&quot; </span><span class="paytone">Commonwealth Creative</span> as always been resourceful, creative and responsive! Looking forward to many more years of outstanding support. Thanks!<span class="quotes">&quot;</span></blockquote>
-      <div class="w-layout-hflex"><img sizes="50px" srcset="images/0_3-1-p-500.jpg 500w, images/0_3-1-p-800.jpg 800w, images/0_3-1.jpg 1024w" alt="" src="wp-content/themes/commontheme2025/images/0_3-1.jpg" loading="lazy" class="commoncellimage">
+      <div class="w-layout-hflex"><img sizes="50px" srcset="/wp-content/themes/commontheme2025/images/0_3-1-p-500.jpg 500w, images/0_3-1-p-800.jpg 800w, images/0_3-1.jpg 1024w" alt="" src="wp-content/themes/commontheme2025/images/0_3-1.jpg" loading="lazy" class="commoncellimage">
         <div class="w-layout-vflex reviewname textmedium">
           <div class="tinytext">Gary Carlmark</div>
           <div>Chief Executive Officer at My PTSD Story</div>
