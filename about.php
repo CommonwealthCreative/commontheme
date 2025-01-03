@@ -43,7 +43,7 @@ endif;
 
     </div>
     <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdf3" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
-  </div>
+</div>
   <section class="standards">
     <div class="_1300">
       <div class="w-layout-hflex commonflex">

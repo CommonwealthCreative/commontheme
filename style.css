@@ -2044,8 +2044,8 @@ span.page-numbers {
 	margin-right: 25%;
 	display: block;
 	position: absolute;
-	inset: -100% 0% 0% -50%;
-	overflow: visible;
+	inset: -120% 0% 0% -30%;
+	overflow: hidden;
 	transform: rotate(-130deg);
   }
   
@@ -2056,6 +2056,7 @@ span.page-numbers {
 	padding-top: 70px;
 	padding-bottom: 60px;
 	overflow: hidden;
+	position: relative;
   }
   
   ._100vh {
@@ -2517,7 +2518,8 @@ span.page-numbers {
 	padding-top: 70px;
 	padding-bottom: 60px;
 	display: block;
-	overflow: hidden;
+	overflow: hidden!important;
+	position: relative;
   }
   
   .pageheading.backgroundblackdark {
