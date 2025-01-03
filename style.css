@@ -3775,33 +3775,3 @@ span.page-numbers {
 	  grid-template-columns: 1fr;
 	}
   }
-  
-  
-  @font-face {
-	font-family: 'Fa Brands 400';
-	src: url('../fonts/fa-brands-400.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-  }
-  @font-face {
-	font-family: 'Fa Solid 900';
-	src: url('../fonts/fa-solid-900.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-  }
-  @font-face {
-	font-family: 'Gilroy';
-	src: url('../fonts/Gilroy-Extrabold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-  }
-  @font-face {
-	font-family: 'Gilroy';
-	src: url('../fonts/Gilroy-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-  }
