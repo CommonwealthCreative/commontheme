@@ -2078,7 +2078,7 @@ span.page-numbers {
 	justify-content: flex-start;
 	align-items: flex-start;
 	min-width: 100%;
-	min-height: 269px;
+	min-height: 300px;
 	padding: 40px;
 	font-weight: 300;
 	transition: all .7s cubic-bezier(.455, .03, .515, .955);

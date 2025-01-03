@@ -75,11 +75,11 @@
         </div>
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff375858e-f3758574" class="w-layout-cell right flexblockcentercenter">
           <div class="footerlinks">
-            <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
-            <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
-            <a href="https://www.figma.com/" target="_blank" class="footerlogo w-inline-block"><img width="39" loading="lazy" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-figma.svg" class="affiliate"></a>
-            <a href="https://try.webflow.com/k2wvsi66bv57" target="_blank" class="footerlogo w-inline-block"><img width="75" loading="lazy" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-webflow.svg" class="affiliate"></a>
-            <a href="https://wpengine.com/partnerspecialoffer/?w_agcid=jecEfwKu" target="_blank" class="footerlogo w-inline-block"><img width="50" loading="lazy" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-wpengine.svg" class="affiliate"></a>
+            <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
+            <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
+            <a href="https://www.figma.com/" target="_blank" class="footerlogo w-inline-block"><img width="39" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-figma.svg" class="affiliate"></a>
+            <a href="https://try.webflow.com/k2wvsi66bv57" target="_blank" class="footerlogo w-inline-block"><img width="75" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-webflow.svg" class="affiliate"></a>
+            <a href="https://wpengine.com/partnerspecialoffer/?w_agcid=jecEfwKu" target="_blank" class="footerlogo w-inline-block"><img width="50" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-wpengine.svg" class="affiliate"></a>
           </div>
         </div>
       </div>

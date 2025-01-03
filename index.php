@@ -453,17 +453,7 @@ get_header();
       </div>
     </div>
   </section>
-  <section class="reviews backgroundblackdark">
-    <div data-w-id="cbaeaa82-2203-0496-950c-50e5ff9b4110" class="w-layout-vflex commonmiddle _1300">
-      <blockquote class="mid"><span class="quotes">&quot; </span><span class="paytone">Commonwealth Creative</span> as always been resourceful, creative and responsive! Looking forward to many more years of outstanding support. Thanks!<span class="quotes">&quot;</span></blockquote>
-      <div class="w-layout-hflex"><img sizes="50px" srcset="/wp-content/themes/commontheme2025/images/0_3-1-p-500.jpg 500w, images/0_3-1-p-800.jpg 800w, images/0_3-1.jpg 1024w" alt="" src="wp-content/themes/commontheme2025/images/0_3-1.jpg" loading="lazy" class="commoncellimage">
-        <div class="w-layout-vflex reviewname textmedium">
-          <div class="tinytext">Gary Carlmark</div>
-          <div>Chief Executive Officer at My PTSD Story</div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php get_template_part('reviews'); ?>
 
 	</main><!-- #main -->
 

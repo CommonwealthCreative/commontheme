@@ -18,9 +18,9 @@
 <?php 
 
 /* Indexes */ if ( is_home() ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
-            if ( is_page_template( 'work.php') ) { echo 'data-wf-page="66dd4a19079776ced5a5c9d1"'; } 
+            if ( is_page_template( 'work.php') ) { echo 'data-wf-page="6772dd50133192cde647ad74"'; } 
             if ( is_page_template( 'thecodex.php') ) { echo 'data-wf-page="66dd4a19079776ced5a5c9d1"'; } 
-            if ( is_page_template( 'about.php') ) { echo 'data-wf-page="66dd5a138058bad06fe7abce"'; } 
+            if ( is_page_template( 'about.php') ) { echo 'data-wf-page="6770e47f5dcd8dff66468b02"'; } 
             if ( is_page_template( 'methods.php') ) { echo 'data-wf-page="66dd5e8f5feb03b8ce8c3585"'; }
 
 

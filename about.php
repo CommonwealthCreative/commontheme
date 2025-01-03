@@ -15,105 +15,86 @@
 get_header();
 ?>
 
-<div class="subhero">
-    <section class="_1300subhero">
-      <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="herologo w-inline-block"><img loading="lazy" src="https://uploads-ssl.webflow.com/66beeb88d43845e2d67fe07c/66bfbda6595b20c4ac26f5a8_commonwealth-creative-color-logo-darkblue-dropout.png" alt=""></a>
-      <div class="herowrapper">
-        <div data-w-id="4fdba675-c168-fe2b-82e0-93dcac83be7a" style="opacity:0" class="withlove top">
-          <div class="w-layout-hflex flex-block">
-            <div>Made with</div>
-            <div class="fontawesolid greenheart"></div>
-            <div>in the Commonwealth of Virginia. </div>
-          </div>
-        </div>
-        <h1 class="jumbo"><span class="textlite">We’ve worked with </span>
-          <a href="http://marybaldwin.edu/" target="_blank"><strong>universities</strong></a>, national brands like <a href="http://thriveworks.com/" target="_blank"><strong>Thriveworks</strong></a>, and state agencies like <a href="http://vita.virginia.gov/" target="_blank"><strong>VITA</strong></a>, creating designs and developing applications. Our expertise with compliance and user experience is deeply rooted from work in the government, nonprofit, and healthcare sectors. And while our current focus is on branding and digital design, our core values were shaped by a strong foundation in traditional media and technology.
-        </h1>
-      </div>
-    </section>
-  </div>
-  <section class="aboutsection">
+<div class="pageheading">
     <div class="_1300">
-      <div class="w-layout-hflex flexmiddle">
-        <div class="heavy">Standards</div>
-        <div data-w-id="89676f30-cbd5-35da-b3a1-538b5a8014b4" class="indicator">
-          <a href="https://www.google.com/search?q=commonwealth+creative+fredericksburg+va" target="_blank" class="noline w-inline-block">
-            <div class="fontawesolid indicatoricon"></div>
+      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove">
+        <div class="w-layout-hflex flex-block">
+          <div class="text-block">Made with</div>
+          <div class="fontawesolid greenheart"></div>
+          <div>in the Commonwealth of Virginia. </div>
+        </div>
+      </div>
+      <?php
+if ( have_posts() ) :
+    while ( have_posts() ) : the_post();
+        $content = get_the_content();
+        $content = apply_filters( 'the_content', $content ); // Process shortcodes and other content filters
+        $content = strip_tags( $content, '<br><strong><em><a>' ); // Allow specific tags if needed
+        ?>
+        <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0" class="headingtext">
+            <?php echo $content; ?>
+        </h1>
+        <?php
+    endwhile;
+else :
+    echo '<p>No content found</p>';
+endif;
+?>
+
+    </div>
+    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdf3" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
+  </div>
+  <section class="standards">
+    <div class="_1300">
+      <div class="w-layout-hflex commonflex">
+        <h2 data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35804" style="opacity:0">Our Standards</h2>
+        <div data-w-id="cf760173-64d9-a103-7d2b-a10cfc43d43f" class="actionlink flexlink">
+          <div class="fontaw"></div>
+          <p class="iconlinktext">A commitment to excellence and consistency.</p>
+        </div>
+      </div>
+      <p class="common66w">Whether you&#x27;re aiming to transform your website, build a new brand, or launch a digital product, we&#x27;re here to discover and celebrate what makes your company unique—and bring those qualities to life.</p>
+      <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35816-66468b02" class="w-layout-layout commonstack wf-layout-layout">
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35817-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35818" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">Dedicated Experts</h4>
+            <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
           </a>
-          <div>Our commitment to excellence and consistency.</div>
         </div>
-      </div>
-      <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed94385-6fe7abce" class="w-layout-layout process-stack wf-layout-layout">
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed94386-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed94386" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/service.svg" alt="" class="processimg">
-          <h4 class="tinytext">Dedicated Experts</h4>
-          <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3581e-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3581f" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/availability.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">Limited Memberships</h4>
+            <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
+          </a>
         </div>
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed9438c-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed9438c" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/availability.svg" alt="" class="processimg">
-          <h4 class="tinytext">Limited Memberships</h4>
-          <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35825-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35826" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/lightning.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">Quick Completion</h4>
+            <p>Most requests are completed within an average of 2-3 days.</p>
+          </a>
         </div>
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed94392-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed94392" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/lightning.svg" alt="" class="processimg">
-          <h4 class="tinytext">Quick Completion</h4>
-          <p>Most requests are completed within an average of 2-3 days.</p>
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3582c-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3582d" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/pricing.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">No Surprise Costs</h4>
+            <p>No surprises, no contracts—just a simple, fixed monthly membership. Cancel or pause anytime.</p>
+          </a>
         </div>
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed94398-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed94398" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/pricing.svg" alt="" class="processimg">
-          <h4 class="tinytext">No Surprise Costs</h4>
-          <p>No surprises, no contracts—just a simple, fixed monthly membership. Cancel or pause anytime.</p>
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35833-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35834" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/graph.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">Performance &amp; Returns</h4>
+            <p>All of our projects are focused on delivering measurable KPIs and maximizing ROI.</p>
+          </a>
         </div>
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed9439e-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed9439e" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/graph.svg" alt="" class="processimg">
-          <h4 class="tinytext">Easy Tracking</h4>
-          <p>All requests, projects and communications are readily accessible in your dashboard.</p>
-        </div>
-        <div id="w-node-b8e8172c-d9e0-4143-d6ac-c1deeed943a4-6fe7abce" data-w-id="b8e8172c-d9e0-4143-d6ac-c1deeed943a4" style="opacity:0" class="w-layout-cell processcell"><img loading="lazy" src="/wp-content/themes/commontheme/images/award.svg" alt="" class="processimg">
-          <h4 class="tinytext">Top Performers</h4>
-          <p>We are award-winning designers and enterprise-level IT professionals.</p>
-        </div>
-      </div>
-      <div id="w-node-_4310a558-156d-4428-1929-4fda24b0df7c-6fe7abce">
-        <div id="w-node-_622ad446-fcd9-a42d-703f-cd6b78038c98-6fe7abce" class="w-layout-layout overviewstack wf-layout-layout">
-          <div id="w-node-_622ad446-fcd9-a42d-703f-cd6b78038c99-6fe7abce" class="w-layout-cell">
-            <div data-w-id="622ad446-fcd9-a42d-703f-cd6b78038c9a" style="opacity:0" class="itemdetails">
-              <h2>Our services, made simple.</h2>
-              <div class="includedetails">
-                <div class="fontawesolid"></div>
-                <div class="tinytext">Flat monthly fee, <a href="#faqs">unlimited requests.</a>
-                </div>
-              </div>
-              <div class="includedetails">
-                <div class="fontawesolid"></div>
-                <div class="tinytext">Full service strategy, graphic design &amp; web development.</div>
-              </div>
-              <div class="includedetails">
-                <div class="fontawesolid"></div>
-                <div class="tinytext">No contracts, pause or cancel whenever.</div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_622ad446-fcd9-a42d-703f-cd6b78038cae-6fe7abce" data-w-id="622ad446-fcd9-a42d-703f-cd6b78038cae" style="opacity:0" class="w-layout-cell itemhome">
-            <a href="/#pricing" class="openinglink w-inline-block">
-              <div class="tinytext">See details</div>
-              <div class="mid">Old Dominion Membership</div>
-            </a>
-            <div data-w-id="622ad446-fcd9-a42d-703f-cd6b78038cb4" class="indicator backgroundorange textwhite">
-              <div class="fontawesolid indicatoricon textwhite"></div>
-              <div>Limited Availability</div>
-            </div>
-          </div>
-          <div id="w-node-_622ad446-fcd9-a42d-703f-cd6b78038cb9-6fe7abce" data-w-id="622ad446-fcd9-a42d-703f-cd6b78038cb9" style="opacity:0" class="w-layout-cell itemhome">
-            <a href="/pricing" class="openinglink w-inline-block">
-              <div class="tinytext">See details</div>
-              <div class="mid">Founding Father Membership</div>
-            </a>
-            <div class="indicator backgroundwhite">
-              <div class="fontawesolid indicatoricon"></div>
-              <div>Seats Available</div>
-              <div class="indicatorpulse backgroundgreen alt"></div>
-            </div>
-          </div>
+        <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3583a-66468b02" class="w-layout-cell">
+          <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3583b" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/award.svg" alt="" class="commoncellimage">
+            <h4 class="tinytext">Top Performers</h4>
+            <p>We are award-winning designers and enterprise-level IT professionals.</p>
+          </a>
         </div>
       </div>
     </div>
   </section>
+  <?php get_template_part('reviews'); ?>
 
 <?php
 /*get_sidebar();*/
