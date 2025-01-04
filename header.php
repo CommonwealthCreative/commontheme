@@ -19,9 +19,11 @@
 
 /* Indexes */ if ( is_home() ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
             if ( is_page_template( 'work.php') ) { echo 'data-wf-page="6772dd50133192cde647ad74"'; } 
-            if ( is_page_template( 'thecodex.php') ) { echo 'data-wf-page="66dd4a19079776ced5a5c9d1"'; } 
+            if ( is_page_template( 'thecodex.php') ) { echo 'data-wf-page="67741e41160207547be4c674"'; } 
             if ( is_page_template( 'about.php') ) { echo 'data-wf-page="6770e47f5dcd8dff66468b02"'; } 
-            if ( is_page_template( 'methods.php') ) { echo 'data-wf-page="66dd5e8f5feb03b8ce8c3585"'; }
+            if ( is_page_template( 'services.php') ) { echo 'data-wf-page="67733d5c803012bd95e7dbe5"'; }
+            if ( is_page_template( 'shop.php') ) { echo 'data-wf-page="67747a8808dbbfb13aaa4b1b"'; }
+            if ( is_page_template( 'contact.php') ) { echo 'data-wf-page="67743cd469329118808c94bc"'; }
 
 
 /* Six Template */      if ( is_page_template( 'featured-mba.php') || is_page_template( 'featured-dbhds.php' ) || is_page_template( 'featured-mba.php' ) || is_page_template( 'featured-therapy.php' ) || is_page_template( 'featured-novafr.php' ) || is_page_template( 'featured-six.php' ) ) {
@@ -29,7 +31,7 @@
     }
 /* single Template */   if ( is_page_template( 'featured-single.php') || is_page_template( 'featured-george.php' ) ) { echo 'data-wf-page="66de4de42db2e90f9841a785"'; } 
       
-                  else { echo 'data-wf-page="66dd717a5aebb355cb7e0df5"';}
+                  else { echo 'data-wf-page="67741e41160207547be4c674"';}
       
       ?>  
 
@@ -67,7 +69,7 @@ Cal("init",  {origin:"https://cal.com"});
 <div class="nav">
     <div data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdca" class="menubg">
       <div class="menu-left">
-        <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"></a>
+        <a href="/" aria-current="page" class="brand w-nav-brand w--current"></a>
         <div class="w-layout-hflex navflex">
           <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdce" href="contact.html" class="icontext w-inline-block">
             <div class="fontaw rocket"></div>
@@ -81,10 +83,10 @@ Cal("init",  {origin:"https://cal.com"});
       <div id="w-node-_71de8595-15d3-a0ee-aa62-ad8501dcfdd5-01dcfdc9" class="menucontainer">
         <a href="/about-commonwealth-creative" data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdd6" class="paytone slidelink">About.</a>
         <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdd8" href="/strategies-methods/" class="paytone slidelink">Services.</a>
-        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdda" href="work.html" class="paytone slidelink">Our Work.</a>
-        <a data-w-id="0aab7bf9-f048-7c2a-dbd8-dcf767e86630" href="codex.html" class="paytone slidelink">Codex.</a>
-        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfddc" href="shop.html" class="paytone slidelink">Shop.</a>
-        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdde" href="contact.html" class="paytone slidelink">Contact.</a>
+        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdda" href="/work" class="paytone slidelink">Our Work.</a>
+        <a data-w-id="0aab7bf9-f048-7c2a-dbd8-dcf767e86630" href="/the-codex" class="paytone slidelink">Codex.</a>
+        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfddc" href="/shop" class="paytone slidelink">Shop.</a>
+        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdde" href="/contact" class="paytone slidelink">Contact.</a>
         <a href="#cal" target="_blank" class="actionlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid rocket"></div>

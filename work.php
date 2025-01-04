@@ -14,39 +14,32 @@
 
 get_header();
 ?>
-
- <div class="subhero">
-    <section class="_1300subhero">
-      <a href="#" data-cal-link="hello.mattsmall/15min" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="herologo w-inline-block"><img loading="lazy" src="https://uploads-ssl.webflow.com/66beeb88d43845e2d67fe07c/66bfbda6595b20c4ac26f5a8_commonwealth-creative-color-logo-darkblue-dropout.png" alt=""></a>
-      <div class="herowrapper">
-        <div data-w-id="4fdba675-c168-fe2b-82e0-93dcac83be7a" style="opacity:0" class="withlove">
-          <div class="w-layout-hflex flex-block">
-            <div>Made with</div>
-            <div class="fontawesolid greenheart"></div>
-            <div>in the Commonwealth of Virginia. </div>
-          </div>
-        </div>
-        <h1 data-w-id="380b203e-0841-3bb8-4632-c3747b07f495" style="opacity:0" class="jumbo textlite">Current Portfolio</h1>
-        <h1 data-w-id="380b203e-0841-3bb8-4632-c3747b07f497" style="opacity:0" class="jumbo">&amp; Featured Work</h1>
-        <p class="mid herotext">At Commonwealth Creative, we leverage an analytical approach to create solutions that drive measurable results. Our approach ensures that every project aligns with your business goals, delivering work that is both innovative and impactful. We don’t just meet immediate needs—we position your brand for long-term success.</p>
-      </div>
-    </section>
-  </div>
-  <section class="bump backgroundwhite">
+<div class="pageheading backgroundblackdark">
     <div class="_1300">
-      <div class="w-layout-hflex flexmiddle">
-        <div class="heavy">Current Portfolio</div>
-        <div data-w-id="b1c79106-59e7-ff3b-565a-7746d72753d1" class="indicator">
-          <div class="fontawesolid indicatoricon"></div>
-          <div>Highlights from our work and creative projects.</div>
+      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
+        <div class="w-layout-hflex flex-block">
+          <div class="text-block">Made with</div>
+          <div class="fontawesolid greenheart"></div>
+          <div>in the Commonwealth of Virginia. </div>
         </div>
+      </div>
+      <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Current Portfolio</h1>
+      <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Featured Work</h1>
+      <p class="mid">The Commonwealth Creative is your dedicated expert, passionate about bringing your vision to life.We specialize in crafting exceptional brands, websites, and digital solutions tailored for non-profits, higher education and government.<br></p>
+      <div class="w-layout-hflex commonflex">
+        <h2 data-w-id="d6c560e2-5ea8-639d-9e50-1cf979c4632b" style="opacity:0">Let's Talk.</h2>
+        <a href="#cal" target="_blank" class="actionlink flexlink textwhite w-inline-block">
+          <div class="actionpulse backgroundgreen"></div>
+          <div class="fontawesolid"></div>
+          <p class="iconlinktext">Schedule An Introduction</p>
+        </a>
       </div>
     </div>
-  </section>
-  <div id="featured" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0c5" class="portfolio-section">
-    <div class="portfolio-wrapper">
-      <div class="portfolio-content">
-      <?php
+    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdf3" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
+    
+  </div>
+  <section class="portfolio-loop">
+    <?php
 // Custom Query for Portfolio Category Ordered by Ranking
 $portfolio_query = new WP_Query( array(
   'category_name'  => 'portfolio',      // Slug of the category to include
@@ -74,56 +67,19 @@ else :
   </div>
 <?php 
 endif; 
-?>
-      </div>
-      <div id="work" data-w-id="674a2cfe-d42c-4fdb-eb46-c6f034c8d0f8" class="w-layout-hflex carouselcontainerfeatured">
-        <div class="featuredtextcarousel">
-          <div class="becauseiconfeatured">
-            <div class="textlite">Current </div>
-          </div>
-          <div class="becauseiconfeatured">
-            <div class="textlite">Portfolio </div>
-          </div>
-        </div>
-        <div class="featuredtextcarousel">
-          <div class="becauseiconfeatured">
-            <div class="textlite">And All </div>
-          </div>
-          <div class="becauseiconfeatured">
-            <div class="textlite">Projects</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="worksection">
-    <div class="_1300">
-      <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed98d-d5a5c9d1" class="w-layout-layout process-stack wf-layout-layout">
-        <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed98e-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed98e" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Focused Direction By Design</h4>
-            <p>Our guidance and creative discovery process is tailored for you.</p>
-          </a>
-        </div>
-        <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed996-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed996" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods/#design" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid openingicon"></div>
-            <h4 class="tinytext">Signature Marketing  &amp; Branding</h4>
-            <p>We create powerful brands that break through the market clutter.</p>
-          </a>
-        </div>
-        <div id="w-node-_1c23a382-57fe-a5fb-f821-ddc1fb4ed99e-d5a5c9d1" data-w-id="1c23a382-57fe-a5fb-f821-ddc1fb4ed99e" style="opacity:0" class="w-layout-cell openingcell">
-          <a href="https://thecommonwealthcreative.com/strategies-methods/#dev" class="flexblockmiddle w-inline-block">
-            <h4 class="tinytext">User-Focused Web Development</h4>
-            <div class="fontawesolid openingicon"></div>
-            <p>Our code is always created around users and designed to convert.</p>
-          </a>
-        </div>
-      </div>
+?> 
     </div>
   </section>
-
+  <?php get_template_part('codexcta'); ?>
+  <a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="/shop" class="sectionlink backgroundblack w-inline-block">
+    <div class="w-layout-blockcontainer _1300 w-container">
+      <div class="tinytext">Shop The Commonwealth Creative</div>
+      <div class="w-layout-hflex commonflexwide">
+        <h2 data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4b3" style="opacity:0">Let&#x27;s create something <span class="paytone underline">today.</span></h2><img src="../wp-content/themes/commontheme2025/images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
+      </div>
+    </div>
+  </a>
+  <?php get_template_part('footercta'); ?>
 <?php
 /*get_sidebar();*/
 get_footer();

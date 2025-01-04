@@ -454,6 +454,7 @@ get_header();
     </div>
   </section>
   <?php get_template_part('reviews'); ?>
+  <?php get_template_part('footercta'); ?>
 
 	</main><!-- #main -->
 
