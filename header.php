@@ -18,6 +18,7 @@
 <?php 
 
 /* Indexes */ if ( is_home() ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
+              if ( is_search() ) { echo 'data-wf-page="67741e41160207547be4c674"'; } 
             if ( is_page_template( 'work.php') ) { echo 'data-wf-page="6772dd50133192cde647ad74"'; } 
             if ( is_page_template( 'thecodex.php') ) { echo 'data-wf-page="67741e41160207547be4c674"'; } 
             if ( is_page_template( 'about.php') ) { echo 'data-wf-page="6770e47f5dcd8dff66468b02"'; } 
@@ -32,7 +33,7 @@
     }
 /* single Template */   if ( is_page_template( 'featured-single.php') || is_page_template( 'featured-george.php' ) ) { echo 'data-wf-page="66de4de42db2e90f9841a785"'; } 
       
-                  else { echo 'data-wf-page="67741e41160207547be4c674"';}
+                  else { echo 'data-wf-page="6770cff8008bf2a5623babf1"';}
       
       ?>  
 
@@ -72,7 +73,7 @@ Cal("init",  {origin:"https://cal.com"});
       <div class="menu-left">
         <a href="/" aria-current="page" class="brand w-nav-brand w--current"></a>
         <div class="w-layout-hflex navflex">
-          <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdce" href="contact.html" class="icontext w-inline-block">
+          <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdce" href="/contact" class="icontext w-inline-block">
             <div class="fontaw rocket"></div>
             <p class="iconlinktext textwhite">Start Here</p>
           </a>
@@ -88,7 +89,7 @@ Cal("init",  {origin:"https://cal.com"});
         <a data-w-id="0aab7bf9-f048-7c2a-dbd8-dcf767e86630" href="/the-codex" class="paytone slidelink">Codex.</a>
         <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfddc" href="/shop" class="paytone slidelink">Shop.</a>
         <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdde" href="/contact" class="paytone slidelink">Contact.</a>
-        <a href="#cal" target="_blank" class="actionlink w-inline-block">
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid rocket"></div>
           <p class="iconlinktext">Schedule An Introduction</p>

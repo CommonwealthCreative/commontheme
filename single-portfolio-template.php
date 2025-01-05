@@ -74,41 +74,16 @@ get_header();
           ?>
   </div>
 
-
-  <section class="portfolio-loop">
-    <div class="commoncard portfolio-content">
-      <a href="/work/the-george-wythe-edition-wordpress-theme" class="text-holder w-inline-block">
-        <div class="workcontent card">
-          <div class="tinytext">The George Wythe Edition WordPress Theme</div>
-          <h2>Engineered to US Web Design Standards for accessible, mobile-friendly websites.</h2>
-        </div>
-      </a>
-    </div>
-    <div id="w-node-_2806620f-fb66-9ba2-55ac-13e637c02836-cd04847c" class="commoncard portfolio-content">
-      <a href="/work/the-george-wythe-edition-wordpress-theme" class="text-holder w-inline-block">
-        <div class="workcontent card">
-          <div class="tinytext">The George Wythe Edition WordPress Theme</div>
-          <h2>Engineered to US Web Design Standards for accessible, mobile-friendly websites.</h2>
-        </div>
-      </a>
-    </div>
-    <div id="w-node-_2806620f-fb66-9ba2-55ac-13e637c0283d-cd04847c" class="commoncard portfolio-content">
-      <a href="/work/the-george-wythe-edition-wordpress-theme" class="text-holder w-inline-block">
-        <div class="workcontent card">
-          <div class="tinytext">The George Wythe Edition WordPress Theme</div>
-          <h2>Engineered to US Web Design Standards for accessible, mobile-friendly websites.</h2>
-        </div>
-      </a>
-    </div>
-  </section>
   <a data-w-id="2e69cf78-bca8-b943-1bac-8697ab31679d" href="work.html" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">See More Projects</div>
       <div class="w-layout-hflex commonflexwide">
-        <h2 data-w-id="2e69cf78-bca8-b943-1bac-8697ab3167a2" style="opacity:0">View Portfolio &amp; Featured Work.</h2><img src="images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
+        <h2 data-w-id="2e69cf78-bca8-b943-1bac-8697ab3167a2" style="opacity:0">View Portfolio &amp; Featured Work.</h2><img src="/wp-content/themes/commontheme2025/images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
       </div>
     </div>
   </a>
+  <?php get_template_part('template-parts/content', 'portfolio-loop'); ?>
+
 <?php
 /* get_sidebar(); */
 get_footer();

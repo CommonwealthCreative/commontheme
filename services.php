@@ -26,10 +26,10 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Strategies</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Methods</h1>
-      <p class="mid">We excel at addressing our clients’ most complex challenges with unmatched expertise. Whether building accessible, mobile-first government websites or engineering advanced AI-powered marketing automation systems, our work sets the standard. Flawless digital experiences and comprehensive brand loyalty programs are just the beginning. Every initiative is executed with an uncompromising focus on delivering transformative outcomes.<br></p>
+      <p class="mid">We excel at addressing our clients’ most complex challenges with unmatched expertise. Whether building accessible, mobile-first government websites or engineering advanced AI-powered marketing automation systems, our work sets the standard. Flawless digital experiences and comprehensive brand loyalty programs are just the beginning. Every initiative is executed with an uncompromising focus on delivering transformative outcomes through our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="underline">Direction by Design</a> process.</p>
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="1fce2e42-657c-dcb5-4d78-8c6c0ab196dc" style="opacity:0">Get Started.</h2>
-        <a href="#cal" target="_blank" class="actionlink flexlink w-inline-block">
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid"></div>
           <p class="iconlinktext">Schedule An Introduction</p>
@@ -134,7 +134,7 @@ get_header();
     </div>
   </section>
   <?php get_template_part('reviews'); ?>
-  <a data-w-id="88f9d720-242e-772d-4805-0b4446b98805" href="shop.html" class="sectionlink backgroundblack w-inline-block">
+  <a data-w-id="88f9d720-242e-772d-4805-0b4446b98805" href="/shop" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">Shop The Commonwealth Creative</div>
       <div class="w-layout-hflex commonflexwide">

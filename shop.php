@@ -28,7 +28,7 @@ get_header();
           </div>
         </div>
       </div>
-      <p class="common66w">Driven by the principles of design, your membership begins with a strategic kick-off meeting; we&#x27;ll evaluate brand and technology positioning, and outline KPIs. Get immediate access to your dashboard, submit unlimited requests and receive deliverables every 48-72 hours. Fixed cost. No contracts. Cancel or pause anytime. <a href="#cal" class="textwhite underline">Have questions? Schedule an introduction.</a></p>
+      <p class="common66w">Driven by the principles of design, your membership begins with a strategic kick-off meeting; we&#x27;ll evaluate brand and technology positioning, and outline KPIs. Get immediate access to your dashboard, submit unlimited requests and receive deliverables every 48-72 hours. Fixed cost. No contracts. Cancel or pause anytime. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" class="textwhite underline">Have questions? Schedule an introduction.</a></p>
       <div id="w-node-_58e92681-c0d6-b054-352d-861dcc619efd-3aaa4b1b" class="w-layout-layout commonstack clear wf-layout-layout">
         <div id="w-node-_58e92681-c0d6-b054-352d-861dcc619efe-3aaa4b1b" class="w-layout-cell">
           <div data-w-id="b6f4e364-f265-66c5-31ea-6cb7b5b445d8" style="opacity:0" class="common-card membership backgroundwhite">
@@ -63,7 +63,7 @@ get_header();
               <div id="w-node-b6f4e364-f265-66c5-31ea-6cb7b5b445ff-3aaa4b1b" class="w-layout-cell">
                 <div class="includedetails">
                   <div class="fontawesolid-2"></div>
-                  <div>Social/Website Management</div>
+                  <div>Online Content Management</div>
                 </div>
                 <div class="includedetails">
                   <div class="fontawesolid-2"></div>
@@ -158,39 +158,31 @@ get_header();
       </div>
     </div>
     <section class="shop-loop">
-      <a id="w-node-e8c1b046-ed74-5727-8cbd-683fd8f3f4e7-3aaa4b1b" data-w-id="e8c1b046-ed74-5727-8cbd-683fd8f3f4e7" style="opacity:0" href="/strategies-methods/" class="commoncell codex w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
-        <h4 class="tinytext">Dedicated Experts</h4>
-        <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
-        <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="moreinfo">
-          <div class="actionlink flexlink">
-            <div class="actionpulse"></div>
-            <div class="fontawesolid textdark"></div>
-            <p class="iconlinktext">More Info</p>
-          </div>
-        </div>
-      </a>
-      <a id="w-node-e8c1b046-ed74-5727-8cbd-683fd8f3f4f4-3aaa4b1b" data-w-id="e8c1b046-ed74-5727-8cbd-683fd8f3f4f4" style="opacity:0" href="/strategies-methods/" class="commoncell codex w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
-        <h4 class="tinytext">Dedicated Experts</h4>
-        <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
-        <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="moreinfo">
-          <div class="actionlink flexlink">
-            <div class="actionpulse"></div>
-            <div class="fontawesolid textdark"></div>
-            <p class="iconlinktext">More Info</p>
-          </div>
-        </div>
-      </a>
-      <a id="w-node-e8c1b046-ed74-5727-8cbd-683fd8f3f501-3aaa4b1b" data-w-id="e8c1b046-ed74-5727-8cbd-683fd8f3f501" style="opacity:0" href="/strategies-methods/" class="commoncell codex w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
-        <h4 class="tinytext">Dedicated Experts</h4>
-        <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
-        <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="moreinfo">
-          <div class="actionlink flexlink">
-            <div class="actionpulse"></div>
-            <div class="fontawesolid textdark"></div>
-            <p class="iconlinktext">More Info</p>
-          </div>
-        </div>
-      </a>
+      <?php
+// WordPress Loop to Display All Posts Using content-shopcards.php Template
+$all_posts_query = new WP_Query( array(
+    'post_type'      => 'post', // Default post type
+    'posts_per_page' => -1,      // Retrieve all posts
+        'category_name'  => 'shop'
+    
+) );
+
+if ( $all_posts_query->have_posts() ) : 
+    while ( $all_posts_query->have_posts() ) : 
+        $all_posts_query->the_post(); 
+        ?>
+        <?php get_template_part( 'template-parts/content', 'shopcards' ); ?>
+        <?php 
+    endwhile; 
+    wp_reset_postdata(); // Reset the query
+else : 
+    ?>
+    <div class="no-posts">
+        <p><?php esc_html_e( 'New for 2025! Coming soon...' ); ?></p>
+    </div>
+<?php 
+endif; 
+?>
     </section>
   </div>
   <section class="shop">

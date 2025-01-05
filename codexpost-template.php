@@ -1,28 +1,46 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Codex Post
+ * Template Post Type: post
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * Description: use this for portfolio posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package _s
  */
 
 get_header();
 ?>
-<div class="pageheading">
+<div class="pageheading backgroundblackdark">
     <div class="_1300">
-      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove">
+      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
         <div class="w-layout-hflex flex-block">
           <div class="text-block">Made with</div>
           <div class="fontawesolid greenheart"></div>
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
+      <p class="content mid"><a href="/codex" class="underline textwhite">The Codex</a> is a curated collection of terms detailing the processes, strategies, and expertise behind our work.<br></p>
+
+        <div class="search-container">
+          <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
+              <input 
+                  type="search" 
+                  class="search-input" 
+                  name="s" 
+                  placeholder="Search the Codex..." 
+                  aria-label="Search"
+              >
+              <button type="submit" class="button backgroundwhite w-button">Search</button>
+          </form>
+      </div>
+    </div>
+         
+  </div>
+
+<div class="pageheading">
+    <div class="_1300">
       <?php
           $page_title = get_the_title();
           $title_length = strlen($page_title);

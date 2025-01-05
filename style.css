@@ -1214,6 +1214,15 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+.single-post .entry-content a {
+	color: #fff;
+	border-bottom: 1px solid #5bdeb8;
+}
+
+.single-post .entry-content a:hover {
+	color: #5bdeb8;
+}
+
 .post, .page {
 	margin:0px;
 }
@@ -1552,7 +1561,7 @@ span.page-numbers {
   .fontawesolid.faq-icon {
 	text-align: right;
 	height: 20px;
-	margin-right: 40px;
+	margin-right: 100px;
 	position: absolute;
 	bottom: 0%;
 	left: auto;
@@ -1992,6 +2001,10 @@ span.page-numbers {
 	background-color: #000;
   }
   
+.backgroundblack > a{
+	color: #fff;
+  }
+
   .commoncell {
 	border: 1px solid #202123;
 	border-radius: 8px;
@@ -2435,7 +2448,7 @@ span.page-numbers {
 	align-items: flex-start;
 	min-width: 100vw;
 	padding-top: 70px;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 	display: block;
 	overflow: hidden!important;
 	position: relative;
@@ -2483,6 +2496,16 @@ span.page-numbers {
   }
   
   .portfolio-loop {
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-columns: 1fr;
+	grid-auto-flow: row;
+	display: grid;
+	overflow: hidden;
+  }
+  .portfolio-loop.random {
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	grid-template-rows: auto;
@@ -2843,7 +2866,7 @@ span.page-numbers {
 	  right: 35px;
 	}
   
-	.portfolio-loop {
+	.portfolio-loop, .portfolio-loop.random {
 	  grid-column-gap: 0px;
 	  grid-row-gap: 0px;
 	  grid-template-rows: auto auto;
@@ -3140,7 +3163,7 @@ span.page-numbers {
 	  line-height: 3.5rem;
 	}
   
-	.portfolio-loop {
+	.portfolio-loop, .portfolio-loop.random  {
 	  grid-column-gap: 0px;
 	  grid-row-gap: 0px;
 	  grid-template-rows: auto auto;

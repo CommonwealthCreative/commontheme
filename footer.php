@@ -14,7 +14,7 @@
     <div class="_1300">
       <div id="w-node-_274747c0-b1a7-474d-88ef-827ff3758576-f3758574" class="w-layout-layout footerstack wf-layout-layout">
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff3758577-f3758574" class="w-layout-cell">
-          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758578" href="#cal" class="icontext textwhite w-inline-block">
+          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758578" href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="icontext textwhite w-inline-block">
             <div class="fontaw rocket"></div>
             <p class="iconlinktext">Schedule An Intro<span class="landscapehide">duction</span></p>
           </a>
@@ -33,11 +33,11 @@
         </div>
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff375858e-f3758574" class="w-layout-cell right flexblockcentercenter">
           <div class="footerlinks">
-            <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
-            <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
-            <a href="https://www.figma.com/" target="_blank" class="footerlogo w-inline-block"><img width="39" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-figma.svg" class="affiliate"></a>
-            <a href="https://try.webflow.com/k2wvsi66bv57" target="_blank" class="footerlogo w-inline-block"><img width="75" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-webflow.svg" class="affiliate"></a>
-            <a href="https://wpengine.com/partnerspecialoffer/?w_agcid=jecEfwKu" target="_blank" class="footerlogo w-inline-block"><img width="50" loading="lazy" alt="" src="../wp-content/themes/commontheme2025/images/commonwealth-creative-wpengine.svg" class="affiliate"></a>
+            <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
+            <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
+            <a href="https://www.figma.com/" target="_blank" class="footerlogo w-inline-block"><img width="39" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-figma.svg" class="affiliate"></a>
+            <a href="https://try.webflow.com/k2wvsi66bv57" target="_blank" class="footerlogo w-inline-block"><img width="75" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-webflow.svg" class="affiliate"></a>
+            <a href="https://wpengine.com/partnerspecialoffer/?w_agcid=jecEfwKu" target="_blank" class="footerlogo w-inline-block"><img width="50" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-wpengine.svg" class="affiliate"></a>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
   (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
 Cal("init", "15min", {origin:"https://cal.com"});
   // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
-  // `data-cal-link="hello.mattsmall/15min"`
+  // `data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative"`
   // data-cal-namespace="15min"
   // `data-cal-config='{"layout":"month_view"}'`
   Cal.ns["15min"]("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});

@@ -62,7 +62,7 @@ get_header();
     ?>
 
     <section class="backgroundwhite">
-        <div class=" _1300 nextpost">
+        <div class="_1300 nextpost">
             <?php
             // Display pagination links before the loop
             echo paginate_links( array(
@@ -80,7 +80,7 @@ get_header();
         while ( $all_posts_query->have_posts() ) : 
             $all_posts_query->the_post(); 
             ?>
-            <?php get_template_part( 'template-parts/content', 'commoncards' ); ?>
+            <?php get_template_part( 'template-parts/content', 'codexcards' ); ?>
             <?php 
         endwhile; 
 
