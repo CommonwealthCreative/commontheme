@@ -24,6 +24,7 @@
             if ( is_page_template( 'services.php') ) { echo 'data-wf-page="67733d5c803012bd95e7dbe5"'; }
             if ( is_page_template( 'shop.php') ) { echo 'data-wf-page="67747a8808dbbfb13aaa4b1b"'; }
             if ( is_page_template( 'contact.php') ) { echo 'data-wf-page="67743cd469329118808c94bc"'; }
+            if ( is_page_template( 'single-portfolio-template.php') ) { echo 'data-wf-page="6771c4922ad8d02fcd04847c"'; }
 
 
 /* Six Template */      if ( is_page_template( 'featured-mba.php') || is_page_template( 'featured-dbhds.php' ) || is_page_template( 'featured-mba.php' ) || is_page_template( 'featured-therapy.php' ) || is_page_template( 'featured-novafr.php' ) || is_page_template( 'featured-six.php' ) ) {

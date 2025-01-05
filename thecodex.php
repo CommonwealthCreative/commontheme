@@ -85,22 +85,34 @@ get_header();
         endwhile; 
 
         wp_reset_postdata(); // Reset the query
-    else : 
-    ?>
-        <div class="_1300 flexmiddle">
-            <p>
-                <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
-                <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
-            </p>
+        else : 
+        ?>
+            <div class="_1300 flexmiddle">
+                <p>
+                    <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+                    <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+                </p>
+            </div>
+        <?php 
+        endif; 
+        ?>
+  </section> 
+      <section class="backgroundwhite">
+        <div class=" _1300 nextpost">
+            <?php
+            // Display pagination links before the loop
+            echo paginate_links( array(
+                'total'     => $all_posts_query->max_num_pages, // Total number of pages
+                'current'   => max( 1, get_query_var('paged') ), // Current page
+                'mid_size'  => 2, // Number of links around the current page
+                'prev_text' => __('«'), // Text for "Previous" link
+                'next_text' => __('»'), // Text for "Next" link
+            ) );
+            ?>
         </div>
-    <?php 
-    endif; 
-    ?>
-
-</section>
+    </section>
  
- 
-    <?php get_template_part('codexcta'); ?>
+    <?php get_template_part('template-parts/content', 'codexcta'); ?>
   <a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="shop.html" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">Shop The Commonwealth Creative</div>

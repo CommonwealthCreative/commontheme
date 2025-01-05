@@ -27,6 +27,8 @@ $post_permalink = get_permalink();
 $post_title = get_the_title();
 ?>
 
+
+
 <div id="w-node-<?php echo esc_attr(get_the_ID()); ?>" class="commoncard portfolio-content" 
      style="background-image: url('<?php echo esc_url($featured_image_url); ?>');">
     <a href="<?php echo esc_url($post_permalink); ?>" class="text-holder w-inline-block">

@@ -460,14 +460,11 @@ function get_portfolio_navigation() {
     // Output navigation HTML
     ob_start();
     ?>
-    <nav class="post-navigation">
-        <div class="nav-links">
-            <a href="<?php echo get_permalink($prev_post->ID); ?>" class="prev-post prevbutton">Previous: <?php echo get_the_title($prev_post->ID); ?></a>
-            <a class="next-post nextbutton actionlink" href="<?php echo get_permalink($next_post->ID); ?>" ><div class="fontawesolid iconrotate" style="transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-                <p>Next Project</p>
-              </a>
-        </div>
-    </nav>
+        <a class="nextproject" href="<?php echo get_permalink($next_post->ID); ?>">
+        <p class="iconlinktext textwhite tinytext">Next Project</p>
+              <div class="fontawesolid"></div>
+        </a>
+
     <?php
     return ob_get_clean();
 }

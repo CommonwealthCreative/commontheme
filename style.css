@@ -1164,35 +1164,10 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
     z-index: 2; /* Ensure content appears above the overlay */
 }
 
-.prevbutton {
-	display: none;
-}
-
-.post-template-single-portfolio-template ._1300pagehero {
-	height: 100%;
-}
-
-.post-template-single-portfolio-template #page img {
-	border: 4px solid #fff;
-	border-radius: 20px;
-}
-
 ._1300pagehero .allwork {
     position: absolute;
     bottom: 40px;
     left: 10px;
-    padding: 10px 15px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    z-index: 10;
-	border: none;
-}
-
-._1300pagehero .nextbutton  {
-    position: absolute;
-    bottom: 40px;
-    right: 10px;
     padding: 10px 15px;
     color: #fff;
     text-decoration: none;
@@ -1208,10 +1183,7 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 }
 
-
 .nextpost .allwork {   margin-right: auto;}
-
-.nextpost .nextbutton {margin-left: auto;}
 
 .allwork .iconrotate {
 	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(-90deg);
@@ -1223,31 +1195,10 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateZ(0deg);
   }
 
-._1300pagehero .nextbutton:hover, ._1300pagehero .allwork:hover {
-	font-size: 20px;
-}
-
 ._1300pagehero {
     position: relative;
 }
 
-.scrolldown {
-    position: absolute;
-    bottom: 60px; 
-    left: 50%!important;
-    transform: translate(-50%, 0);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
-
-.scrolldown div {
-    width: 100%;
-    height: 100%;
-    filter: invert(1); /* Makes content white */
-}
 
 @media (min-width: 980px) {
 .portfolio-extra-content {
@@ -1263,6 +1214,14 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+.post, .page {
+	margin:0px;
+}
+
+ul, ol {
+	margin:0px;
+}
+
 hr {
 	margin-top: 1.5em;
 }
@@ -1271,74 +1230,17 @@ hr {
 	border: 1px solid #ebebeb;
 }
 
-.nav-previous > a, .nav-next > a{
-	color: #fff;
-}
-
-.processlink {
-	border-bottom: 0px;
-	font-weight: 400;
-}
-
-.faq-icon {
-	margin-right:75px!important;
-}
-
-.content-area a {
-	color: #202123;
-	border-bottom: 1px solid #fff;
-}
-
-.content-area-post li,.widget li {
-	border: 0px !important;
-}
-
-.content-area-post {
-	background: #202123;
-	z-index: 1;
-	border-bottom: 1px solid #fff;
-	padding-top: 60px;
-	position: relative;
-  }
-
-.page .pagehero {
-	padding-top: 60px;
-}
-
-.titlebar {
-	position: relative;
-	z-index:1000;
-}
-
-ul, ol {
+figure {
 	margin:0px;
-	padding:0px
 }
 
-.featured-content .entry-content > p  {
-	font-size: 0.9rem;
-	line-height: 1.3rem;
+img.aligncenter {
+	margin:0px;
 }
-
-.wp-block-image img{
-	border-radius: 20px;
-}
-
-.singlehero .entry-content a {
-	color: #ffffff;
-}
-.singlehero .entry-content li {
-	border: 0px!important;
-}
-.singlehero .entry-content p {
-	margin-bottom: 40px; 
-}
-
-
 /* Forms */
 input.search-input {
     z-index: 99;
-    color: #202123;
+    color: #ccc;
     background-color: transparent;
     border: 1px solid #202123;
     border-radius: 99px;
@@ -1349,6 +1251,10 @@ input.search-input {
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 	flex: 1; 
+}
+
+input.search-input:focus, input.search-input:active {
+	color: #ccc;
 }
 
 .search-container {
@@ -1399,9 +1305,10 @@ a.page-numbers {
     justify-content: center;  
     align-items: center;      
     text-decoration: none;    
-    color: #333;              /
+    color: #202123;              /
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 	border: solid 1px #767676;
+	padding-top: 3px;
 	
 }
 
@@ -1420,6 +1327,7 @@ span.page-numbers {
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 	border: solid 1px #5bdeb8;
 	background: #202123;
+	padding-top: 3px;
 }
 
 /* Webflow Styles */
@@ -1803,6 +1711,21 @@ span.page-numbers {
 	font-size: 14px;
 	display: flex;
 	position: relative;
+	margin-right: auto
+  }
+
+  .nextproject {
+	border-bottom-style: none;
+	border-bottom-color: #0000;
+	font-size: 14px;
+	display: flex;
+	position: relative;
+	margin-left: auto
+  }
+
+  .nextproject .fontawesolid {
+	margin-left:10px;
+	margin-right:0px;
   }
   
   .actionlink.flexlink {
@@ -1965,6 +1888,7 @@ span.page-numbers {
 	background-size: cover; /* Ensures the background image covers the card */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat;
+	min-height: 500px;
   }
   
   .button {
@@ -2036,7 +1960,7 @@ span.page-numbers {
   .lottie-animation {
 	z-index: 0;
 	object-fit: fill;
-	margin-bottom: 25%;
+	margin-bottom: 15%;
 	margin-right: 25%;
 	display: block;
 	position: absolute;
@@ -2199,7 +2123,6 @@ span.page-numbers {
   }
   
   .workcontent {
-	white-space: nowrap;
 	flex-flow: column;
 	justify-content: center;
 	align-items: flex-start;
