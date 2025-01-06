@@ -43,23 +43,23 @@ get_header();
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">Technology Moves Fast.</h1>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">Creative Thinking</h1>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Moves Faster.</h1>
-      <p class="mid">Generic design and outdated technology will slow you down. We empower marketing and engineering teams with expertly crafted brands and websites that streamline workflows, transform audiences into loyal customers, and maximize ROI.<br></p>
-      <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" class="button backgroundwhite w-button">Schedule An Introduction</a>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">That Is Created For You.</h1>
+      <p class="mid">Get fair prices, quick turnarounds, and stunning results. Say goodbye to all your frustrations and hello to a smoother, easier experience. We empower marketing and engineering teams with expertly crafted brands and websites that streamline workflows, transform audiences into loyal customers, and maximize ROI.<br></p>
+      <a href="/shop" class="button backgroundwhite w-button">Plans &amp; Pricing</a>
     </div>
     <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf67568c" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a30" style="opacity:0">Core Services</h2>
-        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink w-inline-block">
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" target="_blank" class="actionlink flexlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid"><strong></strong></div>
-          <p class="iconlinktext textwhite underline">Direction by Design</p>
+          <p class="iconlinktext textwhite underline">Schedule An Intro<span class="landscapehide">duction</span></p>
         </a>
       </div>
-      <p class="common66w">Driven by the principles of design, your process begins with a strategic kick-off meeting; we&#x27;ll identify core objectives, evaluate brand and technology positioning, and define KPIs.</p>
+      <p class="common66w">Finding the right partner is often time consuming and frustrating. We simplify everything—no costly contracts, confusing pricing, or unclear communication. Driven by the principles of design, your process begins with a strategic kick-off meeting; we'll identify core objectives, evaluate brand and technology positioning, and define KPIs.</p>
       <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3b-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3c-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/logo.svg" alt="" class="commoncellimage">

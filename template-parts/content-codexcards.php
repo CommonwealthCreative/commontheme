@@ -9,7 +9,7 @@
 $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
 
 // Get the first 140 characters of the post content.
-$excerpt = wp_trim_words(get_the_content(), 10, '...');
+$excerpt = wp_trim_words(get_the_content(), 15, '...');
 
 // Get the post title.
 $post_title = get_the_title();
