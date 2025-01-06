@@ -60,7 +60,7 @@ get_header();
     </section>
     
      <?php get_template_part('template-parts/content', 'codexcta'); ?>
-  <a data-w-id="9eb65b7d-dc15-4289-5263-b2b7424fbf39" href="shop.html" class="sectionlink backgroundblack w-inline-block">
+  <a data-w-id="9eb65b7d-dc15-4289-5263-b2b7424fbf39" href="/shop" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">Shop The Commonwealth Creative</div>
       <div class="w-layout-hflex commonflexwide">

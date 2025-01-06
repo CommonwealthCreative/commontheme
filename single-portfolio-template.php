@@ -74,7 +74,7 @@ get_header();
           ?>
   </div>
 
-  <a data-w-id="2e69cf78-bca8-b943-1bac-8697ab31679d" href="work.html" class="sectionlink backgroundblack w-inline-block">
+  <a data-w-id="2e69cf78-bca8-b943-1bac-8697ab31679d" href="/work" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">See More Projects</div>
       <div class="w-layout-hflex commonflexwide">

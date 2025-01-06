@@ -26,7 +26,7 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">The Commonwealth</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">Creative Codex</h1>
-      <p class="content mid">The Codex is a curated collection of terms, principles and concepts . Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.<br></p>
+      <p class="content mid">The Codex is a curated collection of terms, principles and concepts. Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.<br></p>
 
         <div class="search-container">
           <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
@@ -45,75 +45,77 @@ get_header();
          
   </div>
 
+  <?php
+// Get the current page number for pagination
+$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
-    <?php
-    // Get the current page number for pagination
-    $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+// Custom Query for "codex" Posts Sorted Alphabetically with Pagination
+$all_posts_query = new WP_Query( array(
+    'posts_per_page' => 8,              // Number of posts per page
+    'paged'          => $paged,         // Current page
+    'orderby'        => 'title',        // Order by post title
+    'order'          => 'ASC',          // Ascending order (A-Z)
+    'category_name'  => 'codex',        // Include only posts in the "codex" category
+) );
 
-    // Custom Query for All Posts Sorted Alphabetically with Pagination
-    $all_posts_query = new WP_Query( array(
-        'posts_per_page' => 8,              // Number of posts per page
-        'paged'          => $paged,         // Current page
-        'orderby'        => 'title',        // Order by post title
-        'order'          => 'ASC',          // Ascending order (A-Z)
-    ) );
+if ( $all_posts_query->have_posts() ) : 
+?>
 
-    if ( $all_posts_query->have_posts() ) : 
-    ?>
+<section class="backgroundwhite">
+    <div class="_1300 nextpost">
+        <?php
+        // Display pagination links before the loop
+        echo paginate_links( array(
+            'total'     => $all_posts_query->max_num_pages, // Total number of pages
+            'current'   => max( 1, get_query_var('paged') ), // Current page
+            'mid_size'  => 2, // Number of links around the current page
+            'prev_text' => __('«'), // Text for "Previous" link
+            'next_text' => __('»'), // Text for "Next" link
+        ) );
+        ?>
+    </div>
+</section>
 
-    <section class="backgroundwhite">
-        <div class="_1300 nextpost">
-            <?php
-            // Display pagination links before the loop
-            echo paginate_links( array(
-                'total'     => $all_posts_query->max_num_pages, // Total number of pages
-                'current'   => max( 1, get_query_var('paged') ), // Current page
-                'mid_size'  => 2, // Number of links around the current page
-                'prev_text' => __('«'), // Text for "Previous" link
-                'next_text' => __('»'), // Text for "Next" link
-            ) );
-            ?>
-        </div>
-    </section>
-    <section class="codex-loop">
+<section class="codex-loop">
     <?php 
-        while ( $all_posts_query->have_posts() ) : 
-            $all_posts_query->the_post(); 
-            ?>
-            <?php get_template_part( 'template-parts/content', 'codexcards' ); ?>
-            <?php 
-        endwhile; 
-
-        wp_reset_postdata(); // Reset the query
-        else : 
+    while ( $all_posts_query->have_posts() ) : 
+        $all_posts_query->the_post(); 
         ?>
-            <div class="_1300 flexmiddle">
-                <p>
-                    <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
-                    <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
-                </p>
-            </div>
+        <?php get_template_part( 'template-parts/content', 'codexcards' ); ?>
         <?php 
-        endif; 
+    endwhile; 
+
+    wp_reset_postdata(); // Reset the query
+    else : 
+    ?>
+    <div class="_1300 flexmiddle">
+        <p>
+            <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+            <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+        </p>
+    </div>
+<?php 
+endif; 
+?>
+</section>
+
+<section class="backgroundwhite">
+    <div class=" _1300 nextpost">
+        <?php
+        // Display pagination links after the loop
+        echo paginate_links( array(
+            'total'     => $all_posts_query->max_num_pages, // Total number of pages
+            'current'   => max( 1, get_query_var('paged') ), // Current page
+            'mid_size'  => 2, // Number of links around the current page
+            'prev_text' => __('«'), // Text for "Previous" link
+            'next_text' => __('»'), // Text for "Next" link
+        ) );
         ?>
-  </section> 
-      <section class="backgroundwhite">
-        <div class=" _1300 nextpost">
-            <?php
-            // Display pagination links before the loop
-            echo paginate_links( array(
-                'total'     => $all_posts_query->max_num_pages, // Total number of pages
-                'current'   => max( 1, get_query_var('paged') ), // Current page
-                'mid_size'  => 2, // Number of links around the current page
-                'prev_text' => __('«'), // Text for "Previous" link
-                'next_text' => __('»'), // Text for "Next" link
-            ) );
-            ?>
-        </div>
-    </section>
- 
+    </div>
+</section>
+
     <?php get_template_part('template-parts/content', 'codexcta'); ?>
-  <a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="shop.html" class="sectionlink backgroundblack w-inline-block">
+  <a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="/shop" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">Shop The Commonwealth Creative</div>
       <div class="w-layout-hflex commonflexwide">

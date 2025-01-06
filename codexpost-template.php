@@ -21,7 +21,7 @@ get_header();
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
-      <p class="content mid"><a href="/codex" class="underline textwhite">The Codex</a> is a curated collection of terms detailing the processes, strategies, and expertise behind our work.<br></p>
+      <p class="content mid"><a href="/the-codex" class="underline textwhite">The Codex</a> is a curated collection of terms detailing the processes, strategies, and expertise behind our work.<br></p>
 
         <div class="search-container">
           <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
@@ -78,7 +78,7 @@ get_header();
     </section>
     
      <?php get_template_part('template-parts/content', 'codexcta'); ?>
-  <a data-w-id="9eb65b7d-dc15-4289-5263-b2b7424fbf39" href="shop.html" class="sectionlink backgroundblack w-inline-block">
+  <a data-w-id="9eb65b7d-dc15-4289-5263-b2b7424fbf39" href="/shop" class="sectionlink backgroundblack w-inline-block">
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="tinytext">Shop The Commonwealth Creative</div>
       <div class="w-layout-hflex commonflexwide">

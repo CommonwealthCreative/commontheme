@@ -69,7 +69,7 @@ get_header();
 		endif;
 		?>
   		</section> 
-		<a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="shop.html" class="sectionlink backgroundblack w-inline-block">
+		<a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="/shop" class="sectionlink backgroundblack w-inline-block">
 			<div class="w-layout-blockcontainer _1300 w-container">
 			<div class="tinytext">Shop The Commonwealth Creative</div>
 			<div class="w-layout-hflex commonflexwide">
