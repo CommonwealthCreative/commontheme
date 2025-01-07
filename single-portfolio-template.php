@@ -40,7 +40,16 @@ get_header();
     </div>
   </section>
         <div data-w-id="60317d30-baff-9458-1dd6-614f5108466f" href="/work/next-project" class="sectionlink backgroundblack w-inline-block">
-          <div class="_1300 w-container">
+          <div class="_1300 w-container foiliotext">
+          <?php
+              while ( have_posts() ) :
+                the_post();
+
+                get_template_part( 'template-parts/content-page-header', get_post_type() );
+
+
+              endwhile; // End of the loop.
+              ?>
           <div class="nextpost">
               <?php 
               echo '<a href="/work" class="actionlink">
@@ -52,16 +61,9 @@ get_header();
         </div>
           </div>
 </div>
-  <div class="foliocontent">
-            <?php
-              while ( have_posts() ) :
-                the_post();
-
-                get_template_part( 'template-parts/content-page-header', get_post_type() );
 
 
-              endwhile; // End of the loop.
-              ?>
+          <div class="foliocontent">
               <?php
           // Output the Secondary Content
           $secondary_content = get_post_meta( get_the_ID(), '_secondary_content', true );
@@ -82,7 +84,37 @@ get_header();
       </div>
     </div>
   </a>
-  <?php get_template_part('template-parts/content', 'portfolio-loop'); ?>
+  <section class="portfolio-loop random">
+<?php
+// Custom Query for 3 Random Posts in Portfolio Category
+$portfolio_query = new WP_Query( array(
+  'category_name'  => 'portfolio',      // Slug of the category to include
+  'posts_per_page' => 3,                // Number of posts to show
+  'orderby'        => 'rand',           // Random order
+) );
+
+if ( $portfolio_query->have_posts() ) : 
+  while ( $portfolio_query->have_posts() ) : 
+      $portfolio_query->the_post(); 
+      ?>
+      <?php get_template_part( 'template-parts/content', 'portfolio' ); ?>
+      <?php 
+  endwhile; 
+  wp_reset_postdata(); // Reset the query
+else : 
+  ?>
+  <div class="_1300 flexmiddle">
+      <p>
+          <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+          <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+      </p>
+  </div>
+<?php 
+endif; 
+?>
+
+    </div>
+  </section>
 
 <?php
 /* get_sidebar(); */

@@ -1030,6 +1030,10 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Portfolio Posts */
 
+.foliowrapper {
+    width: 100%;
+}
+
 .foliodetails {
     display: flex!important;
     justify-content: space-between;
@@ -1038,10 +1042,6 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 .foliodetails span {
     margin-left: auto;
-}
-
-.foliocontent {
-	padding-top: 60px;
 }
 
 .portfolio.container {
@@ -1237,7 +1237,7 @@ hr {
 }
 
 .wp-block-separator {
-	border: 1px solid #ebebeb;
+	border: 0px solid #ebebeb;
 }
 
 figure {
@@ -2532,6 +2532,7 @@ span.page-numbers {
 	grid-auto-flow: row;
 	display: grid;
 	overflow: hidden;
+	background:#000;
   }
   .portfolio-loop.random {
 	grid-column-gap: 0px;
