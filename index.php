@@ -294,29 +294,29 @@ get_header();
       <p class="mid">Creating meaningful connections and enhancing user experience lie at the heart of our work. We are revolutionizing how companies leverage design and technology to foster collaborative, thoughtful relationships with both clients and their customers.<br></p>
       <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21b3-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21b4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b4" style="opacity:0" class="w-layout-cell">
-          <a href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid commonicon"></div>
-            <h4 class="tinytext">Focused Direction Through Design</h4>
+          <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
+            <h4 class="tinytext underline">Focused Direction Through Design</h4>
             <p>Our guidance and creative discovery process is tailored for you.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21bc-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bc" style="opacity:0" class="w-layout-cell">
-          <a href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <div class="fontawesolid commonicon"></div>
-            <h4 class="tinytext">Signature Branding  &amp; Storytelling</h4>
+          <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bd" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
+            <h4 class="tinytext underline">Signature Branding  &amp; Storytelling</h4>
             <p>We create powerful brands that break through the market clutter.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21c4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c4" style="opacity:0" class="w-layout-cell">
-          <a href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <h4 class="tinytext">User-Focused Development</h4>
-            <div class="fontawesolid commonicon"></div>
+          <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
+            <h4 class="tinytext underline">User-Focused Development</h4>
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
             <p>Our code is always created around users and designed to convert.</p>
           </a>
         </div>
       </div>
-      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="images/commonwealth-creative-meeting-p-500.png 500w, images/commonwealth-creative-meeting-p-800.png 800w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png 913w" alt="" src="wp-content/themes/commontheme2025/wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png" loading="lazy"></div>
-      <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button w-button">Schedule Your Introduction</a>
+      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="images/commonwealth-creative-meeting-p-500.png 500w, images/commonwealth-creative-meeting-p-800.png 800w, images/commonwealth-creative-meeting.png 913w" alt="" src="images/commonwealth-creative-meeting.png" loading="lazy"></div>
+      <a href="#cal" class="button w-button">Schedule Your Introduction</a>
     </div>
   </section>
   <section class="faqs backgroundlightgray">

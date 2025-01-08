@@ -2243,6 +2243,10 @@ span.page-numbers {
 	font-weight: 300;
 	display: flex;
   }
+
+  .flexblockmiddle:hover {
+	color:#202123
+  }
   
   .imgbackground {
 	z-index: -1;
