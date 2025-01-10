@@ -1863,6 +1863,7 @@ span.page-numbers {
 	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 2.4rem;
+	margin-top:20px;
   }
   
   .cta {
@@ -2147,11 +2148,11 @@ span.page-numbers {
   }
   
   .commonworkrow.dbhds {
-	background-image: url('../commontheme2025/images/commonwealth-creative-virginia-dbhds--1_1.webp');
+	background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2025/01/commonwealth-creative-virginia-dbhds-1.jpg');
   }
   
   .commonworkrow.novafr {
-	background-image: url('../commontheme2025/images/commonwealth-creative-novafr-giving-tuesday-heroimage_1.webp');
+	background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2024/11/commonwealth-creative-virginia-novafr-giving-metro.jpg');
   }
   
   .text-holder {
@@ -2479,7 +2480,7 @@ span.page-numbers {
 	align-items: flex-start;
 	min-width: 100vw;
 	padding-top: 70px;
-	padding-bottom: 0px;
+	padding-bottom: 30px;
 	display: block;
 	overflow: hidden!important;
 	position: relative;

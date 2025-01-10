@@ -315,7 +315,7 @@ get_header();
           </a>
         </div>
       </div>
-      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="images/commonwealth-creative-meeting-p-500.png 500w, images/commonwealth-creative-meeting-p-800.png 800w, images/commonwealth-creative-meeting.png 913w" alt="" src="images/commonwealth-creative-meeting.png" loading="lazy"></div>
+      <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="wp-content/themes/commontheme2025/images/commonwealth-creative-meeting-p-500.png 500w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting-p-800.png 800w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png 913w" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png" loading="lazy"></div>
       <a href="#cal" class="button w-button">Schedule Your Introduction</a>
     </div>
   </section>
