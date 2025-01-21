@@ -36,13 +36,13 @@ get_header();
             </li>
             <li>
               <div data-w-id="4b79a95a-ac60-4710-8db5-bb9955892805" class="icontext textwhite">
-                <div class="fontaw"></div>
+                <div class="fontaw"></div>
                 <p class="iconlinktext tinytext">Deliver  user experiences to foster  customer loyalty.</p>
               </div>
             </li>
             <li>
               <div data-w-id="5ea72d92-fc41-74f4-9b00-97e755947474" class="icontext textwhite">
-                <div class="fontaw"></div>
+                <div class="fontaw"></div>
                 <p class="iconlinktext tinytext">Accelerate the cycle from concept to payoff.</p>
               </div>
             </li>

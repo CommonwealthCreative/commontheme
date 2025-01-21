@@ -43,11 +43,11 @@ get_header();
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design &amp;</h1>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">Technology Studio Created</h1>
-      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">To Amplify Your Revenue Goals.</h1>
-      <p class="mid">Get fair prices, quick turnarounds, and stunning results. Say goodbye to all your frustrations and hello to a smoother, easier experience. We empower marketing and engineering teams with expertly crafted brands and websites that streamline workflows, transform audiences into loyal customers, and maximize ROI.<br></p>
-      <a href="/shop" class="button backgroundwhite w-button">Plans &amp; Pricing</a>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Created Just For You.</h1>
+      <p class="mid">Say hello to a membership specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your ROI.<br></p>
+      <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
     <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf67568c" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
     <div class="w-layout-blockcontainer _1300 w-container">
@@ -82,7 +82,7 @@ get_header();
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a51-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a52" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/css.svg" alt="" class="commoncellimage">
             <h4 class="tinytext">Website &amp; App Design</h4>
-            <p>UX/UI design for impactful, high-performing websites and mobile applications.</p>
+            <p>UX/UI design for high-performing websites and mobile applications.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a58-68fc0789" class="w-layout-cell">
@@ -316,10 +316,10 @@ get_header();
         </div>
       </div>
       <div class="imgbackground"><img sizes="(max-width: 913px) 100vw, 913px" srcset="wp-content/themes/commontheme2025/images/commonwealth-creative-meeting-p-500.png 500w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting-p-800.png 800w, wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png 913w" alt="" src="wp-content/themes/commontheme2025/images/commonwealth-creative-meeting.png" loading="lazy"></div>
-      <a href="#cal" class="button w-button">Schedule Your Introduction</a>
+      <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button w-button">Schedule Your Introduction</a>
     </div>
   </section>
-  <section class="faqs backgroundlightgray">
+  <section id="faqs" class="faqs backgroundlightgray">
       <div class="_1300">
       <!-- <div class="w-layout-hflex commonflex">
         <h2 data-w-id="f987a939-0324-c665-973b-53bb6841d97d" style="opacity:0">Questions?</h2>
@@ -333,24 +333,24 @@ get_header();
         <div id="w-node-b1ebfdeb-4f17-657e-c2af-fae703d3ebd0-68fc0789" class="w-layout-cell">
           <div class="faq-container">
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebd2" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
-              <div class="faqaccordian w-dropdown-toggle">
+            <div class="faqaccordian w-dropdown-toggle">
+                <div class="toggle-text">What is a signature studio?</div>
+                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
+              </div>
+              <nav class="faq-body w-dropdown-list">
+                <div class="faq-body-cont">
+                  <p class="faq-answer">Our services are crafted much like a commissioned painting—authentic, personalized, and created exclusively for you. Just as an artist tailors every brushstroke to bring a vision to life, we create solutions specificly aligned with your goals and KPIs.</p>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebdc" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
+            <div class="faqaccordian w-dropdown-toggle">
                 <div class="toggle-text">Do you really accept unlimited requests?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
                   <p class="faq-answer">After starting a membership, you can submit as many requests as you want to your queue and they will be completed in order.</p>
-                </div>
-              </nav>
-            </div>
-            <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebdc" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
-              <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">Why wouldn&#x27;t I just hire a full-time instead?</div>
-                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
-              </div>
-              <nav class="faq-body w-dropdown-list">
-                <div class="faq-body-cont">
-                  <p class="faq-answer">These days, hiring a full-time senior creative or engineer can cost easily over $200,000 annually, plus benefits—and that’s if you can even find one who&#x27;s available. On top of that, you may not always have enough work to keep them occupied, meaning you&#x27;re paying for downtime. With a monthly plan, you have the flexibility to pause and resume your subscription whenever you need, ensuring you’re only paying for your expert&#x27;s time when you actually have projects for them.</p>
                 </div>
               </nav>
             </div>
@@ -391,7 +391,7 @@ get_header();
         </div>
         <div id="w-node-b1ebfdeb-4f17-657e-c2af-fae703d3ec04-68fc0789" class="w-layout-cell">
           <div class="faq-container">
-            <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec06" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
+          <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec13" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0;height:80PX" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
                 <div class="toggle-text">What is the delivery process like?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>

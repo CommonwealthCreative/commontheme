@@ -28,7 +28,7 @@ get_header();
           </div>
         </div>
       </div>
-      <p class="common66w">Driven by the principles of design, your membership begins with a strategic kick-off meeting; we&#x27;ll evaluate brand and technology positioning, and outline KPIs. Get immediate access to your dashboard, submit unlimited requests and receive deliverables every 48-72 hours. Fixed cost. No contracts. Cancel or pause anytime. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="textwhite underline">Have questions? Schedule an introduction.</a></p>
+      <p class="common66w">Fixed cost. No contracts. Cancel or pause anytime. Driven by the principles of design, your membership begins with a strategic kick-off meeting; we&#x27;ll evaluate brand and technology positioning, and outline KPIs. Get immediate access to your dashboard, submit unlimited requests and receive deliverables every 48-72 hours. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="textwhite underline">Have questions?</a></p>
       <div id="w-node-_58e92681-c0d6-b054-352d-861dcc619efd-3aaa4b1b" class="w-layout-layout commonstack clear wf-layout-layout">
         <div id="w-node-_58e92681-c0d6-b054-352d-861dcc619efe-3aaa4b1b" class="w-layout-cell">
           <div data-w-id="b6f4e364-f265-66c5-31ea-6cb7b5b445d8" style="opacity:0" class="common-card membership backgroundwhite">
@@ -140,7 +140,7 @@ get_header();
               <a href="/contact" class="actionlink textwhite w-inline-block">
                 <div class="actionpulse backgroundgreen"></div>
                 <div class="fontawesolid"></div>
-                <p class="iconlinktext">Get More Info.</p>
+                <p class="iconlinktext">Get More Info<span class="landscapehide">rmation</span></p>
               </a>
             </div>
           </div>
