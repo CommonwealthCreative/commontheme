@@ -1269,6 +1269,12 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	border-bottom: 1px solid #5bdeb8;
 }
 
+.single-post .entry-content .commonlist a {
+	color: #fff;
+	border-bottom: 0px;
+}
+
+
 .single-post .entry-content a:hover {
 	color: #5bdeb8;
 }
@@ -2766,8 +2772,9 @@ span.page-numbers {
   .meta.backgroundgreen {
 	color: #202123;
   }
-  
-  .shop-loop {
+  .shop-loop {margin-top: 1.5em; padding-top:20px;}
+
+  .shop-loop ul {
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	grid-template-rows: auto;
@@ -2788,6 +2795,7 @@ span.page-numbers {
 	background-image: linear-gradient(#ccc 13%, #ebebeb 69%);
   }
   
+
   @media screen and (max-width: 991px) {
 	.iconlinks {
 	  align-items: center;

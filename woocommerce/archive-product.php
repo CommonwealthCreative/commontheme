@@ -149,39 +149,62 @@ get_header();
     </div>
   </div>
   <div class="_1300">
-    <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
-      <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">Collection</h2>
-      <div class="actionlink flexlink">
-        <div class="actionpulse backgroundgreen"></div>
-        <div class="fontawesolid textdark"></div>
-        <p class="iconlinktext">Curated products<span class="landscapehide">, services &amp; resources</span>.</p>
-      </div>
-    </div>
+
     <section class="shop-loop">
       <?php
-// WordPress Loop to Display All Posts Using content-shopcards.php Template
-$all_posts_query = new WP_Query( array(
-    'post_type'      => 'post', // Default post type
-    'posts_per_page' => -1,      // Retrieve all posts
-        'category_name'  => 'shop'
-    
-) );
+	  get_header( 'shop' );
+	  /*do_action( 'woocommerce_shop_loop_header' );*/
 
-if ( $all_posts_query->have_posts() ) : 
-    while ( $all_posts_query->have_posts() ) : 
-        $all_posts_query->the_post(); 
-        ?>
-        <?php get_template_part( 'template-parts/content', 'shopcards' ); ?>
-        <?php 
-    endwhile; 
-    wp_reset_postdata(); // Reset the query
-else : 
-    ?>
-    <div class="no-posts">
-        <p><?php esc_html_e( 'New for 2025! Coming soon...' ); ?></p>
-    </div>
-<?php 
-endif; 
+	  if ( woocommerce_product_loop() ) {
+	  
+		  /**
+		   * Hook: woocommerce_before_shop_loop.
+		   *
+		   * @hooked woocommerce_output_all_notices - 10
+		   * @hooked woocommerce_result_count - 20
+		   * @hooked woocommerce_catalog_ordering - 30
+		   */
+		  do_action( 'woocommerce_before_shop_loop' );
+	  
+		  woocommerce_product_loop_start();
+	  
+		  if ( wc_get_loop_prop( 'total' ) ) {
+			  while ( have_posts() ) {
+				  the_post();
+	  
+				  /**
+				   * Hook: woocommerce_shop_loop.
+				   */
+				  do_action( 'woocommerce_shop_loop' );
+	  
+				  wc_get_template_part( 'content', 'product' );
+			  }
+		  }
+	  
+		  woocommerce_product_loop_end();
+	  
+		  /**
+		   * Hook: woocommerce_after_shop_loop.
+		   *
+		   * @hooked woocommerce_pagination - 10
+		   */
+		  do_action( 'woocommerce_after_shop_loop' );
+	  } else {
+		  /**
+		   * Hook: woocommerce_no_products_found.
+		   *
+		   * @hooked wc_no_products_found - 10
+		   */
+		  do_action( 'woocommerce_no_products_found' );
+	  }
+	  
+	  /**
+	   * Hook: woocommerce_after_main_content.
+	   *
+	   * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+	   */
+	  do_action( 'woocommerce_after_main_content' );
+	  
 ?>
     </section>
   </div>

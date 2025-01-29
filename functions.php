@@ -642,3 +642,20 @@ function add_quick_edit_ranking_inline_data( $column_name, $post_id ) {
     }
 }
 add_action( 'quick_edit_custom_box', 'add_quick_edit_ranking_inline_data', 10, 2 );
+
+
+function custom_before_shop_loop_content() {
+    ?>
+    <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
+        <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">Collection</h2>
+        <div class="actionlink flexlink">
+            <div class="actionpulse backgroundgreen"></div>
+            <div class="fontawesolid textdark"></div>
+            <p class="iconlinktext">Curated products<span class="landscapehide">, services &amp; resources</span>.</p>
+        </div>
+    </div>
+    <p class="common66w">Our collection showcases services and essential items chosen for their quality, impact, and alignment with our values.</p>
+    <?php
+}
+add_action( 'woocommerce_before_shop_loop', 'custom_before_shop_loop_content', 5 );
+
