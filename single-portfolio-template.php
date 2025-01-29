@@ -12,6 +12,11 @@
 
 get_header();
 ?>
+<div id="loader-wrapper">
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+</div>
 <section class="featuredwork">
     <div class="commonworkrow" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');">
       <div class="text-holder">
@@ -85,12 +90,16 @@ get_header();
     </div>
   </a>
   <section class="portfolio-loop random">
-<?php
+  <?php
+// Get the current post ID
+$current_post_id = get_the_ID();
+
 // Custom Query for 3 Random Posts in Portfolio Category
 $portfolio_query = new WP_Query( array(
   'category_name'  => 'portfolio',      // Slug of the category to include
   'posts_per_page' => 3,                // Number of posts to show
   'orderby'        => 'rand',           // Random order
+  'post__not_in'   => array( $current_post_id ), // Exclude the current post
 ) );
 
 if ( $portfolio_query->have_posts() ) : 
@@ -112,6 +121,7 @@ else :
 <?php 
 endif; 
 ?>
+
 
     </div>
   </section>

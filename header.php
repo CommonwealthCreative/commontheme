@@ -67,7 +67,6 @@ Cal("init",  {origin:"https://cal.com"});
 </head>
 
 <body <?php body_class(); ?>>
-  
 <div class="nav">
     <div data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdca" class="menubg">
       <div class="menu-left">

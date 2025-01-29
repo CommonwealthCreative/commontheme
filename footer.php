@@ -32,6 +32,13 @@
           </a>
         </div>
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff375858e-f3758574" class="w-layout-cell right flexblockcentercenter">
+          <div><p>
+    <?php 
+    date_default_timezone_set('America/New_York'); 
+    echo date('F j, Y // H:i:s T'); 
+    ?>
+</p>
+</p></div>
           <div class="footerlinks">
             <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
             <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
@@ -48,7 +55,7 @@
               <div class="w-layout-hflex flex-block">
                 <div>Made with</div>
                 <div class="fontawesolid greenheart"></div>
-                <div>in the Commonwealth of Virginia. </div>
+                <div>in the Commonwealth of Virginia.</div>
               </div>
             </div>
           </div>

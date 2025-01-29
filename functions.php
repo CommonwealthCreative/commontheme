@@ -14,14 +14,17 @@ if ( ! defined( '_S_VERSION' ) ) {
 
 
 function webflow_enqueue_assets() {
-    // Enqueue the main stylesheet
-
-    // Enqueue additional stylesheets (optional)
+    // Enqueue additional stylesheets
     wp_enqueue_style('normalize-styles', get_template_directory_uri() . '/css/normalize.css', array(), '1.0.0', 'all');
-	wp_enqueue_style('webflow-styles', get_template_directory_uri() . '/css/webflow.css', array(), '1.0.0', 'all');
+    wp_enqueue_style('webflow-styles', get_template_directory_uri() . '/css/webflow.css', array(), '1.0.0', 'all');
 
-	// Enqueue scripts
+    // Enqueue main scripts
     wp_enqueue_script('webflow-js', get_template_directory_uri() . '/js/webflow.js', array('jquery'), '1.0.0', true);
+
+    // Conditionally enqueue loader script only for the 'single-portfolio-template.php' template
+    if (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') {
+        wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
+    }
 }
 
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);

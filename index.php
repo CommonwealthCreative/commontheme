@@ -46,7 +46,7 @@ get_header();
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Created Just For You.</h1>
-      <p class="mid">Say hello to a membership specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your ROI.<br></p>
+      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your ROI.<br></p>
       <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
     <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf67568c" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
@@ -82,19 +82,19 @@ get_header();
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a51-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a52" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/css.svg" alt="" class="commoncellimage">
             <h4 class="tinytext">Website &amp; App Design</h4>
-            <p>UX/UI design for high-performing websites and mobile applications.</p>
+            <p>UX/UI design for customer-oriented websites and mobile applications.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a58-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a59" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/fullstack.svg" alt="" class="commoncellimage">
             <h4 class="tinytext">Full Stack Development</h4>
-            <p>Agile full-stack development for innovative, high-performance projects.</p>
+            <p>Agile full-stack development for innovative, high-impact projects.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a5f-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a60" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/ai.svg" alt="" class="commoncellimage">
             <h4 class="tinytext">Artificial Intelligence (AI)</h4>
-            <p>Innovative AI implementation to enhance performance and productivity.</p>
+            <p>Leveraging the latest AI models to maximize productivity.</p>
           </a>
         </div>
       </div>
