@@ -53,7 +53,7 @@ get_header();
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a30" style="opacity:0">Core Services</h2>
-        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" target="_blank" class="actionlink flexlink w-inline-block">
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="actionlink flexlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid"><strong></strong></div>
           <p class="iconlinktext textwhite underline">Schedule An Intro<span class="landscapehide">duction</span></p>

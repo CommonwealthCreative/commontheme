@@ -115,14 +115,7 @@ endif;
 </section>
 
     <?php get_template_part('template-parts/content', 'codexcta'); ?>
-  <a data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4ae" href="/shop" class="sectionlink backgroundblack w-inline-block">
-    <div class="w-layout-blockcontainer _1300 w-container">
-      <div class="tinytext">Shop The Commonwealth Creative</div>
-      <div class="w-layout-hflex commonflexwide">
-        <h2 data-w-id="986b1ea4-639b-af53-8caf-ee2cac5cd4b3" style="opacity:0">Let&#x27;s create something <span class="paytone underline">today.</span></h2><img src="../wp-content/themes/commontheme2025/images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
-      </div>
-    </div>
-  </a>
+    <?php get_template_part('shopcta'); ?>
 
      
 </div>

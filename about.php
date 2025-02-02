@@ -94,7 +94,9 @@ endif;
       </div>
     </div>
   </section>
+
   <?php get_template_part('reviews'); ?>
+  <?php get_template_part('shopcta'); ?>
   <?php get_template_part('footercta'); ?>
 
 <?php

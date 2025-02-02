@@ -22,15 +22,16 @@ function webflow_enqueue_assets() {
     wp_enqueue_script('webflow-js', get_template_directory_uri() . '/js/webflow.js', array('jquery'), '1.0.0', true);
 
     // Conditionally enqueue loader script only for the 'single-portfolio-template.php' template
-    if (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') {
+    if (
+        (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') || 
+        is_page('work') 
+    ) {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
+    
 }
 
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
-
-
-
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -643,19 +644,51 @@ function add_quick_edit_ranking_inline_data( $column_name, $post_id ) {
 }
 add_action( 'quick_edit_custom_box', 'add_quick_edit_ranking_inline_data', 10, 2 );
 
+function custom_woocommerce_breadcrumb_separator( $defaults ) {
+    $defaults['delimiter'] = ' / '; // Change to slash
+    return $defaults;
+}
+add_filter( 'woocommerce_breadcrumb_defaults', 'custom_woocommerce_breadcrumb_separator' );
 
-function custom_before_shop_loop_content() {
+
+function display_free_price_for_sale($price, $product) {
+    if ($product->is_on_sale() && $product->get_sale_price() == 0) {
+        $regular_price = wc_price($product->get_regular_price()); // Get original price
+        return '<del>' . $regular_price . '</del> <ins>FREE</ins>'; // Show crossed-out price & "FREE"
+    }
+    return $price;
+}
+add_filter('woocommerce_get_price_html', 'display_free_price_for_sale', 10, 2);
+
+function add_search_and_categories_to_before_shop_loop() {
     ?>
-    <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
-        <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">Collection</h2>
-        <div class="actionlink flexlink">
-            <div class="actionpulse backgroundgreen"></div>
-            <div class="fontawesolid textdark"></div>
-            <p class="iconlinktext">Curated products<span class="landscapehide">, services &amp; resources</span>.</p>
-        </div>
+    <div class="common-shop-toolbar">
+        <!-- 📂 Product Categories List -->
+        <ul class="commonlist">
+            <?php
+            $terms = get_terms(array(
+                'taxonomy'   => 'product_cat',
+                'hide_empty' => true,
+            ));
+
+            if (!empty($terms) && !is_wp_error($terms)) {
+                foreach ($terms as $term) {
+                    echo '<li class="servicelist"><a href="' . esc_url(get_term_link($term)) . '">' . esc_html($term->name) . '</a></li>';
+                }
+            } else {
+                echo '<li>No categories found.</li>';
+            }
+            ?>
+        </ul>
     </div>
-    <p class="common66w">Our collection showcases services and essential items chosen for their quality, impact, and alignment with our values.</p>
+    <a class="cartlink" href="/checkout">Checkout<span class="cartitems">( <?php echo WC()->cart->get_cart_contents_count(); ?> )</span><span class="fontawesolid"><strong></strong></span>
+</a>
+
     <?php
 }
-add_action( 'woocommerce_before_shop_loop', 'custom_before_shop_loop_content', 5 );
+add_action('woocommerce_before_shop_loop', 'add_search_and_categories_to_before_shop_loop', 5);
+
+
+
+
 

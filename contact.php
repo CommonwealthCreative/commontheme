@@ -31,7 +31,7 @@ get_header();
             <li>
               <div data-w-id="4e082616-cc0b-a11d-5fd6-e1283a7e903c" class="icontext textwhite">
                 <div class="fontaw"></div>
-                <p class="iconlinktext tinytext">Get your <span class="underling">free </span> keyword analysis.</p>
+                <p class="iconlinktext tinytext">Seamless integration with your team.</p>
               </div>
             </li>
             <li>
@@ -47,12 +47,12 @@ get_header();
               </div>
             </li>
           </ul>
-          <ul role="list" class="commonlist">
+          <ul role="list" class="commonlist" style="margin-top:20px;">
             <li class="techlist">
-              <a href="tel:+18044241348" class="textwhite"><span class="fontawesolid phone"></span> Phone: 804-424-1348</a>
+              <a href="tel:+18044241348" class="textwhite"><span class="fontawesolid phone"></span> 804-424-1348</a>
             </li>
             <li class="techlist">
-              <a href="mailto:hi@thecommonwealthcreative.com" class="textwhite"><span class="fontaw"></span> Email: hi@commonwealthcreative.com</a>
+              <a href="mailto:hi@thecommonwealthcreative.com" class="textwhite"><span class="fontaw"></span>hi@commonwealthcreative.com</a>
             </li>
           </ul>
         </div>

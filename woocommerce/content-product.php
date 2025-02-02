@@ -18,7 +18,7 @@ if ( ! is_a( $product, WC_Product::class ) || ! $product->is_visible() ) {
 $product_id = $product->get_id();
 $product_title = get_the_title();
 $product_permalink = get_permalink();
-$product_excerpt = wp_trim_words(get_the_excerpt(), 30, '...');
+$product_excerpt = wp_trim_words(get_the_excerpt(), 100, '...');
 $product_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $product_id ), 'thumbnail' )[0];
 
 ?>
@@ -34,6 +34,11 @@ $product_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $produc
 
     <h4 class="tinytext"><?php echo esc_html( $product_title ); ?></h4>
     <p><?php echo esc_html( $product_excerpt ); ?></p>
+
+    <div class="ctabottom">
+    <div class="tinytext"><span class="mid"><?php global $product; echo $product->get_price_html(); ?></span> </div>
+
+            </div>
 
     <div class="moreinfo">
         <div class="actionlink flexlink">

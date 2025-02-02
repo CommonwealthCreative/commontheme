@@ -16,7 +16,7 @@
             <div id="w-node-_4fc241e5-049e-8ddf-69d9-57401d26218c-1d262188" class="w-layout-layout commonstack wf-layout-layout">
               <div id="w-node-_4fc241e5-049e-8ddf-69d9-57401d26218d-1d262188" class="w-layout-cell">
                 <h3 class="textlite mid">The catalyst for your marketing or engineering team. <span class="textwhite">Start Today.</span></h3>
-                <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" target="_blank" class="button backgroundwhite w-button">Book An Introduction</a>
+                <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button backgroundwhite w-button">Book An Introduction</a>
               </div>
               <div id="w-node-_4fc241e5-049e-8ddf-69d9-57401d262194-1d262188" class="w-layout-cell landscapehide"></div>
             </div>
