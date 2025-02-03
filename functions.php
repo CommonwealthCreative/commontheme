@@ -121,9 +121,6 @@ function _s_setup() {
 }
 add_action( 'after_setup_theme', '_s_setup' );
 
-
- * WooCommerce Declaration.
-
 function mytheme_add_woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
