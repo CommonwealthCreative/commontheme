@@ -123,6 +123,15 @@ function _s_setup() {
 add_action( 'after_setup_theme', '_s_setup' );
 
 /**
+ * WooCommerce Declaration.
+
+function common_theme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'common_theme_add_woocommerce_support' );
+
+
+/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
@@ -654,11 +663,25 @@ add_filter( 'woocommerce_breadcrumb_defaults', 'custom_woocommerce_breadcrumb_se
 function display_free_price_for_sale($price, $product) {
     if ($product->is_on_sale() && $product->get_sale_price() == 0) {
         $regular_price = wc_price($product->get_regular_price()); // Get original price
-        return '<del>' . $regular_price . '</del> <ins>FREE</ins>'; // Show crossed-out price & "FREE"
+        $price = '<del>' . $regular_price . '</del> <ins>FREE</ins>'; // Show crossed-out price & "FREE"
     }
     return $price;
 }
 add_filter('woocommerce_get_price_html', 'display_free_price_for_sale', 10, 2);
+
+function hide_coupon_if_cart_total_zero() {
+    if (is_cart() || is_checkout()) {
+        $cart_total = WC()->cart->get_total('edit'); // Get raw total cart value without formatting
+
+        if (floatval($cart_total) == 0) { // Only hide coupon if cart total is 0
+            remove_action('woocommerce_before_cart_table', 'woocommerce_cart_coupon_form'); // Hide coupon on cart page
+            remove_action('woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10); // Hide coupon on checkout page
+        }
+    }
+}
+add_action('wp', 'hide_coupon_if_cart_total_zero');
+
+
 
 function add_search_and_categories_to_before_shop_loop() {
     ?>
@@ -681,14 +704,55 @@ function add_search_and_categories_to_before_shop_loop() {
             ?>
         </ul>
     </div>
-    <a class="cartlink" href="/checkout">Checkout<span class="cartitems">( <?php echo WC()->cart->get_cart_contents_count(); ?> )</span><span class="fontawesolid"><strong></strong></span>
-</a>
+
+    <?php
+    // Determine the correct label and link for the cart/checkout button
+    if (is_checkout()) {
+        $button_label = "Checkout";
+        $button_link = wc_get_checkout_url() . "#primary"; // Scrolls down instead of navigating
+    } elseif (is_cart()) {
+        $button_label = "Checkout";
+        $button_link = wc_get_checkout_url(); // Redirects to checkout
+    } else {
+        $button_label = "My Cart";
+        $button_link = wc_get_cart_url(); // Redirects to cart
+    }
+    ?>
+
+    <a class="cartlink" href="<?php echo esc_url($button_link); ?>">
+        <?php echo esc_html($button_label); ?>
+        <span class="cartitems">( <?php echo WC()->cart->get_cart_contents_count(); ?> )</span>
+        <span class="fontawesolid"><strong></strong></span>
+    </a>
 
     <?php
 }
+
 add_action('woocommerce_before_shop_loop', 'add_search_and_categories_to_before_shop_loop', 5);
 
 
+add_filter( 'woocommerce_add_to_cart_redirect', function( $url ) {
+    return wc_get_checkout_url(); // Redirect directly to the checkout page
+});
 
+add_filter( 'woocommerce_return_to_shop_redirect', function() {
+    return home_url('/shop/#products'); 
+});
 
+add_filter( 'wc_add_to_cart_message_html', function( $message, $products ) {
+    // Get product names
+    $titles = array();
+    foreach ( $products as $product_id => $quantity ) {
+        $titles[] = get_the_title( $product_id );
+    }
+    $product_list = implode( ', ', $titles );
 
+    // Custom message
+    $custom_message = sprintf(
+        '<strong>%s</strong> has been added to your cart and you are ready to checkout.',
+        $product_list,
+        wc_get_checkout_url()
+    );
+
+    return $custom_message;
+}, 10, 2 );

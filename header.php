@@ -23,7 +23,7 @@
             if ( is_page_template('thecodex.php') || is_author() ) { echo 'data-wf-page="67741e41160207547be4c674"'; }
             if ( is_page_template( 'about.php') ) { echo 'data-wf-page="6770e47f5dcd8dff66468b02"'; } 
             if ( is_page_template( 'services.php') ) { echo 'data-wf-page="67733d5c803012bd95e7dbe5"'; }
-            if ( is_page_template('shop.php') || is_post_type_archive('product') || is_tax('product_cat') || is_tax('product_tag') || is_archive() ) { 
+            if ( is_page_template('shop.php') || is_page_template('commerce.php') || is_post_type_archive('product') || is_tax('product_cat') || is_tax('product_tag') || is_archive() ) { 
               echo 'data-wf-page="67747a8808dbbfb13aaa4b1b"'; 
           }
             if ( is_page_template( 'contact.php') ) { echo 'data-wf-page="67743cd469329118808c94bc"'; }

@@ -52,7 +52,7 @@ get_header();
   <div class="backgroundblack">
     <section class="_1300">
 	<div class="w-layout-hflex commonflex">
-    <h2>Collection</h2>
+    <h2>The Collection</h2>
     <div class="actionlink flexlink">
         <div class="actionpulse backgroundgreen"></div>
         <div class="fontawesolid textwhite"></div>
@@ -89,7 +89,7 @@ if ($terms && !is_wp_error($terms)) {
 echo implode('', $breadcrumbs);
 ?>
 
-            <span class="crumbspace">/ <?php the_title(); ?></span> 
+            <span class="crumbspace">/ <span class="underline"><?php the_title(); ?></span></span> 
         </p>
     </div>
 </div>
@@ -168,7 +168,7 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
             <?php if ($show_questions_section) : ?>
                 <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="commoncell textmedium w-inline-block backgrounddark">
                     <img src="/wp-content/themes/commontheme2025/images/commonwealth-creative-white-dropout-logo.svg" alt="" class="commoncellimage">
-                    <h4 class="tinytext">Questions?</h4>
+                    <h4 class="tinytext">Need Answers?</h4>
                     <p>If you have any questions about your purchase or need assistance, we're just a click away. Reach out anytime, and we'll make sure you have everything you need. <br><br><span class="underline">Schedule An Intro.</span></p>
                 </a>
             <?php else : ?>

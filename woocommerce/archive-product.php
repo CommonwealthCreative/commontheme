@@ -16,6 +16,13 @@ get_header();
 ?>
 <div class="pageheading contactheading">
     <div class="_1300">
+    <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675679" class="withlove textwhite">
+        <div class="w-layout-hflex flex-block">
+          <div class="text-block">Made with</div>
+          <div class="fontawesolid greenheart"></div>
+          <div>in the Commonwealth of Virginia. </div>
+        </div>
+      </div>
       <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0" class="textmedium">Curated Products</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Services</h1>
       <div class="memberships">
@@ -152,7 +159,7 @@ get_header();
 
     <section class="shop-loop" id="products">
     <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
-            <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">Collection</h2>
+            <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">The Collection</h2>
             <div class="actionlink flexlink">
                 <div class="actionpulse backgroundgreen"></div>
                 <div class="fontawesolid textdark"></div>

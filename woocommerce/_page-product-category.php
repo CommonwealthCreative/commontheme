@@ -9,6 +9,13 @@
  ?>
  <div class="pageheading productcatheading">
      <div class="_1300">
+     <div class="withlove textwhite">
+        <div class="w-layout-hflex flex-block">
+          <div class="text-block">Made with</div>
+          <div class="fontawesolid greenheart"></div>
+          <div>in the Commonwealth of Virginia. </div>
+        </div>
+      </div>
        <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0" class="textmedium">Curated Products</h1>
        <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Services</h1>
        <?php
