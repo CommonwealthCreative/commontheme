@@ -126,7 +126,7 @@ function mytheme_add_woocommerce_support() {
 }
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
-
+	/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
