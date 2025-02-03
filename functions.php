@@ -30,7 +30,6 @@ function webflow_enqueue_assets() {
     }
     
 }
-
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -122,16 +121,15 @@ function _s_setup() {
 }
 add_action( 'after_setup_theme', '_s_setup' );
 
-/**
+
  * WooCommerce Declaration.
 
-function common_theme_add_woocommerce_support() {
-    add_theme_support( 'woocommerce' );
+function mytheme_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
 }
-add_action( 'after_setup_theme', 'common_theme_add_woocommerce_support' );
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
-/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
