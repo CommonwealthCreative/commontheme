@@ -43,6 +43,11 @@ get_header();
     </div>
   </div>
   <section class="_1300">
+  <?php if ( is_cart() || is_checkout() ) : ?>
+    <!-- shop nav here -->   
+    <?php get_template_part('shopnav'); ?>
+<?php endif; ?>
+
   <?php
 		while ( have_posts() ) :
 			the_post();
@@ -59,9 +64,13 @@ get_header();
 		?>
     </section>
     
-     <?php get_template_part('template-parts/content', 'codexcta'); ?>
-     <?php get_template_part('shopcta', 'codexcta'); ?>
-  <?php get_template_part('footercta'); ?>
+
+     <?php if ( ! is_cart() && ! is_checkout() ) : ?>
+            <?php get_template_part('template-parts/content', 'codexcta'); ?>
+            <?php get_template_part('shopcta'); ?>
+            <?php get_template_part('footercta'); ?>
+    <?php endif; ?>
+
 <?php
 /* get_sidebar(); */
 get_footer();

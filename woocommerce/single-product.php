@@ -51,49 +51,6 @@ get_header();
   </div>
   <div class="backgroundblack">
     <section class="_1300">
-	<div class="w-layout-hflex commonflex">
-    <h2>The Collection</h2>
-    <div class="actionlink flexlink">
-        <div class="actionpulse backgroundgreen"></div>
-        <div class="fontawesolid textwhite"></div>
-        <p class="iconlinktext">
-            <a href="/shop" class="textwhite" >Shop</a> <span class="crumbspace"> / </span> 
-			<?php 
-$breadcrumbs = [];
-
-// Get the product's categories
-$terms = get_the_terms(get_the_ID(), 'product_cat');
-
-if ($terms && !is_wp_error($terms)) {
-    // Get the first category (primary category)
-    $term = array_shift($terms);
-    $visited_terms = [];
-
-    // Generate breadcrumb trail for parent categories
-    while ($term && $term->parent && !in_array($term->parent, $visited_terms)) {
-        $visited_terms[] = $term->parent; // Track visited terms
-        $term = get_term($term->parent, 'product_cat');
-
-        if (!is_wp_error($term) && !empty($term->name)) {
-            array_unshift($breadcrumbs, '<a class="textwhite" href="' . get_term_link($term) . '">' . esc_html($term->name) . '</a> <span class="crumbspace"></span> ');
-        }
-    }
-
-    // Add the main category (only if it's not already in the breadcrumbs)
-    if (!in_array($term->term_id, $visited_terms)) {
-        $breadcrumbs[] = '<a class="textwhite" href="' . get_term_link($term) . '">' . esc_html($term->name) . '</a>';
-    }
-}
-
-// Display the breadcrumbs
-echo implode('', $breadcrumbs);
-?>
-
-            <span class="crumbspace">/ <span class="underline"><?php the_title(); ?></span></span> 
-        </p>
-    </div>
-</div>
-
 <!-- shop nav here -->   <?php get_template_part('shopnav'); ?>
 	<div class="commoncard backgroundwhite">
 
@@ -175,15 +132,13 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
                 <a href="/contact" class="commoncell textmedium w-inline-block backgrounddark">
                     <img src="/wp-content/themes/commontheme2025/images/commonwealth-creative-white-dropout-logo.svg" alt="" class="commoncellimage">
                     <h4 class="tinytext">Commonwealth Collection</h4>
-                    <p>Our expertise extends beyond branding and complex websites. We've curated this collection in order to showcase items for their quality, impact, and alignment with our values. Have a suggestion?<br><br><span class="underline">Send us a message.</span></p>
+                    <p>Our expertise extends beyond branding and complex technologies. We've curated this collection in order to showcase items for their quality, impact, and alignment with our values. Have a suggestion?<br><br><span class="underline">Send us a message.</span></p>
                 </a>
             <?php endif; ?>
         </div>
     </div>
 </div>
-
-
-	</div>
+</div>
     </section>
   </div>
   <?php get_template_part('shopcta'); ?>

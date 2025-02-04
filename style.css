@@ -1318,7 +1318,7 @@ img.aligncenter {
 }
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
-	color: auto;
+	color: inherit;
     background-color: transparent;
     border: 1px solid #5bdeb8;
     border-radius: 8px;
@@ -1429,6 +1429,34 @@ span.page-numbers {
 
 /* WooCommerce */
 
+.nocost .woocommerce-billing-fields {
+    display: none !important;
+}
+
+.commoncell.codex.w-inline-block > p {
+	margin-bottom:2rem;
+}
+.wc-block-components-order-summary-item__individual-prices {
+    white-space: nowrap;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.wc-block-components-product-price {
+	font-family: Paytone One, sans-serif;
+	font-size: 1rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    margin-top: 20px;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+background: inherit;
+}
+
 td.product-remove > a {
 	border: 1px solid #ccc;
 	border-radius: 99px;
@@ -1447,11 +1475,12 @@ td.product-remove > a:hover {
 	border-top: 1px solid #ebebeb;
 }
 
-.product-thumbnail img {
+.wc-block-cart-items__row .wc-block-cart-item__image img {
 	border-radius: 999px;
 	margin:10px 0px;
 	max-width: 100px;
 }
+
 
 .woocommerce-input-wrapper input[type="text"],
 .woocommerce-input-wrapper input[type="email"],
@@ -1513,13 +1542,13 @@ a.showcoupon:hover {
 	background-color: #f16785!important;
 }
 
-.woocommerce-error a.button.wc-forward, .woocommerce-error a.button.wc-forward:hover {
+.woocommerce-error a.button.wc-forward, .woocommerce-error a.button.wc-forward:hover, .woocommerce-message a.button.wc-forward, .woocommerce-message a.button.wc-forward:hover {
 	padding: 0px;
 	box-shadow: none;
 	border:0px;
 }
 
-.woocommerce-error a.button.wc-forward:hover, a.restore-item:hover {
+.woocommerce-error a.button.wc-forward:hover, .woocommerce-message a.button.wc-forward:hover, a.restore-item:hover {
 	color: #fff;
 }
 
@@ -1603,6 +1632,12 @@ a.showcoupon:hover {
 	margin-bottom: 40px;
 }
 
+.product-price-cart .cart {
+    display: flex;
+    align-items: center; 
+    gap: 30px; 
+}
+
 .crumbspace.tinytext {
 	margin-left: 30px; 
 }
@@ -1641,6 +1676,10 @@ a.showcoupon:hover {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.shopcrumbs a {
+	color: inherit!important;
 }
 
 .shop-nav li.servicelist:hover {
@@ -1724,21 +1763,24 @@ padding-bottom:2100px;
 ins {
 	background: #5bdeb8;
 	padding-left: 12px;
+	padding-right:6px;
 	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;;
+	border-bottom-left-radius: 8px;
+	position: relative;
 }
-ins:after {
-content: "";
-display: inline-block;
-position: relative;
-top: 7px;
-right: -18px;
-width: 1.5rem;
-height: 35px;
-background-image: url('../commontheme2025/images/after-price.svg');
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
+
+ins::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 1.5rem;
+    height: 100%; /* Make it match the full height of 'ins' */
+    background-image: url(../commontheme2025/images/after-price.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .product-cart,
@@ -1759,6 +1801,26 @@ table.shop_table_responsive tr td::before {
 
 
 @media (max-width: 1030px) {
+	
+	.product-details {
+		flex-direction: column;
+	}
+
+	.product-content, .product-alt {
+		width: 100%;
+		padding:20px;
+	}
+
+	.product-price-cart {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 20px;
+	}
+
+	.product-price-cart .cart {
+		flex-direction: row;
+		gap:0px;
+	}
 
 	.w-layout-hflex.cart-checkout {
 		flex-direction:column;
@@ -1789,13 +1851,6 @@ table.shop_table_responsive tr td::before {
 display: block;
 padding: 10px; 
 }
-}
-
-@media screen and (max-width: 767px) {
-	ins:after {
-	height: 26px;
-	top: 5px;
-	}
 }
 
 
@@ -2361,7 +2416,7 @@ padding: 10px;
 	min-height: 500px;
   }
   
-  .button, .button.alt {
+  .button, .button.alt, .wc-block-components-button__text {
 	z-index: 99;
 	color: #202123;
 	background-color: #0000;
@@ -2376,7 +2431,7 @@ padding: 10px;
 	font-size: 1rem;
   }
   
-  .button:hover, .button.alt:hover {
+  .button:hover, .button.alt:hover, .wc-block-components-button__text:hover {
 	color: #4ecda1;
 	border-color: #4ecda1;
 	padding-left: 44px;
