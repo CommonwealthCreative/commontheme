@@ -1434,7 +1434,7 @@ span.page-numbers {
 }
 
 .commoncell.codex.w-inline-block > p {
-	margin-bottom:2rem;
+	margin-bottom:3rem;
 }
 .wc-block-components-order-summary-item__individual-prices {
     white-space: nowrap;
@@ -1458,7 +1458,7 @@ background: inherit;
 }
 
 td.product-remove > a {
-	border: 1px solid #ccc;
+	border: 1px solid #ccc!important;
 	border-radius: 99px;
 	padding: 6px 9px 3px;
 }
@@ -1542,10 +1542,10 @@ a.showcoupon:hover {
 	background-color: #f16785!important;
 }
 
-.woocommerce-error a.button.wc-forward, .woocommerce-error a.button.wc-forward:hover, .woocommerce-message a.button.wc-forward, .woocommerce-message a.button.wc-forward:hover {
-	padding: 0px;
-	box-shadow: none;
-	border:0px;
+.woocommerce-error a.button.wc-forward, .woocommerce-error a.button.wc-forward:hover, .woocommerce-message a.button.wc-forward, .woocommerce-message a.button.wc-forward:hover, td.download-file > a {
+	padding: 0px!important;
+	box-shadow: none!important;
+	border:0px!important;
 }
 
 .woocommerce-error a.button.wc-forward:hover, .woocommerce-message a.button.wc-forward:hover, a.restore-item:hover {
@@ -1774,7 +1774,7 @@ ins::after {
     display: inline-block;
     position: absolute;
     top: 0;
-    right: -18px;
+    right: -16px;
     width: 1.5rem;
     height: 100%; /* Make it match the full height of 'ins' */
     background-image: url(../commontheme2025/images/after-price.svg);
