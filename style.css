@@ -1003,9 +1003,9 @@ textarea {
 
 input[type="button"], input[type="reset"], input[type="submit"] {
 	z-index: 99;
-    color: #202123;
+    color: inherit;
 	cursor: pointer;
-    border: 1px solid #202123;
+    border: 1px solid;
     border-radius: 99px;
     margin: 10px;
     padding: 13px 40px;
