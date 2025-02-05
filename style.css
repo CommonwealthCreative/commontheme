@@ -2078,9 +2078,9 @@ padding: 10px;
 	height: 20px;
 	margin-right: 100px;
 	position: absolute;
-	bottom: 0%;
+	bottom: 0px;
 	left: auto;
-	right: 0%;
+	right: 0px;
   }
   
   .fontawesolid.textdark {
@@ -2384,7 +2384,7 @@ padding: 10px;
 	background-position: 150% 180%;
 	background-repeat: no-repeat;
 	background-size: 66%;
-	height: 66vh;
+	height: 613px;
 	margin-bottom: 0;
   }
   
@@ -2393,7 +2393,7 @@ padding: 10px;
 	background-position: 0 0, 0 0;
 	background-repeat: repeat, no-repeat;
 	background-size: auto, auto 110%;
-	height: 66vh;
+	height: 613px;
 	margin-bottom: 0;
   }
   
@@ -3228,7 +3228,8 @@ padding: 10px;
 	}
   
 	.fontawesolid.faq-icon {
-	  top: 0;
+		top:32px;
+		bottom:0px;
 	}
   
 	.socials {
@@ -3305,11 +3306,11 @@ padding: 10px;
   
 	.commoncard.backgroundwhite.ctafooter {
 	  background-position: 150% 300%;
-	  min-height: 500px;
+	  min-height: 613px;
 	}
   
 	.commoncard.backgrounddark.ctafooter {
-	  min-height: 500px;
+	  min-height: 613px;
 	}
   
 	.commoncard.portfolio-content {
@@ -3559,7 +3560,7 @@ padding: 10px;
 	.commoncard.backgroundwhite.ctafooter {
 	  background-position: 110% 120%;
 	  background-size: 40%;
-	  height: 50vh;
+	  height: 613px;
 	  padding-top: 40px;
 	  padding-left: 40px;
 	  padding-right: 40px;
@@ -3567,7 +3568,7 @@ padding: 10px;
   
 	.commoncard.backgrounddark.ctafooter {
 	  flex-flow: column;
-	  height: 50vh;
+	  height: 613px;
 	  padding-top: 40px;
 	}
   
