@@ -3070,7 +3070,8 @@ padding: 10px;
 	z-index: 1;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	min-height: 80vh;
+	min-height: 713px;
+	height: 80vh;
 	padding: 0;
 	position: relative;
   }
