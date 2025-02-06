@@ -46,7 +46,7 @@ get_header();
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Created Just For You.</h1>
-      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your ROI.<br></p>
+      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">maximize</a> your ROI.<br></p>
       <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
     <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf67568c" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
@@ -59,7 +59,7 @@ get_header();
           <p class="iconlinktext textwhite underline">Schedule An Intro<span class="landscapehide">duction</span></p>
         </a>
       </div>
-      <p class="common66w">Finding the right partner is often time consuming and frustrating. We simplify everything—no costly contracts, confusing pricing, or unclear communication. Driven by the principles of design, your process begins with a strategic kick-off meeting; we'll identify core objectives, evaluate brand and technology positioning, and define KPIs.</p>
+      <p class="common66w">Finding the right partner is often time consuming and frustrating. We simplify everything—no costly contracts, confusing pricing, or unclear communication.</p>
       <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3b-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3c-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/logo.svg" alt="" class="commoncellimage">
@@ -367,12 +367,12 @@ get_header();
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebf0" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0;height:80PX" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">How fast will I receive my requests?</div>
+                <div class="toggle-text">What is the delivery process like?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">On average, we strive to complete requests within 48 to 72 hours. However, larger requests may take longer, and we&#x27;ll communicate that upfront to ensure expectations are clear.</p>
+                  <p class="faq-answer">At Commonwealth Creative, our process is straightforward. It starts with our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank">Direction by Design</a> kickoff meeting to fully understand your goals, vision, and KPI&#x27;s. We'll tackle your requests asynchronously in our shared project platform, updating you every 48–72 hours with progress, details, or visuals. Need us? Reach out anytime on Slack, at 804-424-1384, or via email.</p>
                 </div>
               </nav>
             </div>
@@ -393,12 +393,12 @@ get_header();
           <div class="faq-container">
           <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec13" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0;height:80PX" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">What is the delivery process like?</div>
+                <div class="toggle-text">How fast will I receive my requests?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">At Commonwealth Creative, our process is straightforward. It starts with an in-depth <a href="/strategies-methods/">kickoff meeting</a> to fully understand your goals, vision, and KPI&#x27;s. From there, we take the lead while keeping you closely involved through your feedback. We keep you updated every 48-72 hours, whether through request completion, detailed written updates or visual aides. And whenever you need us, we’re always available on Slack.</p>
+                  <p class="faq-answer">On average, we strive to complete most requests within 48 to 72 hours. However, larger tasks may take longer, and we&#x27;ll communicate that upfront to ensure expectations are clear. We typically can launch single-page websites in a couple working days, write a WordPress theme during a weekly sprint, and deliver a full brand package in under a month. But of course, thats not <a href="/strategies-methods">all we can do</a>.</p>
                 </div>
               </nav>
             </div>
@@ -444,7 +444,7 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Commonwealth Creative is actually a small agency. For nearly all requests, you&#x27;ll be working directly with <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matt Small, Founder</a>. For power-ups like animated videos, drone photography, or lengthly development requests, we collaborate with partners to bring your vision to life.</p>
+                  <p class="faq-answer">Commonwealth Creative is actually a small agency. For nearly all requests, you&#x27;ll be working directly with <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matthew Thomas Small, Founder</a>. For power-ups like animated videos, drone photography, or lengthly development requests, we collaborate with partners to bring your vision to life.</p>
                 </div>
               </nav>
             </div>
