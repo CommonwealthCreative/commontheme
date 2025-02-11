@@ -49,7 +49,6 @@ get_header();
       <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">maximize</a> your ROI.<br></p>
       <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
-    <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf67568c" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
     <div class="w-layout-blockcontainer _1300 w-container">
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a30" style="opacity:0">Core Services</h2>
