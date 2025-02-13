@@ -15,6 +15,7 @@
 get_header();
 ?>
 <div class="pageheading contactheading">
+<canvas class="header" id="interactiveCanvas"></canvas>
     <div class="_1300">
       <div id="w-node-_805516f7-eefe-b38b-2b33-f128c2241711-808c94bc" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-_805516f7-eefe-b38b-2b33-f128c2241712-808c94bc" class="w-layout-cell">
@@ -31,27 +32,27 @@ get_header();
             <li>
               <div data-w-id="4e082616-cc0b-a11d-5fd6-e1283a7e903c" class="icontext textwhite">
                 <div class="fontaw"></div>
-                <p class="iconlinktext tinytext">Seamless integration with your team.</p>
+                <p class="iconlinktext tinytext">Create seamless, high-impact customer experiences.</p>
               </div>
             </li>
             <li>
               <div data-w-id="4b79a95a-ac60-4710-8db5-bb9955892805" class="icontext textwhite">
                 <div class="fontaw"></div>
-                <p class="iconlinktext tinytext">Deliver  user experiences to foster  customer loyalty.</p>
+                <p class="iconlinktext tinytext">Scale efficiently with rapid delivery.</p>
               </div>
             </li>
             <li>
               <div data-w-id="5ea72d92-fc41-74f4-9b00-97e755947474" class="icontext textwhite">
                 <div class="fontaw"></div>
-                <p class="iconlinktext tinytext">Accelerate the cycle from concept to payoff.</p>
+                <p class="iconlinktext tinytext">Turn AI potential into real-world results.</p>
               </div>
             </li>
           </ul>
           <ul role="list" class="commonlist" style="margin-top:20px;">
-            <li class="techlist">
+            <li class="servicelist">
               <a href="tel:+18044241348" class="textwhite"><span class="fontawesolid phone"></span> 804-424-1348</a>
             </li>
-            <li class="techlist">
+            <li class="servicelist">
               <a href="mailto:hi@thecommonwealthcreative.com" class="textwhite"><span class="fontaw"></span>hi@commonwealthcreative.com</a>
             </li>
           </ul>

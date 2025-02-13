@@ -1001,6 +1001,11 @@ textarea {
 
 /* Contact Form Seven */
 
+ input.wpcf7-form-control[type="button"], input.wpcf7-form-control[type="reset"], input.wpcf7-form-control[type="submit"] {
+	color: #fff;
+	border: 1px solid #5bdeb8;
+
+}
 input[type="button"], input[type="reset"], input[type="submit"] {
 	z-index: 99;
     color: inherit;
@@ -1227,13 +1232,13 @@ canvas {
     pointer-events: auto; 
 }
 
-.homehero, .withlove, h1, p {
+.homehero, .withlove, .homehero h1, .homehero p, .contactheading {
     pointer-events: none!important; 
 }
 
 ._100vh._1300 a,
 .w-layout-blockcontainer._1300.w-container a,
-.w-layout-hflex.carouselcontainer a {
+.w-layout-hflex.carouselcontainer a, .contactheading a, .wrapper {
     pointer-events: auto!important;
 }
 
@@ -3003,21 +3008,12 @@ padding: 10px;
   
   .pageheading.contactheading {
 	color: #fff;
-	background-image: url('../commontheme2025/images/commondots.webp'), linear-gradient(#202123 13%, #000 69%);
+	background: linear-gradient(#202123 13%, #000 69%);
 	background-position: 100% 0, 0 0;
 	background-repeat: no-repeat, repeat;
 	background-size: cover, auto;
 	min-height: 100vh;
 	padding-bottom: 0;
-	overflow-x:hidden;
-  }
-
-  .pageheading.productcatheading {
-	color: #fff;
-	background-image: url('../commontheme2025/images/commondots.webp'), linear-gradient(#202123 13%, #000 69%);
-	background-position: 100% 0, 0 0;
-	background-repeat: no-repeat, repeat;
-	background-size: cover, auto;
 	overflow-x:hidden;
   }
   

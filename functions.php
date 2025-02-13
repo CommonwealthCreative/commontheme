@@ -24,15 +24,28 @@ function webflow_enqueue_assets() {
     // Conditionally enqueue loader script for specific pages
     if (
         (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') || 
-        is_page('work') || 
-        is_home() ||       // Loads on the main blog page
-        is_front_page()    // Loads on the site's front page (index.php)
+        is_page('work') 
     ) {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
-}
 
+    // Enqueue starspeckle.js only on the homepage with defer
+    if (is_front_page()|| is_shop()|| is_page('contact')) {
+        wp_enqueue_script('starspeckle', get_template_directory_uri() . '/js/starspeckle.js', array(), null, true);
+    }
+}
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
+
+// Add defer attribute to starspeckle.js and loader.js
+function add_defer_attribute($tag, $handle) {
+    if (in_array($handle, ['starspeckle', 'loader-script'])) {
+        return str_replace(' src', ' defer src', $tag);
+    }
+    return $tag;
+}
+add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+
+
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.

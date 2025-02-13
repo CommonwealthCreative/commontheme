@@ -15,6 +15,7 @@
 get_header();
 ?>
 <div class="pageheading contactheading">
+<canvas class="header" id="interactiveCanvas"></canvas>
     <div class="_1300">
     <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675679" class="withlove textwhite">
         <div class="w-layout-hflex flex-block">
