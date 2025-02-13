@@ -21,16 +21,19 @@ function webflow_enqueue_assets() {
     // Enqueue main scripts
     wp_enqueue_script('webflow-js', get_template_directory_uri() . '/js/webflow.js', array('jquery'), '1.0.0', true);
 
-    // Conditionally enqueue loader script only for the 'single-portfolio-template.php' template
+    // Conditionally enqueue loader script for specific pages
     if (
         (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') || 
-        is_page('work') 
+        is_page('work') || 
+        is_home() ||       // Loads on the main blog page
+        is_front_page()    // Loads on the site's front page (index.php)
     ) {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
-    
 }
+
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *

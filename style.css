@@ -1220,6 +1220,23 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 300vh;
+    pointer-events: auto; 
+}
+
+.homehero, .withlove, h1, p {
+    pointer-events: none!important; 
+}
+
+._100vh._1300 a,
+.w-layout-blockcontainer._1300.w-container a,
+.w-layout-hflex.carouselcontainer a {
+    pointer-events: auto!important;
+}
+
 .secondary-content {
 	background: #000;
 }
@@ -2625,7 +2642,7 @@ padding: 10px;
   }
   
   .commonworkrow.george {
-	background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2024/11/commonwealth-creative-george-wythe.jpg');
+	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2024/11/commonwealth-creative-george-wythe-1536x922.jpg.webp');
   }
   
   .commonworkrow.mba {
@@ -2635,13 +2652,17 @@ padding: 10px;
   .commonworkrow.therapyland {
 	background-image: url('../commontheme2025/images/commonwealth-creative-therapyland--1_1.webp');
   }
+
+  .commonworkrow.thriveworks {
+	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-thriveworks-3.jpg.webp');
+  }
   
   .commonworkrow.dbhds {
-	background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2025/01/commonwealth-creative-virginia-dbhds-1.jpg');
+	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-virginia-dbhds-1.jpg.webp');
   }
   
   .commonworkrow.novafr {
-	background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2024/11/commonwealth-creative-virginia-novafr-giving-metro.jpg');
+	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-novafr-cover.jpg.webp');
   }
   
   .text-holder {

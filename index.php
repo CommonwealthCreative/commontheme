@@ -35,7 +35,9 @@ get_header();
         </div>
       </div>
     </div>
+    <canvas class="header" id="interactiveCanvas"></canvas>
     <div class="_100vh _1300">
+
       <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675679" style="opacity:0" class="withlove textwhite">
         <div class="w-layout-hflex flex-block">
           <div class="text-block">Made with</div>
@@ -62,37 +64,37 @@ get_header();
       <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3b-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3c-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/logo.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Logos &amp; Branding</h4>
+            <h3 class="tinytext">Logos &amp; Branding</h3>
             <p>Branding that boosts sales and fosters lasting connections.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a43-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a44" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/design.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Graphic Design</h4>
+            <h3 class="tinytext">Graphic Design</h3>
             <p>Inspiring artistry and design to transform your brand image.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a4a-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a4b" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/seo.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">SEO &amp; SEM</h4>
+            <h3 class="tinytext">SEO &amp; SEM</h3>
             <p>Data-driven optimization and marketing to grow online.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a51-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a52" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/css.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Website &amp; App Design</h4>
+            <h3 class="tinytext">Website &amp; App Design</h3>
             <p>UX/UI design for customer-oriented websites and mobile applications.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a58-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a59" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/fullstack.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Full Stack Development</h4>
+            <h3 class="tinytext">Full Stack Development</h3>
             <p>Agile full-stack development for innovative, high-impact projects.</p>
           </a>
         </div>
         <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a5f-68fc0789" class="w-layout-cell">
           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a60" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="wp-content/themes/commontheme2025/images/ai.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Artificial Intelligence (AI)</h4>
+            <h3 class="tinytext">Artificial Intelligence (AI)</h3>
             <p>Leveraging the latest AI models to maximize productivity.</p>
           </a>
         </div>
@@ -238,14 +240,6 @@ get_header();
     </div>
   </div>
   <section class="featuredwork">
-    <div class="commonworkrow george">
-      <a href="/work/the-george-wythe-edition-wordpress-theme" class="text-holder w-inline-block">
-        <div class="workcontent textwhite _1300">
-          <div class="tinytext">The George Wythe Edition WordPress Theme</div>
-          <h2>Engineered to US Web Design Standards for accessible, mobile-friendly websites.</h2>
-        </div>
-      </a>
-    </div>
     <div class="commonworkrow mba">
       <a href="/work/mary-baldwin-mba" class="text-holder w-inline-block">
         <div class="workcontent textwhite _1300">
@@ -254,27 +248,35 @@ get_header();
         </div>
       </a>
     </div>
-    <div class="commonworkrow therapyland">
-      <a href="/work/therapyland" class="text-holder w-inline-block">
+    <div class="commonworkrow thriveworks">
+      <a href="/work/thriveworks" class="text-holder w-inline-block">
         <div class="workcontent textwhite _1300">
-          <div class="tinytext">Therapyland</div>
-          <h2>Enabling children to better explore and communicate their emotions.</h2>
+          <div class="tinytext">Thriveworks Counseling</div>
+          <h2>Dominating search engine results for "Online Counseling".</h2>
         </div>
       </a>
     </div>
     <div class="commonworkrow dbhds">
       <a href="/work/virginia-dbhds" class="text-holder w-inline-block">
         <div class="workcontent textwhite _1300">
-          <div class="tinytext">VA Department of Behavioral Health &amp; Developmental Services</div>
-          <h2>Energizing the state agency&#x27;s technology platform.</h2>
+          <div class="tinytext">Department of Behavioral Health &amp; Developmental Services</div>
+          <h2>Energizing a government agency&#x27;s technology platform.</h2>
         </div>
       </a>
     </div>
     <div class="commonworkrow novafr">
-      <a href="/work/giving-tuesday" class="text-holder w-inline-block">
+      <a href="/work/nova-food-rescue" class="text-holder w-inline-block">
         <div class="workcontent textwhite _1300">
-          <div class="tinytext">Northern Virginia Food Rescue</div>
-          <h2>Supporting food accessibility on Giving Tuesday.</h2>
+          <div class="tinytext">NOVA Food Rescue</div>
+          <h2>Reshaping food systems to nourish people and protect the planet.</h2>
+        </div>
+      </a>
+    </div>
+    <div class="commonworkrow george">
+      <a href="/work/the-george-wythe-edition-wordpress-theme" class="text-holder w-inline-block">
+        <div class="workcontent textwhite _1300">
+          <div class="tinytext">The George Wythe Edition WordPress Theme</div>
+          <h2>Engineered to US Web Design Standards for accessible, mobile-friendly websites.</h2>
         </div>
       </a>
     </div>
@@ -295,20 +297,20 @@ get_header();
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21b4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b4" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
             <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
-            <h4 class="tinytext underline">Focused Direction Through Design</h4>
+            <h3 class="tinytext underline">Focused Direction Through Design</h3>
             <p>Our guidance and creative discovery process is tailored for you.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21bc-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bc" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bd" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
             <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
-            <h4 class="tinytext underline">Signature Branding  &amp; Storytelling</h4>
+            <h3 class="tinytext underline">Signature Branding  &amp; Storytelling</h3>
             <p>We create powerful brands that break through the market clutter.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21c4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c4" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <h4 class="tinytext underline">User-Focused Development</h4>
+            <h3 class="tinytext underline">User-Focused Development</h3>
             <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
             <p>Our code is always created around users and designed to convert.</p>
           </a>
