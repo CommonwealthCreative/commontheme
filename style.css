@@ -1225,6 +1225,11 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 
 /* Webflow + WordPress Combined Styles */
 
+.actionlink.flexlink:hover > p {
+	color: #5bdeb8;
+	transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
 canvas {
     position: absolute;
     width: 100%;

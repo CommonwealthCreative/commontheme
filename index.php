@@ -48,7 +48,7 @@ get_header();
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Created Just For You.</h1>
-      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for what you need, <a style="font-weight:330;" href="#faqs" class="underline textwhite">right now</a>. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">maximize</a> your ROI.<br></p>
+      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for <a style="font-weight:330;" href="#faqs" class="underline textwhite">what you need</a>, right now. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">return on investment</a>.</p>
       <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
     <div class="w-layout-blockcontainer _1300 w-container">
@@ -296,22 +296,22 @@ get_header();
       <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21b3-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21b4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b4" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21b5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
-            <h3 class="tinytext underline">Focused Direction Through Design</h3>
+          <img loading="lazy" src="wp-content/themes/commontheme2025/images/direction.svg" alt="" class="commoncellimage">
+            <h3 class="tinytext underline">Direction By Design</h3>
             <p>Our guidance and creative discovery process is tailored for you.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21bc-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bc" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21bd" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
-            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
-            <h3 class="tinytext underline">Signature Branding  &amp; Storytelling</h3>
+          <img loading="lazy" src="wp-content/themes/commontheme2025/images/brand.svg" alt="" class="commoncellimage">
+            <h3 class="tinytext underline">Signature Branding</h3>
             <p>We create powerful brands that break through the market clutter.</p>
           </a>
         </div>
         <div id="w-node-c9a1c391-a2ab-2dd8-356a-ac3554ff21c4-68fc0789" data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c4" style="opacity:0" class="w-layout-cell">
           <a data-w-id="c9a1c391-a2ab-2dd8-356a-ac3554ff21c5" href="/strategies-methods/" class="flexblockmiddle w-inline-block">
+                     <img loading="lazy" src="wp-content/themes/commontheme2025/images/code.svg" alt="" class="commoncellimage">
             <h3 class="tinytext underline">User-Focused Development</h3>
-            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="fontawesolid commonicon"></div>
             <p>Our code is always created around users and designed to convert.</p>
           </a>
         </div>
@@ -346,23 +346,23 @@ get_header();
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebdc" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
             <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">Do you really accept unlimited requests?</div>
+                <div class="toggle-text">What type of requests can I make?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">After starting a membership, you can submit as many requests as you want to your queue and they will be completed in order.</p>
+                  <p class="faq-answer">We provide comprehensive creative and technology solutions, including branding, design, website and app development, and enterprise technology services. Our expertise spans strategy, UX/UI design, front-end and back-end development, and digital transformation. <a href="/strategies-methods">See our full list of services</a>.</p>
                 </div>
               </nav>
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ebe6" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0;height:80PX" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">How does the pause feature work?</div>
+                <div class="toggle-text">Do you support enterprise requirements?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">We know you might not always have enough requests to fill an entire month. Maybe you only have one or two right now, and that&#x27;s where pausing your membership can be really helpful. Billing cycles are based on a 31-day period. For example, if you sign up and use the service for 10 days, then decide to pause your membership, your billing cycle will pause as well. You&#x27;ll still have 21 days of service left, which you can use whenever you need in the future.</p>
+                  <p class="faq-answer">Absolutely. We have extensive experience delivering complex, high-impact solutions for higher education, healthcare, government, and non-profits. Our team is well-versed in handling large-scale projects with strict compliance, security, and scalability requirements. Robust eCommerce functionality, customer service solutions, and API integrations are standard considerations in our work, reflecting our expertise in building seamless, high-performing digital experiences.</p>
                 </div>
               </nav>
             </div>
@@ -373,7 +373,7 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">At Commonwealth Creative, our process is straightforward. It starts with our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank">Direction by Design</a> kickoff meeting to fully understand your goals, vision, and KPI&#x27;s. We'll tackle your requests asynchronously in our shared project platform, updating you every 48–72 hours with progress, details, or visuals. Need us? Reach out anytime on Slack, at 804-424-1384, or via email.</p>
+                  <p class="faq-answer">Success isn’t subjective—it’s defined from day one. Our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank">Direction by Design</a> process establishes Key Performance Indicators (KPIs) and Return on Investment (ROI) goals at the outset of every project. We track these metrics to ensure our solutions drive real, measurable impact for your organization. During working hours, we'll tackle your requests asynchronously in our shared project platform, updating you every 48–72 hours with progress, details, or visuals. Need us? Reach out anytime on Slack, or <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank">schedule a call</a>.</p>
                 </div>
               </nav>
             </div>
@@ -399,41 +399,41 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">On average, we strive to complete most requests within 48 to 72 hours. However, larger tasks may take longer, and we&#x27;ll communicate that upfront to ensure expectations are clear. We typically can launch single-page websites in a couple working days, write a WordPress theme during a weekly sprint, and deliver a full brand package in under a month. But of course, thats not <a href="/strategies-methods">all we can do</a>.</p>
+                  <p class="faq-answer">For our membership clients, we aim to complete requests within 48 to 72 hours, ensuring swift turnaround without compromising quality. For larger or more complex tasks, we set clear expectations upfront, providing full transparency on timelines. Our expertise and experience enables us to work at a pace significantly faster than industry standards, typically leveraging an agile methodology to deliver results.</p>
                 </div>
               </nav>
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec13" style="-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0;height:80PX" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">What if I only have a single request?</div>
+                <div class="toggle-text">Will these solutions scale with my business?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">No problem! You can pause your membership once you&#x27;re done and resume it when you have more requests. That way, you won&#x27;t waste any of your remaining time. We can also work with you with project based pricing, <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"">click here to schedule a call with us. </a>
+                  <p class="faq-answer">Of course. We believe in building evergreen, fully owned products that grow with your organization. Unlike subscriptions that lock you into ongoing service fees, our solutions are designed to be scalable, flexible, and future-proof—unless a specific SaaS or service model is requested. Furthermore, we align our benchmarks with enterprise and government CISO standards, ensuring that all our solutions meet or exceed industry security, compliance, and performance requirements.</a>
                   </p>
                 </div>
               </nav>
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec1f" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">Can we work together with project based pricing?</div>
+                <div class="toggle-text">How do you keep teams aligned?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Yes! To set up a project or explore further details, we recommend <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"">scheduling an introductory</a> meeting. This will allow us to better understand your requirements and provide a personalized approach.</p>
+                  <p class="faq-answer">We ensure smooth collaboration through pre-planned project agendas that align stakeholders, milestone tracking in project management software for transparency, and regular stand-ups and check-ins to maintain progress. This structured approach keeps projects on track and teams accountable.</p>
                 </div>
               </nav>
             </div>
             <div data-delay="0" data-hover="false" data-w-id="b1ebfdeb-4f17-657e-c2af-fae703d3ec2c" style="height:80PX;-webkit-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-moz-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);-ms-transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);transform:translate3d(100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-2DEG) skew(0, 0);opacity:0" class="faq-p w-dropdown">
               <div class="faqaccordian w-dropdown-toggle">
-                <div class="toggle-text">How do I get started?</div>
+                <div class="toggle-text">Where do I get started?</div>
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);color:rgb(91,222,184)" class="fontawesolid faq-icon"></div>
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Getting started is simple! <a href="/shop">Just start on one of our plans</a>, and you&#x27;ll immediately gain access to your dashboard where you can begin uploading requests. You’ll also receive an email invitation to your private Slack channel for direct communication with us. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"">You can also schedule a call and we&#x27;ll get you started.</a>
+                  <p class="faq-answer">Getting started is simple! <a href="/shop">Start a membership or make a purchase </a>, and you&#x27;ll immediately gain access to your dashboard where you can begin uploading requests. You’ll also receive an email invitation to your private Slack channel for direct communication with us. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"">You can also schedule a call and we&#x27;ll get you started.</a>
                   </p>
                 </div>
               </nav>
@@ -445,7 +445,7 @@ get_header();
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Commonwealth Creative is actually a small agency. For nearly all requests, you&#x27;ll be working directly with <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matthew Thomas Small, Founder</a>. For power-ups like animated videos, drone photography, or lengthly development requests, we collaborate with partners to bring your vision to life.</p>
+                  <p class="faq-answer">Commonwealth Creative is a flexible studio that assembles specialized teams based on each project's unique needs. For core services and most memberships, Founder <a href="https://mattsmall.thecommonwealthcreative.com/" target="_blank">Matthew Thomas Small</a> personally leads the process, ensuring strategic direction and quality execution. When specialized expertise is required—such as animated videos, drone photography, or large-scale development—we activate our trusted network of experts to deliver the best results.</p>
                 </div>
               </nav>
             </div>
