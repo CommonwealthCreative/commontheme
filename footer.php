@@ -32,13 +32,7 @@
           </a>
         </div>
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff375858e-f3758574" class="w-layout-cell right flexblockcentercenter">
-          <div><p>
-    <?php 
-    date_default_timezone_set('America/New_York'); 
-    echo date('F j, Y // H:i:s T'); 
-    ?>
-</p>
-</p></div>
+          <div><p id="current-time"></p></div>
           <div class="footerlinks">
             <a href="https://www.adobe.com/creativecloud.html" target="_blank" class="footerlogo w-inline-block"><img width="56" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-adobe.svg" class="affiliate"></a>
             <a href="https://automattic.pxf.io/commonwealth" target="_blank" class="footerlogo w-inline-block"><img width="60" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-wordpress.svg" class="affiliate"></a>
@@ -119,6 +113,31 @@ clip-path: inset(0px 0px 0px 0px);
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<script>
+  function updateTime() {
+    const now = new Date();
+
+    // Format date components
+    const options = { month: 'long', day: 'numeric', year: 'numeric' };
+    const formattedDate = now.toLocaleDateString('en-US', options);
+
+    // Format time in 24-hour format
+    let hours = now.getHours().toString().padStart(2, '0');
+    let minutes = now.getMinutes().toString().padStart(2, '0');
+    let seconds = now.getSeconds().toString().padStart(2, '0');
+
+    // Final time format
+    const formattedTime = `${hours}:${minutes}:${seconds} EST`;
+
+    // Set the output
+    document.getElementById('current-time').innerText = `${formattedDate} // ${formattedTime}`;
+  }
+
+  setInterval(updateTime, 1000); // Update time every second
+  updateTime(); // Call once immediately
+</script>
+
+
 
 <?php wp_footer(); ?>
 
