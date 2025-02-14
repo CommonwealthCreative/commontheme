@@ -3006,6 +3006,14 @@ padding: 10px;
 	background-image: linear-gradient(#202123 13%, #000 69%);
   }
   
+  .pageheading.backgroundblackdark a {
+	color: #fff;
+  }
+
+  .pageheading.backgroundblackdark a:hover {
+	color: #5bdeb8;
+  }
+  
   .pageheading.contactheading {
 	color: #fff;
 	background: linear-gradient(#202123 13%, #000 69%);

@@ -1,7 +1,7 @@
-<?php if ( ! is_shop() ) : ?>
+<?php if ( is_checkout() || is_cart() ) : ?>
     <div class="w-layout-hflex commonflex">
         <h2>The Collection</h2> 
-        <div class="actionlink flexlink shopcrumbs">
+        <div class="actionlink flexlink shopcrumbs landscapehide">
             <div class="actionpulse backgroundgreen"></div>
             <div class="fontawesolid"></div>
             <p class="iconlinktext">
@@ -18,7 +18,7 @@
                     // Collect all parent pages
                     while ( $parent_id ) {
                         $parent = get_post( $parent_id );
-                        $parent_pages[] = '<a class="landscapehide" href="' . get_permalink($parent_id) . '">' . esc_html(get_the_title($parent_id)) . '</a>';
+                        $parent_pages[] = '<a class="" href="' . get_permalink($parent_id) . '">' . esc_html(get_the_title($parent_id)) . '</a>';
                         $parent_id = $parent->post_parent;
                     }
 

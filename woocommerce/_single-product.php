@@ -1,19 +1,29 @@
 <?php
 /**
- * Template Name: Codex Post
- * Template Post Type: post
+ * The Template for displaying all single products
  *
- * Description: use this for portfolio posts
+ * This template can be overridden by copying it to yourtheme/woocommerce/single-product.php.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
  *
- * @package _s
+ * @see         https://woocommerce.com/document/template-structure/
+ * @package     WooCommerce\Templates
+ * @version     1.6.4
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 get_header();
 ?>
-<div class="pageheading backgroundblackdark">
+  <div class="pageheading backgroundblackdark">
     <div class="_1300">
+		
       <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
         <div class="w-layout-hflex flex-block">
           <div class="text-block">Made with</div>
@@ -21,30 +31,28 @@ get_header();
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
-      <p class="content mid"><a href="/shop/" class="underline textwhite">The Collection</a> showcases services and essential items chosen for their quality, impact, and alignment with our values.<br></p>
+	  <?php
+          $page_title = get_the_title();
+          $title_length = strlen($page_title);
+          $split_position = floor($title_length / 2);
+          $first_half = substr($page_title, 0, $split_position);
+          $first_half = substr($first_half, 0, strrpos($first_half, ' ')); 
+          $second_half = trim(substr($page_title, strlen($first_half)));
+          ?>
 
-    <!-- shop nav here -->   <?php get_template_part('shopnav'); ?>
+          <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">
+              <?php echo esc_html($first_half); ?>
+          </h1>
+          <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">
+              <?php echo esc_html($second_half); ?>
+          </h1>
+
     </div>
-         
   </div>
-
-  <section class="_1300">
-  <?php
-            $page_title = get_the_title();
-            $title_length = strlen($page_title);
-            $split_position = floor($title_length / 2);
-            $first_half = substr($page_title, 0, $split_position);
-            $first_half = substr($first_half, 0, strrpos($first_half, ' ')); 
-            $second_half = trim(substr($page_title, strlen($first_half)));
-            ?>
-
-            <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">
-                <?php echo esc_html($first_half); ?>
-            </h1>
-            <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">
-                <?php echo esc_html($second_half); ?>
-            </h1>
-<div class="commoncard backgroundwhite">
+  <div class="backgroundblack">
+    <section class="_1300">
+<!-- shop nav here -->   <?php get_template_part('shopnav'); ?>
+	<div class="commoncard backgroundwhite">
 
 	<?php
 defined( 'ABSPATH' ) || exit;
@@ -132,9 +140,19 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
 </div>
 </div>
     </section>
-
+  </div>
   <?php get_template_part('shopcta'); ?>
-  <?php get_template_part('footercta'); ?>
+
+  <script>
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        alert('Link copied to clipboard!');
+    }).catch(function(error) {
+        console.error('Error copying text: ', error);
+    });
+}
+</script>
 <?php
+
 /* get_sidebar(); */
 get_footer();

@@ -23,60 +23,22 @@ get_header();
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
-      <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0" class="textmedium">Curated Products</h1>
-      <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Services</h1>
+      <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0" class="textmedium">The Commonwealth</h1>
+      <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">Creative Collection</h1>
     <p class="mid common66w">Our collection showcases services and essential items chosen for their quality, impact, and alignment with our values.</p>
+    <!-- shop nav here -->   <?php get_template_part('shopnav'); ?>
     </div>
   </div>
   <div class="_1300">
 
     <section class="shop-loop">
-    <?php
-$term = get_queried_object(); // Get the current product category
-$category_name = !empty($term->name) ? esc_html($term->name) : 'Products'; // Fallback if not in a category
-$category_link = get_term_link($term); // Get category link
 
-// Get parent categories if they exist
-$breadcrumbs = [];
-if (!is_wp_error($category_link)) {
-    while ($term->parent) {
-        $term = get_term($term->parent, 'product_cat');
-        if (!is_wp_error($term) && !empty($term->name)) {
-            array_unshift($breadcrumbs, '<a href="' . get_term_link($term) . '">' . esc_html($term->name) . '</a> <span class="crumbspace"> / </span> '); // Changed to /
-        }
-    }
-}
-?>
-
-    <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
-            <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">The Collection</h2>
-            <div class="actionlink flexlink">
-            <div class="actionpulse backgroundgreen"></div>
-            <div class="fontawesolid textdark"></div>
-            <p class="iconlinktext">
-    <a href="/shop">Shop</a> <span class="crumbspace"> / </span> 
-    <?php echo implode('', $breadcrumbs); // Display parent categories ?>
-    <span class="underline crumbspace" style="font-weight: 300;"><?php echo $category_name; ?></span></p>
-            </div>
-        </div>
         <?php
-get_header('shop');
-
-/* do_action( 'woocommerce_shop_loop_header' ); */
 
 if ( woocommerce_product_loop() ) { ?>
     
     <div class="shop-nav">
-        <?php
-        /**
-         * Hook: woocommerce_before_shop_loop.
-         *
-         * @hooked woocommerce_output_all_notices - 10
-         * @hooked woocommerce_result_count - 20
-         * @hooked woocommerce_catalog_ordering - 30
-         */
-        do_action('woocommerce_before_shop_loop');
-        ?>
+
     </div>
 
     <?php

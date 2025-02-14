@@ -158,7 +158,7 @@ get_header();
   </div>
   <div class="_1300">
 
-    <section class="shop-loop" id="products">
+    <section class="shop-loop" id="collection">
     <div id="w-node-fb6660a8-ffab-7e68-20fb-b933532f9b36-3aaa4b1b" class="w-layout-hflex commonflex">
             <h2 data-w-id="fb6660a8-ffab-7e68-20fb-b933532f9b37" style="opacity:0">The Collection</h2>
             <div class="actionlink flexlink">
