@@ -29,12 +29,25 @@ function webflow_enqueue_assets() {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
 
-    // Enqueue starspeckle.js only on the homepage with defer
-    if (is_front_page()|| is_shop()|| is_page('contact')) {
-        wp_enqueue_script('starspeckle', get_template_directory_uri() . '/js/starspeckle.js', array(), null, true);
+    if (is_front_page() || is_shop() || is_page('contact')) {
+        add_action('wp_footer', function () {
+            echo '<script>
+                    window.addEventListener("load", function () {
+                        setTimeout(() => {
+                            let script = document.createElement("script");
+                            script.src = "' . get_template_directory_uri() . '/js/starspeckle.js";
+                            script.async = true;
+                            document.body.appendChild(script);
+                        }, 3000); // Load 3 seconds after the page fully loads
+                    });
+                  </script>';
+        }, 99);
     }
+    
+    
 }
 add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
+
 
 // Add defer attribute to starspeckle.js and loader.js
 function add_defer_attribute($tag, $handle) {

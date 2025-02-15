@@ -1230,6 +1230,12 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
+#interactiveCanvas {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+
 canvas {
     position: absolute;
     width: 100%;
@@ -3691,10 +3697,6 @@ padding: 10px;
 	  height: 100px;
 	}
   
-	.pageheading.contactheading {
-	  background-size: contain, auto;
-	}
-  
 	.headingtext {
 	  font-size: 2.5rem;
 	  line-height: 3.5rem;
@@ -3971,10 +3973,6 @@ padding: 10px;
 	  padding-bottom: 10px;
 	}
   
-	.pageheading.contactheading {
-	  background-position: 20% 0, 0 0;
-	  background-size: auto 100vh, auto;
-	}
   
 	.headingtext {
 	  line-height: 3rem;

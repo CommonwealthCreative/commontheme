@@ -1,6 +1,9 @@
-
 const canvas = document.getElementById("interactiveCanvas");
 const ctx = canvas.getContext("2d");
+
+// Set initial opacity to 0 for fade-in effect
+canvas.style.opacity = 0;
+canvas.style.transition = "opacity 1.5s ease-in-out";
 
 // Adjust canvas size to fit the ".header" section
 function resizeCanvas() {
@@ -74,7 +77,7 @@ function spawnComet() {
     setTimeout(spawnComet, Math.random() * (13000 - 7000) + 7000);
 }
 
-// Draw the canvas /
+// Draw the canvas
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -178,4 +181,10 @@ function animate() {
 resizeCanvas();
 spawnComet();
 animate();
+
+// Fade in the canvas after a short delay
+setTimeout(() => {
+    canvas.style.opacity = 1;
+}, 100);
+
 window.addEventListener("resize", resizeCanvas);
