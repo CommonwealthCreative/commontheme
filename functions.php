@@ -29,7 +29,7 @@ function webflow_enqueue_assets() {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
 
-    if (is_front_page() || is_shop() || is_page('contact')) {
+    if (is_front_page() || is_shop() || is_404() || is_product() || is_page('contact')) {
         add_action('wp_footer', function () {
             echo '<script>
                     window.addEventListener("load", function () {

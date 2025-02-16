@@ -36,7 +36,7 @@ get_header();
         <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink textwhite w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid"></div>
-          <p class="iconlinktext">Schedule An Introduction</p>
+          <p class="iconlinktext underline">Schedule An Introduction</p>
         </a>
       </div>
     </div>

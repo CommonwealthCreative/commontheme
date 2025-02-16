@@ -17,7 +17,7 @@
 
 <?php 
 
-/* Indexes */ if ( is_home() ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
+/* Indexes */ if ( is_home() || is_404() || is_product() ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
               if ( is_search() ) { echo 'data-wf-page="67741e41160207547be4c674"'; } 
             if ( is_page_template( 'work.php') ) { echo 'data-wf-page="6772dd50133192cde647ad74"'; } 
             if ( is_page_template('thecodex.php') || is_author() ) { echo 'data-wf-page="67741e41160207547be4c674"'; }
@@ -74,10 +74,16 @@ Cal("init",  {origin:"https://cal.com"});
       <div class="menu-left">
         <a href="/" aria-current="page" class="brand w-nav-brand w--current"></a>
         <div class="w-layout-hflex navflex">
-          <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdce" href="/contact" class="icontext w-inline-block">
-            <div class="fontaw rocket"></div>
-            <p class="iconlinktext textwhite">Start Here</p>
-          </a>
+        <a data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdce" 
+   href="<?php echo is_product() ? esc_url(wc_get_checkout_url() . '?add-to-cart=' . get_the_ID()) : '/contact'; ?>" 
+   class="icontext w-inline-block">
+    <div class="fontaw rocket"></div>
+    <p class="iconlinktext textwhite">
+        <?php echo is_product() ? 'Buy Now' : 'Start Here'; ?>
+    </p>
+</a>
+
+          
           <div data-w-id="71de8595-15d3-a0ee-aa62-ad8501dcfdd3" data-is-ix2-target="1" class="menu" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5eaa9208297df21101de4911/5eaa9208297df28508de494b_lf30_editor_XLPk4g.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="4" data-duration="0"></div>
         </div>
       </div>

@@ -57,37 +57,37 @@ endif;
       <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35816-66468b02" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35817-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35818" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Dedicated Experts</h4>
+            <h3 class="tinytext">Dedicated Experts</h3>
             <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3581e-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3581f" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/availability.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Limited Memberships</h4>
+            <h3 class="tinytext">Limited Memberships</h3>
             <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35825-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35826" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/lightning.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Quick Completion</h4>
+            <h3 class="tinytext">Quick Completion</h3>
             <p>Most requests are completed within an average of 2-3 days.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3582c-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3582d" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/pricing.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">No Surprise Costs</h4>
-            <p>No surprises, no contracts—just a simple, fixed monthly membership. Cancel or pause anytime.</p>
+            <h3 class="tinytext">No Surprise Costs</h3>
+            <p>No surprises, no contracts—just simple, fixed pricing. Cancel or pause anytime.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35833-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35834" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/graph.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Performance &amp; Returns</h4>
+            <h3 class="tinytext">Performance &amp; Returns</h3>
             <p>All of our projects are focused on delivering measurable KPIs and maximizing ROI.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3583a-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3583b" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/award.svg" alt="" class="commoncellimage">
-            <h4 class="tinytext">Top Performers</h4>
+            <h3 class="tinytext">Top-Tier Talent</h3>
             <p>We are award-winning designers and enterprise-level IT professionals.</p>
           </a>
         </div>

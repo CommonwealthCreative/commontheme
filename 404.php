@@ -10,41 +10,40 @@
 get_header();
 ?>
 
-<section class="content-area">
-	
-<div data-w-id="da3268dc-f442-5ce5-b480-41f7ef1e44ed" style="" class="paragraph _1300">
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-			<h1 class="page-title"> 
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Go to the homepage.</a>
-</h1>
-<h2 class="page-subtitle">
-    <?php esc_html_e( 'This is awkward. Looks like we lost that page! Let\'s get you back on track— head to the homepage before anyone notices.', '_s'); ?>
-</h2>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				          <div class="search-container openingicon">
-    <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
-        <input 
-            type="search" 
-            class="search-input" 
-            name="s" 
-            placeholder="Search the site..." 
-            aria-label="Search"
-        >
-        <button type="submit" class="button backgroundwhite w-button">Search</button>
-    </form>
+<style>
+    .nav, .footer {display: none;}
+    .homehero {padding-top:0px;}
+    ._100vh._1300 {align-items: inherit; text-align: center;}
+    a.button {max-width: 300px; margin: 0px auto;}
+    </style>
+<div class="homehero">
+    <div id="work" data-w-id="36831da3-f245-dbb7-f4c3-40aa6b672c83" class="w-layout-hflex carouselcontainertext">
+      <div class="featuredtextcarousel">
+        <div class="becauseiconfeatured">
+        <div>COMMONWEALTH</div>
+        </div>
+        <div class="becauseiconfeatured">
+          <div>CREATIVE</div>
+        </div>
       </div>
-					
+      <div class="featuredtextcarousel">
+        <div class="becauseiconfeatured">
+          <div>COMMONWEALTH</div>
+        </div>
+        <div class="becauseiconfeatured">
+          <div>CREATIVE</div>
+        </div>
+      </div>
+    </div>
+    <canvas class="header" id="interactiveCanvas"></canvas>
+    <div class="_100vh _1300">
 
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
+      <img class="_404image" loading="lazy" src="/wp-content/themes/commontheme2025/images/404.svg" alt="" class="">
+      <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">It Looks Like You Are Lost.</h1>
+      <p class="mid">The page you are looking for does not exist.</p>
+      <a href="/" class="button backgroundwhite w-button">Take Me Back Home</a>
 
-	</main><!-- #main -->
+    </div>
 </div>
-</section>
 <?php
 get_footer();

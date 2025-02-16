@@ -1004,7 +1004,8 @@ textarea {
  input.wpcf7-form-control[type="button"], input.wpcf7-form-control[type="reset"], input.wpcf7-form-control[type="submit"] {
 	color: #fff;
 	border: 1px solid #5bdeb8;
-
+	width: 100%; 
+	margin:10px 0px; 
 }
 input[type="button"], input[type="reset"], input[type="submit"] {
 	z-index: 99;
@@ -1027,11 +1028,6 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 		box-shadow: 8px 7px #4ecda1;
 		color: #5bdeb8!important;
 	  }
-
-/* 2.2 General Styles */
-.error404 > #page {
-	padding-top: 100px;
-}
 
 /* Portfolio Posts */
 
@@ -1224,8 +1220,69 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 }
 
 /* Webflow + WordPress Combined Styles */
+.simplefooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Distributes content evenly */
+    width: 100%;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+    gap: 20px; /* Adjust spacing between items */
+}
 
-.actionlink.flexlink:hover > p {
+/* Ensure the list and the flex-block align in a row */
+.simplefooter .commonlist {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Adjust spacing between list items */
+    align-items: center;
+    flex-wrap: wrap; /* Prevents overflow on smaller screens */
+}
+
+/* Ensure individual list items align properly */
+.simplefooter .commonlist .techlist {
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure .flex-block aligns its children in a row */
+.simplefooter .flex-block {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust spacing between elements */
+    flex-wrap: wrap;
+}
+
+/* Target specific children inside .flex-block */
+.simplefooter .flex-block .text-block,
+.simplefooter .flex-block .fontawesolid,
+.simplefooter .flex-block div {
+    display: inline-block;
+}
+
+
+.contactlogo {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.contactlogo .brand {
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+._404image {
+	width: 50vw;
+	min-width: 300px;
+	margin: 0px auto;
+	position: relative;
+	left:-25px;
+}
+
+a.actionlink.flexlink.w-inline-block:hover > p.textwhite{
 	color: #5bdeb8;
 	transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -1354,9 +1411,9 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 	color: inherit;
     background-color: transparent;
     border: 1px solid #5bdeb8;
-    border-radius: 8px;
+    border-radius: 999px;
     margin: 10px 0;
-    padding: 13px 20px;
+    padding: 9px 20px;
 	min-width: 100%;
 	font-family: Gilroy, Arial, sans-serif;
 	font-weight: 300;
@@ -2202,6 +2259,10 @@ padding: 10px;
 	color: #5bdeb8;
   }
   
+	.iconlinktext > a:hover {
+	color:#5bdeb8!important;
+}
+
   .menu-bg {
 	z-index: 8888;
 	background-image: linear-gradient(#fff 35%, #ebebeb 69%);
@@ -2331,7 +2392,7 @@ padding: 10px;
   
   .withlove {
 	color: #202123;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
   }
   
   .footer {
@@ -3174,7 +3235,6 @@ padding: 10px;
 	background-color: #000;
 	border-radius: 8px;
 	width: 100%;
-	min-height: 69vh;
   }
   
   .fontawesolid-2 {
@@ -3235,7 +3295,7 @@ padding: 10px;
   }
   
   .memberships {
-	padding-top: 40px;
+	padding-top: 20px;
   }
   
   .meta {
@@ -3753,6 +3813,10 @@ padding: 10px;
 	.includedetails {
 	  font-size: 14px;
 	  line-height: 26px;
+	}
+
+	.contactcontent {
+		padding: 0px 20px!important;
 	}
 
   }
