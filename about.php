@@ -58,19 +58,19 @@ endif;
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35817-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35818" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
             <h3 class="tinytext">Dedicated Experts</h3>
-            <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
+            <p>Built on a foundation of experience &amp; excellence, our work is precise, reliable, and effective.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3581e-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf3581f" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/availability.svg" alt="" class="commoncellimage">
-            <h3 class="tinytext">Limited Memberships</h3>
-            <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
+            <h3 class="tinytext">Seemless Integration</h3>
+            <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf35825-66468b02" class="w-layout-cell">
           <a data-w-id="c17c26fd-cb01-e6b0-98da-392efdf35826" style="opacity:0" href="/strategies-methods/" class="commoncell w-inline-block"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/lightning.svg" alt="" class="commoncellimage">
-            <h3 class="tinytext">Quick Completion</h3>
-            <p>Most requests are completed within an average of 2-3 days.</p>
+            <h3 class="tinytext">Rapid Completion</h3>
+            <p>Deliverables are provided every 48 to 72 hours with dependability &amp; speed.</p>
           </a>
         </div>
         <div id="w-node-c17c26fd-cb01-e6b0-98da-392efdf3582c-66468b02" class="w-layout-cell">

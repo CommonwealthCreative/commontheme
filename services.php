@@ -35,6 +35,7 @@ get_header();
         </a>
       </div>
     </div>
+    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdf3" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
   </div>
   <section class="servicescontent">
     <div id="strategy" class="methodwrap">
@@ -44,9 +45,9 @@ get_header();
       </div>
       <div class="_1300 method">
         <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b745fc-95e7dbe5" data-w-id="71d7f3f5-f570-245a-daca-c47408b745fc" style="opacity:0" class="w-layout-layout methodtext wf-layout-layout">
-          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b745fd-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/logo.svg" alt="" class="processimg">
-            <h2 class="mid">Strategic Foundation</h2>
-            <p>User behavior is deeply emotional—but often quantifiable. By leveraging audience profiles, brand values, competitive analysis, and a touch of technological insight, Commonwealth Creative crafts a multi-dimensional, strategic approach to elevate your brand.</p>
+          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b745fd-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/direction-5bdeb8.svg" alt="" class="processimg">
+            <h2 class="mid">Strategic Direction</h2>
+            <p><b>Our proven method to define your strategic, creative, and operational goals.</b> We translate these into clear, measurable outcomes and key performance indicators for your next project. <a class="textlite  underline" href="/strategy">Learn More.</a></p>
             <h3 class="tinytext">Strategies &amp; Methods:</h3>
             <ul role="list" class="commonlist">
               <li class="servicelist">Market Research</li>
@@ -74,9 +75,9 @@ get_header();
       <div class="_1300 method">
         <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b7461f-95e7dbe5" data-w-id="71d7f3f5-f570-245a-daca-c47408b7461f" style="opacity:0" class="w-layout-layout methodtext wf-layout-layout">
           <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74620-95e7dbe5" class="w-layout-cell hide"></div>
-          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74621-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/design.svg" alt="" class="processimg">
-            <h2 class="mid">Visual Branding &amp; Design</h2>
-            <p>Through an established and in-depth discovery process, Commonwealth Creative refines your brand’s unique elements into a bold, sophisticated, and versatile design language. We transform customers into passionate brand ambassadors, equally proud to represent your brand as they are to purchase from it.</p>
+          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74621-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/brand-5bdeb8.svg" alt="" class="processimg">
+            <h2 class="mid">Signature Branding &amp; Design</h2>
+            <p><b>Your brand’s look and voice, defined.</b> We uncover what makes your company unique &amp; transform it into compelling designs that stand out with purpose and clarity. <a class="textlite  underline" href="/design">Learn More.</a> </p>
             <h4 class="tinytext">Strategies &amp; Methods:</h4>
             <ul role="list" class="commonlist">
               <li class="servicelist">Logo Design</li>
@@ -104,9 +105,9 @@ get_header();
       </div>
       <div class="_1300 method">
         <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74649-95e7dbe5" data-w-id="71d7f3f5-f570-245a-daca-c47408b74649" style="opacity:0" class="w-layout-layout methodtext wf-layout-layout">
-          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b7464a-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/css.svg" alt="" class="processimg">
-            <h2 class="mid">Web &amp; Digital Development</h2>
-            <p>Creating digital and mobile experiences is an exercise in empathy. Commonwealth Creative fosters authentic connections with your customers by uncovering the emotional, story-driven insights behind their purchase behavior, search habits, and social media engagement, ensuring your brand resonates on a deeper level.</p>
+          <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b7464a-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/code-5bdeb8.svg" alt="" class="processimg">
+            <h2 class="mid">User-Focused Development</h2>
+            <p><b>Elegant, intuitive products people love.</b> We develop and administer powerful digital technologies that turn your goals into outcomes, ensuring seamless functionality and engaging user experiences. <a class="textlite  underline" href="/development">Learn More.</a></p>
             <h3 class="tinytext">Strategies &amp; Methods:</h3>
             <ul role="list" class="commonlist">
               <li class="servicelist">App Development</li>

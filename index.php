@@ -48,7 +48,7 @@ get_header();
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">A Signature Design</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">&amp; Technology Studio</h1>
       <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675685" style="opacity:0">Created Just For You.</h1>
-      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for <a style="font-weight:330;" href="#faqs" class="underline textwhite">what you need</a>, right now. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">return on investment</a>.</p>
+      <p class="mid">Say hello to a <a style="font-weight:330;" href="/shop" class="underline textwhite">membership</a> specifically created for <a style="font-weight:330;" href="/strategies-methods/" class="underline textwhite">what you need</a>, right now. We empower marketing and engineering teams with expertly crafted brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your <a style="font-weight:330;" href="#faqs" class="underline textwhite">return on investment</a>.</p>
       <a href="/shop" class="button backgroundwhite w-button">See Plans &amp; Pricing</a>
     </div>
     <div class="w-layout-blockcontainer _1300 w-container">

@@ -100,37 +100,37 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
        <p class="common66w">Finding the right partner is often time consuming and frustrating. We simplify everything—no costly contracts, confusing pricing, or unclear communication.</p>
        <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3b-68fc0789" class="w-layout-layout commonstack wf-layout-layout">
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3c-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/service.svg" alt="" class="commoncellimage">
              <h3 class="tinytext">Dedicated Experts</h3>
-             <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
+             <p>Built on a foundation of experience &amp; excellence, our work is precise, reliable, and effective.</p>
            </a>
          </div>
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a43-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a44" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/availability.svg" alt="" class="commoncellimage">
-             <h3 class="tinytext">Limited Memberships</h3>
-             <p>We prioritize quality to ensure our clients receive our full attention and the best possible results.</p>
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a44" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/availability.svg" alt="" class="commoncellimage">
+           <h3 class="tinytext">Seemless Integration</h3>
+           <p>We act as an extension of your business, using our expertise to ensure maximum growth.</p>
            </a>
          </div>
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a4a-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a4b" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/lightning.svg" alt="" class="commoncellimage">
-             <h3 class="tinytext">Quick Completion</h3>
-             <p>Most requests are completed within an average of 2-3 days.</p>
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a4b" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/lightning.svg" alt="" class="commoncellimage">
+           <h3 class="tinytext">Rapid Completion</h3>
+           <p>Deliverables are provided every 48 to 72 hours with dependability &amp; speed.</p>
            </a>
          </div>
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a51-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a52" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/pricing.svg" alt="" class="commoncellimage">
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a52" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/pricing.svg" alt="" class="commoncellimage">
              <h3 class="tinytext">No Surprise Costs</h3>
              <p>No surprises, no contracts—just simple, fixed pricing. Cancel or pause anytime.</p>
            </a>
          </div>
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a58-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a59" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/graph.svg" alt="" class="commoncellimage">
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a59" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/graph.svg" alt="" class="commoncellimage">
              <h3 class="tinytext">Performance &amp; Returns</h3>
              <p>All of our projects are focused on delivering measurable KPIs and maximizing ROI.</p>
            </a>
          </div>
          <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a5f-68fc0789" class="w-layout-cell">
-           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a60" style="opacity:0" href="/strategies-methods/" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/award.svg" alt="" class="commoncellimage">
+           <a data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a60" style="opacity:0" href="/about" class="commoncell textmedium w-inline-block"><img loading="lazy" src="/wp-content/themes/commontheme2025/images/award.svg" alt="" class="commoncellimage">
              <h3 class="tinytext">Top-Tier Talent</h3>
              <p>We are award-winning designers and enterprise-level IT professionals.</p>
            </a>
