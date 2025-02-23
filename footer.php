@@ -13,22 +13,19 @@
   <section id="footer" class="footer">
     <div class="_1300">
       <div id="w-node-_274747c0-b1a7-474d-88ef-827ff3758576-f3758574" class="w-layout-layout footerstack wf-layout-layout">
-        <div id="w-node-_274747c0-b1a7-474d-88ef-827ff3758577-f3758574" class="w-layout-cell">
+        <div id="w-node-_274747c0-b1a7-474d-88ef-827ff3758577-f3758574" class="w-layout-cell footerctalinks" >
           <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758578" href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="icontext textwhite w-inline-block">
             <div class="fontaw rocket"></div>
             <p class="iconlinktext">Schedule An Intro<span class="landscapehide">duction</span></p>
           </a>
-          <a data-w-id="274747c0-b1a7-474d-88ef-827ff375857f" href="mailto:hi@thecommonwealthcreative.com" class="icontext textwhite landscapeshow w-inline-block">
+          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758584" href="/work/" class="icontext textwhite w-inline-block">
             <div class="fontaw rocket"></div>
-            <p class="iconlinktext">Email Us</p>
+            <p class="iconlinktext">View Our Featured Work
+            </p>
           </a>
-          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758584" href="mailto:hi@thecommonwealthcreative.com" class="icontext textwhite landscapehide w-inline-block">
+          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758589" href="/contact/" class="icontext textwhite w-inline-block">
             <div class="fontaw rocket"></div>
-            <p class="iconlinktext">hi@thecommonwealthcreative.com</p>
-          </a>
-          <a data-w-id="274747c0-b1a7-474d-88ef-827ff3758589" href="tel:+18044241348" class="icontext textwhite w-inline-block">
-            <div class="fontaw rocket"></div>
-            <p class="iconlinktext">804-424-1348</p>
+            <p class="iconlinktext">Contact Us Today</p>
           </a>
         </div>
         <div id="w-node-_274747c0-b1a7-474d-88ef-827ff375858e-f3758574" class="w-layout-cell right flexblockcentercenter">
@@ -67,6 +64,9 @@
             </div>
             <div>
               <a href="https://github.com/CommonwealthCreative" target="_blank" class="fontawebrands textwhite"></a>
+            </div>
+            <div>
+              <a href="https://www.gostaffordva.com/stafford-county-legacy-business-program/" target="_blank" class="fontawebrands textwhite"><img width="100%"  style="margin-top:1px; height: 18px;" loading="lazy" alt="" src="/wp-content/themes/commontheme2025/images/commonwealth-creative-Legacy-stafford-county-virginia.png" class="affiliate"></a>
             </div>
           </div>
         </div>

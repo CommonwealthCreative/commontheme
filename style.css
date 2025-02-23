@@ -1220,6 +1220,10 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 }
 
 /* Webflow + WordPress Combined Styles */
+
+.footerctalinks {
+	min-width: 400px;
+}
 .simplefooter {
     display: flex;
     flex-direction: row;
@@ -2856,7 +2860,7 @@ padding: 10px;
 	text-align: center;
 	max-width: 1050px;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 40px;
 	position: relative;
   }
   
@@ -3822,6 +3826,10 @@ padding: 10px;
   }
   
   @media screen and (max-width: 479px) {
+
+	.footerctalinks {
+		min-width: 100px;
+	}
 
 	.search-container form {
 	flex-direction: column;

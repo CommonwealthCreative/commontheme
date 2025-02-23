@@ -25,7 +25,7 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Strategies</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Methods</h1>
-      <p class="mid">Innovation in design and technology is not just what we do—it’s how we think. As a studio, we engage in disciplined creativity, elevating our craft beyond mere production. Every initiative is executed with an uncompromising focus on delivering rapid outcomes through our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="underline">Direction by Design</a> process.</p>
+      <p class="common66w">Innovation in design and technology is not just what we do—it’s how we think. As a studio, we engage in disciplined creativity, elevating our craft beyond mere production. Every initiative is executed with an uncompromising focus on delivering rapid outcomes through our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="underline">Direction by Design</a> process.</p>
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="1fce2e42-657c-dcb5-4d78-8c6c0ab196dc" style="opacity:0">Get Started.</h2>
         <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink w-inline-block">
@@ -47,7 +47,7 @@ get_header();
         <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b745fc-95e7dbe5" data-w-id="71d7f3f5-f570-245a-daca-c47408b745fc" style="opacity:0" class="w-layout-layout methodtext wf-layout-layout">
           <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b745fd-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/direction-5bdeb8.svg" alt="" class="processimg">
             <h2 class="mid">Strategic Direction</h2>
-            <p><b>Our proven method to define your strategic, creative, and operational goals.</b> We translate these into clear, measurable outcomes and key performance indicators for your next project. <a class="textlite  underline" href="/strategy">Learn More.</a></p>
+            <p><b>Our proven method to define your strategic, creative, and operational goals.</b> We translate these into clear, measurable outcomes and key performance indicators for your next project. <a class="textlite  underline" href="/contact">Learn More.</a></p>
             <h3 class="tinytext">Strategies &amp; Methods:</h3>
             <ul role="list" class="commonlist">
               <li class="servicelist">Market Research</li>
@@ -77,7 +77,7 @@ get_header();
           <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74620-95e7dbe5" class="w-layout-cell hide"></div>
           <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74621-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/brand-5bdeb8.svg" alt="" class="processimg">
             <h2 class="mid">Signature Branding &amp; Design</h2>
-            <p><b>Your brand’s look and voice, defined.</b> We uncover what makes your company unique &amp; transform it into compelling designs that stand out with purpose and clarity. <a class="textlite  underline" href="/design">Learn More.</a> </p>
+            <p><b>Your brand’s look and voice, defined.</b> We uncover what makes your company unique &amp; transform it into compelling designs that stand out with purpose and clarity. <a class="textlite  underline" href="/contact">Learn More.</a> </p>
             <h4 class="tinytext">Strategies &amp; Methods:</h4>
             <ul role="list" class="commonlist">
               <li class="servicelist">Logo Design</li>
@@ -107,7 +107,7 @@ get_header();
         <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b74649-95e7dbe5" data-w-id="71d7f3f5-f570-245a-daca-c47408b74649" style="opacity:0" class="w-layout-layout methodtext wf-layout-layout">
           <div id="w-node-_71d7f3f5-f570-245a-daca-c47408b7464a-95e7dbe5" class="w-layout-cell flexcenter"><img loading="lazy" src="../wp-content/themes/commontheme2025/images/code-5bdeb8.svg" alt="" class="processimg">
             <h2 class="mid">User-Focused Development</h2>
-            <p><b>Elegant, intuitive products people love.</b> We develop and administer powerful digital technologies that turn your goals into outcomes, ensuring seamless functionality and engaging user experiences. <a class="textlite  underline" href="/development">Learn More.</a></p>
+            <p><b>Elegant, intuitive products people love.</b> We develop and administer powerful digital technologies that turn your goals into outcomes, ensuring seamless functionality and engaging user experiences. <a class="textlite  underline" href="/contact">Learn More.</a></p>
             <h3 class="tinytext">Strategies &amp; Methods:</h3>
             <ul role="list" class="commonlist">
               <li class="servicelist">App Development</li>

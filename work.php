@@ -30,7 +30,7 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Current Portfolio</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Featured Work</h1>
-      <p class="mid">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.<br></p>
+      <p class="common66w">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.<br></p>
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="d6c560e2-5ea8-639d-9e50-1cf979c4632b" style="opacity:0">Let's Talk.</h2>
         <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink textwhite w-inline-block">

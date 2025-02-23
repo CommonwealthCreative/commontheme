@@ -237,13 +237,13 @@ do_action('woocommerce_after_main_content');
         <div id="w-node-_983a3154-8642-c8a5-eff6-636e39c8bd82-3aaa4b1b" class="w-layout-cell">
           <div data-w-id="983a3154-8642-c8a5-eff6-636e39c8bd83" style="opacity:0" class="common-card sprints _1">
             <h2 data-w-id="71774690-6d0e-38c7-37bb-db50df23a8b8" style="opacity:0" class="common66w">Our strategic approach to positioning your brand for success.</h2>
-            <div class="mid paytone">$995 <span class="tinytext clear">*</span></div>
+            <div class="mid paytone">$995.00 <span class="tinytext clear">*</span></div>
             <div class="tinytext gilroy">*Military &amp; Non-Profit Discounts.</div>
             <p class="common66w sprint">For when you&#x27;re ready to move from concept to reality. Elevate your business with our 1K branding package by creating a visual foundation positioned for long-term success.</p>
             <div class="ctabottom">
               <a data-w-id="983a3154-8642-c8a5-eff6-636e39c8bdc2" href="/shop/design/visual-identity-design/" class="icontext textwhite w-inline-block">
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform-style:preserve-3d" class="fontaw rocket"></div>
-                <p class="iconlinktext">Brand Launch</p>
+                <p class="iconlinktext">1K Brand Launch</p>
               </a>
             </div>
           </div>
@@ -251,13 +251,13 @@ do_action('woocommerce_after_main_content');
         <div id="w-node-_983a3154-8642-c8a5-eff6-636e39c8bdc9-3aaa4b1b" class="w-layout-cell">
           <div data-w-id="b622f1fa-dc66-39da-40bb-d9c442c3494b" style="opacity:0" class="common-card sprints _2">
             <h2 class="common66w">A streamlined path to bring you online.</h2>
-            <div class="mid paytone">$999<span class="tinytext clear"> *</span></div>
+            <div class="mid paytone">$1,495.00<span class="tinytext clear"> *</span></div>
             <div class="tinytext gilroy">*Military &amp; Non-Profit Discounts.</div>
-            <p class="common66w sprint">Launch a website with our 1K WordPress package. Enjoy a sleek, user-friendly design, seamless navigation, and customized features, all with dedicated support to ensure your site shines in the digital landscape.</p>
+            <p class="common66w sprint">Launch a website with our 1.5K WordPress package. Enjoy a sleek, user-friendly design, seamless navigation, and customized features, all with dedicated support to ensure your site shines in the digital landscape.</p>
             <div class="ctabottom">
-              <a data-w-id="b622f1fa-dc66-39da-40bb-d9c442c34951" href="https://buy.stripe.com/7sIfZK20V1IQ33WaEQ" class="icontext textwhite w-inline-block">
+              <a data-w-id="b622f1fa-dc66-39da-40bb-d9c442c34951" href="/shop/development/wordpress-sprint/" class="icontext textwhite w-inline-block">
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform-style:preserve-3d" class="fontaw rocket"></div>
-                <p class="iconlinktext">1K WordPress Site </p>
+                <p class="iconlinktext">1.5K WordPress Site </p>
               </a>
             </div>
           </div>
