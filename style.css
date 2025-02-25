@@ -1523,6 +1523,21 @@ span.page-numbers {
 
 /* WooCommerce */
 
+.featured-product-image {
+	position: absolute;
+	top: -15vh;
+	right: -15vw;
+	z-index: 0;
+}
+
+.featured-product-image img {
+	width: 650px;
+	height: 650px;
+	object-fit: cover;
+	border-radius: 50%;
+  }
+  
+
 .nocost .woocommerce-billing-fields {
     display: none !important;
 }
@@ -1698,8 +1713,7 @@ a.showcoupon:hover {
 }
 
 .product-content {
-    width: 66.66%;
-	padding-top: 20px; 
+  z-index: 1;
 }
 
 .product-alt {
@@ -2004,12 +2018,16 @@ padding: 10px;
   }
   
   h1 {
-	margin-bottom: 0;
-	font-family: Gilroy, Arial, sans-serif;
+	margin-bottom: 20px;
+	font-family: Paytone One, sans-serif;
 	font-size: 4rem;
 	font-weight: 300;
-	line-height: 4rem;
+	line-height: 3rem;
   }
+
+ ._100vh._1300 h1 {
+	margin-bottom: 10px;
+ }
   
   h2 {
 	margin-top: 20px;
@@ -2146,7 +2164,9 @@ padding: 10px;
   
   .fontawesolid.greenheart {
 	text-align: center;
-	margin-left: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
+	top:1px;
   }
   
   .fontawesolid.commonicon {
@@ -2397,6 +2417,8 @@ padding: 10px;
   .withlove {
 	color: #202123;
 	margin-bottom: 10px;
+	font-family: Paytone One, sans-serif;
+	font-size: 13px;
   }
   
   .footer {
@@ -2711,17 +2733,18 @@ padding: 10px;
 	background-image: url('../commontheme2025/images/commonwealth-creative-white-dropout-logo.svg');
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
+	transition: all 10.7s;
   }
-  
+
   .commonworkrow:hover {
-	background-position: 50%;
+	background-size: 125%;
   }
-  
+
   .commonworkrow.george {
 	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2024/11/commonwealth-creative-george-wythe-1536x922.jpg.webp');
   }
@@ -3054,7 +3077,6 @@ padding: 10px;
   }
   
   .quotes {
-	font-family: Great Vibes, cursive;
 	font-size: 3rem;
 	line-height: 1rem;
 	position: relative;
@@ -3531,7 +3553,8 @@ padding: 10px;
 	.lottie-animation {
 		inset: -100% 0% 0% -30%;
 	  }
-	h1 {
+	h1,  ._100vh._1300 h1 {
+		margin-bottom: 10px;
 	  margin-top: 0;
 	  margin-bottom: 0;
 	  font-size: 2.5rem;
@@ -3611,7 +3634,7 @@ padding: 10px;
 	  align-items: flex-start;
 	}
   
-	.withlove {
+	.love {
 	  text-align: center;
 	  margin-left: 0;
 	  margin-right: auto;
@@ -3636,10 +3659,10 @@ padding: 10px;
 	  padding-top: 20px;
 	}
   
-	.mid {
+	.mid, .common66w {
 	  margin-top: 20px;
-	  font-size: 1.2rem;
-	  line-height: 2rem;
+	  font-size: 1.1rem;
+	  line-height: 1.7rem;
 	}
   
 	.landscapehide {
@@ -3906,7 +3929,7 @@ padding: 10px;
 	}
   
 	.withlove {
-	  font-size: .75rem;
+	  font-size: .65rem;
 	  position: relative;
 	}
   
@@ -3924,7 +3947,7 @@ padding: 10px;
 	}
   
 	.mid {
-	  margin-top: 0;
+	  margin-top: 20px;
 	}
   
 	.landscapehide {

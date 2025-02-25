@@ -26,7 +26,7 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">The Commonwealth</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">Creative Codex</h1>
-      <p class="content mid">The Codex is a curated collection of terms, principles and concepts. Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.<br></p>
+      <p class="content">The Codex is a curated collection of terms, principles and concepts. Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.<br></p>
 
         <div class="search-container">
           <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">

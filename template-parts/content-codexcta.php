@@ -14,16 +14,17 @@
       <div class="tinytext">More From The Codex</div>
       <div id="w-node-_49e663fa-fb9f-867a-f683-bd617e04d341-7e04d33d" class="w-layout-layout commonstack wf-layout-layout">
         <div id="w-node-_49e663fa-fb9f-867a-f683-bd617e04d342-7e04d33d" class="w-layout-cell flexcenter">
-          <h3 class="headingtext">Our expertise means you don’t have to navigate it alone. Dive into the codex entries for more insights. Or let us <a href="/contact">take the lead.</a>
+          <h3 class="headingtext">Our expertise means you don’t have to navigate it alone. Dive into the codex entries for more insights. Or let us take <a href="/contact">the lead</a>.
           </h3>
-          <a href="/contact" target="_blank" class="button backgrounddark w-button">Claim Your <span class="underline">Free</span> Keyword Analysis</a>
+          <a href="/contact" target="_blank" class="button backgrounddark w-button">Contact Us Today</a>
         </div>
         <div id="w-node-_49e663fa-fb9f-867a-f683-bd617e04d34d-7e04d33d" class="w-layout-cell flexcenter">
         <?php
-// Define the query arguments for the "codex" category
+// Define the query arguments for the "codex" category with random order
 $args = array(
     'category_name'  => 'codex', // Always use the "codex" category
-    'posts_per_page' => 10,      // Limit to 10 posts
+    'posts_per_page' => 13,      // Limit to 10 posts
+    'orderby'        => 'rand',  // Randomize the selection
 );
 
 // Start the custom query
@@ -43,6 +44,7 @@ else :
     echo '<p>No posts found in the "codex" category.</p>';
 endif;
 ?>
+
 
         </div>
       </div>

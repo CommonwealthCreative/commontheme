@@ -12,9 +12,9 @@
 <section class="reviews backgroundblackdark">
     <div data-w-id="cbaeaa82-2203-0496-950c-50e5ff9b4110" class="w-layout-vflex commonmiddle _1300">
         <blockquote class="mid">
-            <span class="quotes">&quot;</span>
+            <span class="quotes paytone">&ldquo;</span>
             <span class="paytone">Commonwealth Creative</span> has always been resourceful, creative, and responsive! Looking forward to many more years of outstanding support. Thanks!
-            <span class="quotes">&rdquo;</span>
+            <span class="quotes paytone">&rdquo;</span>
         </blockquote>
         <div class="w-layout-hflex">
             <img sizes="50px" 

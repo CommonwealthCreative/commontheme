@@ -85,7 +85,24 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
            <p class="iconlinktext textwhite underline">Have Questions?</span></p>
          </a>
        </div>
-       <?php echo apply_filters('the_content', $product->get_description()); ?>
+            <?php /*
+
+      $clothing_term = get_term_by( 'slug', 'clothing', 'product_cat' );
+      if ( $clothing_term ) {
+
+          $product_term_ids = wp_get_post_terms( $product_id, 'product_cat', array( 'fields' => 'ids' ) );
+          
+
+          $allowed_terms = array_merge( array( $clothing_term->term_id ), get_term_children( $clothing_term->term_id, 'product_cat' ) );
+          
+
+          if ( array_intersect( $product_term_ids, $allowed_terms ) ) {
+              echo '<div class="featured-product-image">' . $product_image . '</div>';
+          }
+      } */
+      ?>
+
+       <div class="product-content"><?php echo apply_filters('the_content', $product->get_description()); ?></div>
        <a href="<?php echo esc_url( wc_get_cart_url() ); ?>?add-to-cart=<?php echo esc_attr( $product_id ); ?>" class="button backgroundwhite w-button">Buy Now</a>
 
      </div>
@@ -154,9 +171,9 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
      </div>
      <a data-w-id="29223a35-dca6-515f-03b1-71d0a0870080" href="<?php echo esc_url( wc_get_cart_url() ); ?>?add-to-cart=<?php echo esc_attr( $product_id ); ?>" class="sectionlink backgroundblack w-inline-block">
        <div class="w-layout-blockcontainer _1300 w-container">
-         <div class="tinytext">Add to Checkout: <?php echo $product_title;?></div>
+         <div class="tinytext">Buy Now: <?php echo $product_title;?></div>
          <div class="w-layout-hflex commonflexwide">
-           <h2 data-w-id="690192b9-994c-689f-b642-2ac09e318ae8" style="opacity:0">Let&#x27;s start creating <span class="paytone underline">now.</span></h2><img src="/wp-content/themes/commontheme2025/images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
+           <h2 data-w-id="690192b9-994c-689f-b642-2ac09e318ae8" style="opacity:0">Add to <span class="paytone underline">Checkout</span></h2><img src="/wp-content/themes/commontheme2025/images/commonarrow.svg" loading="lazy" alt="" class="movearrow">
          </div>
        </div>
      </a>
