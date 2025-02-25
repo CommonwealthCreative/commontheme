@@ -60,7 +60,7 @@ get_header();
 
     </div>
   </div>
-  <section class="_1300">
+  <section class="_1300 common66w">
   <?php
 		while ( have_posts() ) :
 			the_post();
