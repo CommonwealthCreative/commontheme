@@ -29,9 +29,9 @@ get_header();
                     <a href="/" aria-current="page" class="brand w-nav-brand w--current"></a>
                 </div>
                 
-                <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0">
+                <h1 data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675681" style="opacity:0">
                     <span class="textmedium">Are You Being Held Back by a </span>
-                    <span data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">Lack of Talent?</span>
+                    <span data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675683" style="opacity:0">Lack of Talent?</span>
                 </h1>
                 
                 <p class="mid">
@@ -39,8 +39,8 @@ get_header();
                 </p>
             </div> <!-- Closing for first .w-layout-cell -->
 
-            <div id="w-node-_805516f7-eefe-b38b-2b33-f128c2241713-808c94bc" class="w-layout-cell">
-                <div data-w-id="a0d93a92-35a3-fa6e-b799-83efe4950612" style="opacity:0" class="wrapper commoncell">
+            <div id="w-node-_01df0757-405d-0fdc-f0bf-361cf8993a3b-68fc0789" class="w-layout-cell">
+                <div data-w-id="01df0757-405d-0fdc-f0bf-361cf8993a3d" style="opacity:0" class="wrapper commoncell">
                     <div class="actionlink">
                         <div class="actionpulse backgroundgreen"></div>
                         <div class="fontawesolid"></div>
@@ -61,7 +61,7 @@ get_header();
     <!-- Second section with contact details and footer info -->
     <div class="_1300 simplefooter">
     <div class="w-layout-hflex flex-block">
-    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
+    <div data-w-id="eb093dbe-6c76-e2d3-a34c-9b3adf675679" style="opacity:0" class="withlove textwhite">
             <div class="text-block">Made with</div>
             <div class="fontawesolid greenheart"></div>
             <div>in the Commonwealth of Virginia.</div>
@@ -85,7 +85,7 @@ get_header();
             </li>
         </ul>
     </div> <!-- Closing for second ._1300 -->
-
+    <?php get_template_part('technologies'); ?>
 </div> <!-- Closing for .pageheading -->
 
 <?php
