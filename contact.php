@@ -22,18 +22,16 @@ get_header();
     </style>
 <div class="pageheading contactheading">
     <canvas class="header" id="interactiveCanvas"></canvas>
-    <div class="_1300" style="padding-top:70px;">
+    <div class="_1300">
         <div id="w-node-_805516f7-eefe-b38b-2b33-f128c2241711-808c94bc" class="w-layout-layout commonstack wf-layout-layout">
             <div id="w-node-_805516f7-eefe-b38b-2b33-f128c2241712-808c94bc" class="w-layout-cell contactcontent">
                 <div class="contactlogo">
                     <a href="/" aria-current="page" class="brand w-nav-brand w--current"></a>
                 </div>
                 
-                <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite"></div>
-                
                 <h1 data-w-id="77aceff7-4b2e-8820-37ba-35a1959ad1cb" style="opacity:0">
-                    <span class="textmedium">Are you being held back by a </span>
-                    <span data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">lack of talent?</span>
+                    <span class="textmedium">Are You Being Held Back by a </span>
+                    <span data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">Lack of Talent?</span>
                 </h1>
                 
                 <p class="mid">
@@ -63,9 +61,11 @@ get_header();
     <!-- Second section with contact details and footer info -->
     <div class="_1300 simplefooter">
     <div class="w-layout-hflex flex-block">
+    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
             <div class="text-block">Made with</div>
             <div class="fontawesolid greenheart"></div>
             <div>in the Commonwealth of Virginia.</div>
+            </div>
         </div>
         <ul role="list" class="commonlist">
             <li class="techlist">
