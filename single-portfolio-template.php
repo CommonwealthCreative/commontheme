@@ -17,33 +17,38 @@ get_header();
         <div class="spinner"></div>
     </div>
 </div>
-<section class="featuredwork">
-    <div class="commonworkrow" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');">
-      <div class="text-holder">
-        <div class="workcontent textwhite _1300">
+<section class="featuredwork portfoliowork">
+  <div class="commonworkrow">
+    <!-- Background image div -->
+    <div class="bg-image" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');"></div>
+    <!-- Text-holder now a sibling so it won’t scale -->
+    <div class="text-holder">
+      <div class="workcontent textwhite _1300">
         <?php 
-                $portfolio_image = get_post_meta(get_the_ID(), '_portfolio_image', true);
-                if (!empty($portfolio_image)) : 
-                ?>
-                    <div class="portfolio-meta-image-wrapper">
-                        <img src="<?php echo esc_url($portfolio_image); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" style="max-width: 100%; height: auto; border-radius: 8px;" />
-                    </div>
-                <?php endif; ?>
+          $portfolio_image = get_post_meta(get_the_ID(), '_portfolio_image', true);
+          if (!empty($portfolio_image)) : 
+        ?>
+          <div class="portfolio-meta-image-wrapper">
+            <img src="<?php echo esc_url($portfolio_image); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" style="max-width: 100%; height: auto; border-radius: 8px;" />
+          </div>
+        <?php endif; ?>
         <?php the_title( '<h1 class="tinytext"><span>', '</span></h1>' ); ?>
-        <?php $portfolio_extra_content = get_post_meta( get_the_ID(), '_portfolio_extra_content', true );
-          if ( ! empty( $portfolio_extra_content ) ) : ?>
+        <?php 
+          $portfolio_extra_content = get_post_meta(get_the_ID(), '_portfolio_extra_content', true);
+          if (!empty($portfolio_extra_content)) : 
+        ?>
           <div class="common66w">
-            <h2><?php echo nl2br( esc_html( $portfolio_extra_content ) ); ?></h2>
+            <h2><?php echo nl2br( esc_html($portfolio_extra_content) ); ?></h2>
           </div>
-              <?php endif; ?>
-
-          <div class="scrolldown">
-            <div class="lottie-animation-scrolldown" data-w-id="369daa07-76eb-7d6f-4f62-3578b2cac4eb" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66daff0553e4462bf4ae1607/66db9f450e83281f2a0b66dd_down-arrow.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-duration="3"></div>
-          </div>
+        <?php endif; ?>
+        <div class="scrolldown">
+          <div class="lottie-animation-scrolldown" data-w-id="369daa07-76eb-7d6f-4f62-3578b2cac4eb" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66daff0553e4462bf4ae1607/66db9f450e83281f2a0b66dd_down-arrow.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-duration="3"></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
         <div data-w-id="60317d30-baff-9458-1dd6-614f5108466f" href="/work/next-project" class="sectionlink backgroundblack w-inline-block">
           <div class="_1300 w-container foiliotext">
           <?php
@@ -63,7 +68,7 @@ get_header();
             </a>'; 
               ?>
             <?php  echo get_portfolio_navigation(); ?>
-        </div>
+          </div>
           </div>
 </div>
 

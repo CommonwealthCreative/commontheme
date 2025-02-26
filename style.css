@@ -556,10 +556,6 @@ figure {
 	margin: 1em 0;
 }
 
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
-}
 
 /* Links
 --------------------------------------------- */
@@ -1286,6 +1282,14 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	margin-right: 30px;
 }
 
+.contactheading .carouselcontainer {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
 ._404image {
 	width: 50vw;
 	min-width: 300px;
@@ -1318,7 +1322,8 @@ canvas {
 
 ._100vh._1300 a,
 .w-layout-blockcontainer._1300.w-container a,
-.w-layout-hflex.carouselcontainer a, .contactheading a, .wrapper {
+.w-layout-hflex.carouselcontainer a, .contactheading a, .wrapper, 
+.featured-product-image, .product-options {
     pointer-events: auto!important;
 }
 
@@ -1419,7 +1424,11 @@ img.aligncenter {
 	line-height: 0px;
 }
 
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+.product-options label {
+	display: none
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, .product-options select, .shop-nav select {
 	color: inherit;
     background-color: transparent;
     border: 1px solid #5bdeb8;
@@ -1531,18 +1540,40 @@ span.page-numbers {
 
 /* WooCommerce */
 
+.reset_variations, .single_variation_wrap a {
+	color: inherit!important;
+	margin-left:20px;
+}
+
+td.value {
+	display: flex;
+	align-items: center;
+}
+
 .featured-product-image {
 	position: absolute;
-	top: -15vh;
-	right: -15vw;
+	top: -10vh;
+	right: -10vw;
 	z-index: 0;
+	transition: all .7s;
+	width: 33vw;
+	height: 33vw;
+
+}
+
+.featured-product-image:hover {
+	top: -2vh;
+	right: -2vw;
+	width: 44vw;
+	height: 44svw;
 }
 
 .featured-product-image img {
-	width: 650px;
-	height: 650px;
 	object-fit: cover;
 	border-radius: 50%;
+	width: auto;
+	height: 100%;
+	border: 1px solid #fff;
   }
   
 
@@ -1681,95 +1712,11 @@ a.showcoupon:hover {
 	margin-bottom: 40px; 
 	padding-left:0px;
 }
-.product-alt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.product-alt > .cart {
-    width: 100%;
-}
-
-.product-alt > .cart > .single_add_to_cart_button {
-    width: 100%;
-    display: block;
-    text-align: center;
-	background-color:#5bdeb8!important;
-}
-
-.product-alt > .cart > .single_add_to_cart_button:hover {
-	background-color:#fff!important;
-}
-
-.product-featured-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.product-featured-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.product-details {
-    display: flex;
-    gap: 20px;
-}
-
-.product-content {
-  z-index: 1;
-}
-
-.product-alt {
-    width: 33.33%;
-	padding: 20px 0px 0px 20px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: top;
-		text-align: center;
-		gap: 15px;
-	
-}
-
-.product-alt > a.commoncell {
-	border-top: 1px solid #ebebeb;
-	padding-top: 40px; 
-}
-
-.product-price-cart {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	margin-bottom: 40px;
-}
-
-.product-price-cart .cart {
-    display: flex;
-    align-items: center; 
-    gap: 30px; 
-}
 
 .crumbspace.tinytext {
 	margin-left: 30px; 
 }
 
-.product-price-cart .avatar, .product-info .avatar {
-    top: -6px;
-    position: relative;
-    border-radius: 999px;
-}
-
-.product-info {
-	margin: 30px 0px;
-	padding: 20px 0px; 
-	border-bottom: 1px solid #ebebeb;
-	border-top: 1px solid #ebebeb;
-}
 .shop-loop .commoncell, .codex-loop .commoncell {
 	border-color: #ccc;
 	background: #fff;
@@ -1819,14 +1766,6 @@ p.woocommerce-result-count, .cartlink {
 p.woocommerce-result-count, .woocommerce-ordering {
 	margin-bottom: 0px; 
 	margin-top:10px;
-}
-
-select {
-	padding: 10px 6px;
-	border-radius: 8px;
-	font-family: Gilroy, Arial, sans-serif;
-	font-weight: 700;
-	font-size: 0.8rem;
 }
 
 .cartlink {
@@ -1918,30 +1857,7 @@ table.shop_table_responsive tr td::before {
 
 @media (max-width: 1030px) {
 	
-	.product-details {
-		flex-direction: column;
-	}
 
-	.product-content, .product-alt {
-		width: 100%;
-		padding:20px;
-	}
-
-	.product-price-cart {
-		flex-direction: column;
-		align-items: flex-start;
-		padding-left: 20px;
-	}
-
-	.product-price-cart .cart {
-		flex-direction: row;
-		gap:0px;
-	}
-
-	.w-layout-hflex.cart-checkout {
-		flex-direction:column;
-		padding:20px;
-	}
     .shop-nav {
         display: flex;
         flex-direction: column; 
@@ -2032,6 +1948,7 @@ padding: 10px;
 	font-weight: 300;
 	line-height: 3rem;
   }
+
 
  ._100vh._1300 h1 {
 	margin-bottom: 10px;
@@ -2568,7 +2485,7 @@ padding: 10px;
 	box-shadow: 8px 7px #4ecda1;
   }
   
-  .button.backgroundwhite {
+  .button.backgroundwhite, .product-options button.single_add_to_cart_button {
 	background-color: #fff;
   }
   
@@ -2732,48 +2649,88 @@ padding: 10px;
 	display: block;
   }
   
-  .sectionlink.backgroundblack {
+  .sectionlink {
 	width: 100%;
   }
   
   .commonworkrow {
-	background-color: #202123;
-	background-image: url('../commontheme2025/images/commonwealth-creative-white-dropout-logo.svg');
-	background-position: 50%;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
-	transition: all 10.7s;
+	margin: 0 auto;
   }
-
-  .commonworkrow:hover {
-	background-size: 125%;
+  
+  .commonworkrow::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1);
+	transition: transform 13s ease;
+	z-index: -1;
   }
-
-  .commonworkrow.george {
+  
+  .commonworkrow:hover::before {
+	transform: scale(1.25);
+  }
+  .featuredwork.portfoliowork .commonworkrow {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  /* Background image element */
+  .featuredwork.portfoliowork .commonworkrow .bg-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: scale(1);
+	transition: transform 13s ease;
+	z-index: 0;
+  }
+  
+  /* When hovering over the commonworkrow, scale only the background image */
+  .featuredwork.portfoliowork .commonworkrow:hover .bg-image {
+	transform: scale(1.25);
+  }
+  
+  /* Ensure text sits above the background */
+  .featuredwork.portfoliowork .commonworkrow .text-holder {
+	position: relative;
+	z-index: 1;
+  }
+  
+  /* Background image overrides */
+  .commonworkrow.george::before {
 	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2024/11/commonwealth-creative-george-wythe-1536x922.jpg.webp');
   }
   
-  .commonworkrow.mba {
+  .commonworkrow.mba::before {
 	background-image: url('../commontheme2025/images/commonwealth-creative-mbumba-hero_1.webp');
   }
   
-  .commonworkrow.therapyland {
+  .commonworkrow.therapyland::before {
 	background-image: url('../commontheme2025/images/commonwealth-creative-therapyland--1_1.webp');
   }
-
-  .commonworkrow.thriveworks {
+  
+  .commonworkrow.thriveworks::before {
 	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-thriveworks-3.jpg.webp');
   }
   
-  .commonworkrow.dbhds {
+  .commonworkrow.dbhds::before {
 	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-virginia-dbhds-1.jpg.webp');
   }
   
-  .commonworkrow.novafr {
+  .commonworkrow.novafr::before {
 	background-image: url('https://thecommonwealthcreative.com/wp-content/compressx-nextgen/uploads/2025/01/commonwealth-creative-novafr-cover.jpg.webp');
   }
   
@@ -3356,10 +3313,6 @@ padding: 10px;
 		display: inline;
 	}
 
-	.commonworkrow, .commonworkrow:hover {
-		background-size: cover;
-	}
-
 	.iconlinks {
 	  align-items: center;
 	  width: 100%;
@@ -3567,6 +3520,14 @@ padding: 10px;
   
   @media screen and (max-width: 767px) {
 
+	.featured-product-image, .featured-product-image:hover {
+		position: relative;
+		display: block;
+		top:auto;
+		right:auto;
+
+	}
+
 	.single-post > .common66w {
 		padding-top: 0px;
 	}
@@ -3582,6 +3543,10 @@ padding: 10px;
 	  font-size: 2.5rem;
 	  line-height: 3rem;
 	}
+
+	.single-post h1.tinytext {
+		font-size: .9rem;
+	  }
   
 	.icontext.textwhite.landscapeshow {
 	  display: flex;

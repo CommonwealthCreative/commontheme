@@ -35,7 +35,6 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
 ?>
  
 <main id="primary">
-    
    <div class="homehero">
      <div id="work" data-w-id="36831da3-f245-dbb7-f4c3-40aa6b672c83" class="w-layout-hflex carouselcontainertext">
        <div class="featuredtextcarousel">
@@ -64,6 +63,10 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
           <div>in the Commonwealth of Virginia. </div>
         </div>
       </div>
+      <div class="featured-product-image">
+  <?php echo $product_image; ?>
+</div>
+
      <?php
             $page_title = get_the_title();
             $title_length = strlen($page_title);
@@ -85,25 +88,23 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
            <p class="iconlinktext textwhite underline">Have Questions?</span></p>
          </a>
        </div>
-            <?php /*
+       <div class="common66w"><?php echo apply_filters('the_content', $product->get_description()); ?></div>
+       <div class="product-options">
+       <?php woocommerce_template_single_add_to_cart(); ?>
+    </div>
 
-      $clothing_term = get_term_by( 'slug', 'clothing', 'product_cat' );
-      if ( $clothing_term ) {
-
-          $product_term_ids = wp_get_post_terms( $product_id, 'product_cat', array( 'fields' => 'ids' ) );
-          
-
-          $allowed_terms = array_merge( array( $clothing_term->term_id ), get_term_children( $clothing_term->term_id, 'product_cat' ) );
-          
-
-          if ( array_intersect( $product_term_ids, $allowed_terms ) ) {
-              echo '<div class="featured-product-image">' . $product_image . '</div>';
-          }
-      } */
-      ?>
-
-       <div class="product-content"><?php echo apply_filters('the_content', $product->get_description()); ?></div>
-       <a href="<?php echo esc_url( wc_get_cart_url() ); ?>?add-to-cart=<?php echo esc_attr( $product_id ); ?>" class="button backgroundwhite w-button">Buy Now</a>
+       <div data-w-id="60317d30-baff-9458-1dd6-614f5108466f" href="/work/next-project" class="sectionlink w-inline-block" style="padding-top:20px;">
+          <div class="nextpost">
+              <a href="/shop" class="actionlink">
+              <div class="fontawesolid"></div>
+              <p class="iconlinktext textwhite tinytext">Shop The Collection</p>
+            </a> 
+              <a class="nextproject" href="<?php echo esc_url( get_next_product_navigation() ); ?>">
+              <p class="iconlinktext textwhite tinytext">Next Product</p>
+              <div class="fontawesolid"></div>
+            </a>
+          </div>
+          </div>
 
      </div>
      <div class="w-layout-blockcontainer _1300 w-container">

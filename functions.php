@@ -505,6 +505,7 @@ function get_portfolio_navigation() {
     <?php
     return ob_get_clean();
 }
+
 /*  Portfolio Post under /work */
 // Custom permalink for portfolio posts under /work/
 function custom_portfolio_permalink($permalink, $post, $leavename) {
@@ -676,5 +677,54 @@ function add_quick_edit_ranking_inline_data( $column_name, $post_id ) {
     }
 }
 add_action( 'quick_edit_custom_box', 'add_quick_edit_ranking_inline_data', 10, 2 );
+
+function get_next_product_navigation() {
+    // Get the current product’s publish date.
+    $current_date = get_the_date( 'Y-m-d H:i:s' );
+    
+    // Query for the next product published after the current one.
+    $args = array(
+        'post_type'      => 'product',
+        'posts_per_page' => 1,
+        'orderby'        => 'date',
+        'order'          => 'ASC',
+        'post_status'    => 'publish',
+        'date_query'     => array(
+            array(
+                'column'    => 'post_date',
+                'after'     => $current_date,
+                'inclusive' => false,
+            ),
+        ),
+    );
+    
+    $next_query = new WP_Query( $args );
+    
+    if ( $next_query->have_posts() ) {
+        $next_query->the_post();
+        $next_product_url = get_permalink();
+        wp_reset_postdata();
+        return $next_product_url;
+    } else {
+        // If no next product is found, cycle back to the first product.
+        $args = array(
+            'post_type'      => 'product',
+            'posts_per_page' => 1,
+            'orderby'        => 'date',
+            'order'          => 'ASC',
+            'post_status'    => 'publish',
+        );
+        $first_query = new WP_Query( $args );
+        if ( $first_query->have_posts() ) {
+            $first_query->the_post();
+            $first_product_url = get_permalink();
+            wp_reset_postdata();
+            return $first_product_url;
+        } else {
+            // Fallback URL if no products are found.
+            return home_url( '/shop' );
+        }
+    }
+}
 
 

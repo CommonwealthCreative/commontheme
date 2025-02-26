@@ -57,7 +57,7 @@ get_header();
             </div> <!-- Closing for second .w-layout-cell -->
         </div> <!-- Closing for .w-layout-layout -->
     </div> <!-- Closing for first ._1300 -->
-
+    <?php get_template_part('technologies'); ?>
     <!-- Second section with contact details and footer info -->
     <div class="_1300 simplefooter">
     <div class="w-layout-hflex flex-block">
@@ -85,7 +85,7 @@ get_header();
             </li>
         </ul>
     </div> <!-- Closing for second ._1300 -->
-    <?php get_template_part('technologies'); ?>
+
 </div> <!-- Closing for .pageheading -->
 
 <?php
