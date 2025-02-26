@@ -31,7 +31,7 @@ if ( have_posts() ) :
         $content = apply_filters( 'the_content', $content ); // Process shortcodes and other content filters
         $content = strip_tags( $content, '<br><strong><em><a>' ); // Allow specific tags if needed
         ?>
-        <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0" class="headingtext">
+        <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0" class="headingtext gilroy">
             <?php echo $content; ?>
         </h1>
         <?php
