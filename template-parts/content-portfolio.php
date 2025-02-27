@@ -1,29 +1,21 @@
 <?php
 /**
- * Template part for displaying portfolio posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package _s
- */
-?>
-<?php
-/**
  * Template Part for displaying a portfolio item
  *
  * Assumes this template is included in a WordPress Loop.
  */
 
-// Get the custom field value for '_portfolio_meta'
-$portfolio_meta = get_post_meta(get_the_ID(), '_portfolio_meta', true);
+$post_id = get_the_ID();
 
-// Get the featured image URL
-$featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
+// Get the post's featured image for the background.
+$featured_image_url = get_the_post_thumbnail_url($post_id, 'full');
 
-// Get the post permalink
+// Retrieve the custom portfolio image saved via the meta box.
+$custom_portfolio_image = get_post_meta($post_id, '_portfolio_image', true);
+
+// Retrieve additional post data.
+$portfolio_meta = get_post_meta($post_id, '_portfolio_meta', true);
 $post_permalink = get_permalink();
-
-// Get the post title
 $post_title = get_the_title();
 ?>
 
@@ -33,8 +25,11 @@ $post_title = get_the_title();
      style="background-image: url('<?php echo esc_url($featured_image_url); ?>');">
     <a href="<?php echo esc_url($post_permalink); ?>" class="text-holder w-inline-block">
         <div class="workcontent card">
+        <div class="portfolio-meta-image-wrapper">
+        <img src="<?php echo esc_url($custom_portfolio_image); ?>" alt="<?php echo esc_attr($post_title); ?>">
+        </div>
             <div class="tinytext"><?php echo esc_html($post_title); ?></div>
-            <h2><?php echo esc_html($portfolio_meta); ?></h2>
+            <h2 class=""><?php echo esc_html($portfolio_meta); ?></h2>
         </div>
     </a>
 </div>

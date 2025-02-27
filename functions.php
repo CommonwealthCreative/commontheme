@@ -385,7 +385,6 @@ function save_portfolio_category_meta_box($post_id) {
 add_action('save_post', 'save_portfolio_category_meta_box');
 
 // Register the Image Meta Box
-// Register the Image Meta Box
 function add_portfolio_image_meta_box() {
     add_meta_box(
         'portfolio_image_meta_box', // Unique ID
