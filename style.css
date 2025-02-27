@@ -3524,6 +3524,8 @@ padding: 10px;
   
   @media screen and (max-width: 767px) {
 
+	
+
 	.featured-product-image, .featured-product-image:hover {
 		position: relative;
 		display: block;
@@ -3700,6 +3702,7 @@ padding: 10px;
 	._100vh._1300 {
 	  justify-content: flex-start;
 	  align-items: flex-start;
+	  min-height: 69vh;
 	}
   
 	.commoncell {

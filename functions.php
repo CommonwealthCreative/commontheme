@@ -13,7 +13,7 @@ if ( ! defined( '_S_VERSION' ) ) {
 }
 
 
-function webflow_enqueue_assets() {
+function common_enqueue_assets() {
     // Enqueue additional stylesheets
     wp_enqueue_style('normalize-styles', get_template_directory_uri() . '/css/normalize.css', array(), '1.0.0', 'all');
     wp_enqueue_style('webflow-styles', get_template_directory_uri() . '/css/webflow.css', array(), '1.0.0', 'all');
@@ -46,7 +46,7 @@ function webflow_enqueue_assets() {
     
     
 }
-add_action('wp_enqueue_scripts', 'webflow_enqueue_assets', 1);
+add_action('wp_enqueue_scripts', 'common_enqueue_assets', 1);
 
 
 // Add defer attribute to starspeckle.js and loader.js

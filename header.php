@@ -19,7 +19,7 @@
 
 /* Indexes */ if ( is_home() || is_404() || is_product() || is_page_template( 'contact.php') ) { echo 'data-wf-page="67640e6a4a1ce4ad68fc0789"'; } 
               if ( is_search() ) { echo 'data-wf-page="67741e41160207547be4c674"'; } 
-            if ( is_page_template( 'work.php') ) { echo 'data-wf-page="6772dd50133192cde647ad74"'; } 
+            if ( is_page_template( 'work.php') ) { echo 'data-wf-page="67733d5c803012bd95e7dbe5"'; } 
             if ( is_page_template('thecodex.php') || is_author() ) { echo 'data-wf-page="67741e41160207547be4c674"'; }
             if ( is_page_template( 'about.php') ) { echo 'data-wf-page="6770e47f5dcd8dff66468b02"'; } 
             if ( is_page_template( 'services.php') ) { echo 'data-wf-page="67733d5c803012bd95e7dbe5"'; }

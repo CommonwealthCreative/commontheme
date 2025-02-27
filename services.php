@@ -14,8 +14,9 @@
 
 get_header();
 ?>
+
 <div class="pageheading">
-    <div class="_1300">
+    <div class="_100vh _1300">
       <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove">
         <div class="w-layout-hflex flex-block">
           <div class="text-block">Made with</div>
@@ -25,7 +26,7 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Strategies</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Methods</h1>
-      <p class="common66w">Innovation in design and technology is not just what we do—it’s how we think. As a studio, we engage in disciplined creativity, elevating our craft beyond mere production. Every initiative is executed with an uncompromising focus on delivering rapid outcomes through our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="underline">Direction by Design</a> process.</p>
+      <p class=" mid">Innovation in design and technology is not just what we do—it’s how we think. As a studio, we engage in disciplined creativity, elevating our craft beyond mere production. Every initiative is executed with an uncompromising focus on delivering rapid outcomes through our <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"  class="underline">Direction by Design</a> process.</p>
       <div class="w-layout-hflex commonflex">
         <h2 data-w-id="1fce2e42-657c-dcb5-4d78-8c6c0ab196dc" style="opacity:0">Get Started.</h2>
         <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink w-inline-block">

@@ -19,9 +19,9 @@ get_header();
         <div class="spinner"></div>
     </div>
 </div>
-<div class="pageheading backgroundblackdark">
-    <div class="_1300">
-      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove textwhite">
+  <div class="pageheading">
+    <div class="_100vh _1300">
+      <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde0" style="opacity:0" class="withlove">
         <div class="w-layout-hflex flex-block">
           <div class="text-block">Made with</div>
           <div class="fontawesolid greenheart"></div>
@@ -30,17 +30,17 @@ get_header();
       </div>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fde8" style="opacity:0" class="textmedium">Current Portfolio</h1>
       <h1 data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdea" style="opacity:0">&amp; Featured Work</h1>
-      <p class="common66w">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.<br></p>
+      <p class=" mid">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.</p>
       <div class="w-layout-hflex commonflex">
-        <h2 data-w-id="d6c560e2-5ea8-639d-9e50-1cf979c4632b" style="opacity:0">Let's Talk.</h2>
-        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink textwhite w-inline-block">
+        <h2 data-w-id="1fce2e42-657c-dcb5-4d78-8c6c0ab196dc" style="opacity:0">Get Started.</h2>
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank"" target="_blank" class="actionlink flexlink w-inline-block">
           <div class="actionpulse backgroundgreen"></div>
           <div class="fontawesolid"></div>
           <p class="iconlinktext underline">Schedule An Introduction</p>
         </a>
       </div>
     </div>
-    
+    <div data-w-id="cefb1870-d7c2-0805-7949-25ce2117fdf3" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6518f97551279edd72aff36b/6518f97551279edd72aff37a_animation_ln5kc7yh.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="5" data-duration="0"></div>
   </div>
   <section class="portfolio-loop">
     <?php
