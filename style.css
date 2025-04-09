@@ -1089,6 +1089,7 @@ input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hove
 	width: 100px;
 	max-width: 75px;
 	text-align: left;
+	display:none;
 }
 
 .portfolio.container::before {
@@ -2563,6 +2564,11 @@ padding: 10px;
 	min-height: 500px;
 	height: 69vh;
   }
+
+  .single.single-product ._100vh {
+	height: auto;
+	min-height: auto;
+  }
   
   .backgroundblack {
 	color: #fff;
@@ -2610,7 +2616,7 @@ padding: 10px;
 	font-family: Paytone One, sans-serif;
 	font-size: .9rem;
 	font-weight: 300;
-	line-height: 1.4rem;
+	line-height: 1.4rem!important;
   }
   
   .tinytext.gilroy {
@@ -2789,6 +2795,8 @@ padding: 10px;
 	list-style-type: none;
 	display: flex;
   }
+
+  .common-shop-toolbar {max-width: 600px;}
   
   .techlist {
 	border-style: solid;
@@ -3132,8 +3140,8 @@ padding: 10px;
 	padding: 0px 20px
   }
   .portfolio-loop.random {
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
 	grid-template-rows: auto;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-columns: 1fr;
@@ -3141,8 +3149,15 @@ padding: 10px;
 	display: grid;
 	overflow: hidden;
 	background: #000;
-	padding: 0px 20px 60px;
+	padding: 0px;
   }
+
+  .portfolio-loop.random .commoncard.portfolio-content {
+	padding: 0;
+	margin: 0px;
+	border-radius: 0px;
+  }
+
   
   .flexcenter {
 	justify-content: center;
@@ -3313,6 +3328,7 @@ padding: 10px;
   }
 
 
+
   @media screen and (max-width: 991px) {
 
 
@@ -3412,12 +3428,7 @@ padding: 10px;
 	.commoncard.backgrounddark.ctafooter {
 	  min-height: 613px;
 	}
-  
-	.commoncard.portfolio-content {
-	  padding: 0;
-	  margin: 0px;
-	  border-radius: 0px;
-	}
+
   
 	.button {
 	  margin-left: 0;

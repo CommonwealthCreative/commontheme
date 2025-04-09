@@ -24,7 +24,7 @@ function common_enqueue_assets() {
     // Conditionally enqueue loader script for specific pages
     if (
         (is_single() && get_page_template_slug(get_the_ID()) === 'single-portfolio-template.php') || 
-        is_page('work')
+        is_page('work.php')
     ) {
         wp_enqueue_script('loader-script', get_template_directory_uri() . '/js/loader.js', array(), null, true);
     }
